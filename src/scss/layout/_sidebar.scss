@@ -1,0 +1,66 @@
+.sidebar-container {
+	float      : left;
+	position   : relative;
+	margin     : 10px 0;
+	min-height : 1px;
+	width      : 260px;
+}
+
+.sidebar {
+	margin-left : 10px;
+	width       : 250px;
+
+	text-align  : left;
+
+	&._fixed {
+		position : fixed;
+	}
+
+	&__title {
+		margin-bottom : 5px;
+		padding       : 12px;
+
+		font-size     : $fontSize + 4px;
+		font-weight   : bold;
+		color         : $darkBlue;
+		background    : $yellow;
+		text-shadow   : $textShadowLight;
+	}
+}
+
+.sidebar-menu {
+	position : relative;
+
+	&__item {
+		padding : 0 10px;
+	}
+
+	&__block-link {
+		position : relative;
+	}
+
+	&__link {
+		display     : block;
+		margin-left : 30px;
+		padding     : 3px 0;
+		box-sizing  : border-box;
+
+		color       : $white;
+
+		&:before {
+			content    : '';
+			position   : absolute;
+			top        : 0;
+			left       : 0;
+			height     : 20px;
+			width      : 40px;
+
+			background : url(../../images/arrow.gif) 0 8px no-repeat;
+		}
+
+		&:hover,
+		&._active {
+			color : $yellow;
+		}
+	}
+}

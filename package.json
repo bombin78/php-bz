@@ -1,0 +1,38 @@
+{
+    "name": "vbm1",
+    "version": "2.0.0",
+    "description": "Сайт компании Вибробурмаш",
+    "main": "index.php",
+    "keywords": [],
+    "author": "Alexander Bombin",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bombin78/vbm1.git"
+    },
+    "bugs": {
+        "url": "https://github.com/bombin78/vbm1/issues"
+    },
+    "homepage": "https://github.com/bombin78/vbm1#readme",
+    "scripts": {
+        "start": "gulp dev",
+        "build": "gulp build"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "del": "^5.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-connect-php": "^1.0.3",
+        "gulp-cssimport": "^7.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}

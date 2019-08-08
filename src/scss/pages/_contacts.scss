@@ -1,0 +1,70 @@
+.contacts {
+	@include main-content();
+}
+
+.basic-info {
+	display : inline-block;
+
+	&__title {
+		margin-top  : 5px;
+
+		font-size   : $fontSize + 2px;
+		font-weight : bold;
+	}
+
+	&__location.location-map,
+	&__top.top-managers {
+		float      : left;
+		margin-top : 15px;
+	}
+}
+
+.location-map {
+	width : 413px;
+	&__text {
+	}
+	&__img {
+		margin-top : 5px;
+		height     : 270px;
+		width      : 385px;
+
+		border     : 2px solid $lightGray;
+	}
+}
+
+.top-managers {
+	width : 206px;
+
+	&__block {
+		margin-top : 20px;
+
+		&:first-child {
+			margin-top : 22px;
+		}
+	}
+
+	&__mail {
+		color : $darkBlue;
+		&:hover {
+			text-decoration : underline;
+		}
+	}
+}
+
+.company-details {
+	margin-top : 20px;
+
+	border-top: 1px solid $middleGray;
+
+	&__title {
+		margin-top : 5px;
+
+		font-size   : $fontSize + 2px;
+		font-weight : bold;
+	}
+
+	&__info {
+		margin-top  : 8px;
+		line-height : 1.5;
+	}
+}
