@@ -20,11 +20,11 @@ switch ($page) {
 		break;
 
 	case "2":
-		$connect = "tpl/pages/recuperators/recuperators.php";
+		$connect = "tpl/recuperators/recuperators.php";
 		$activeItem = 2;
 		$title = "Рекуператор тепла";
 		$description = "";
-		$style = "recuperators.css";
+		$style = "recuperators/recuperators.css";
 		break;
 
 	case "3":
@@ -32,7 +32,7 @@ switch ($page) {
 		$activeItem = 3;
 		$title = "Рекуператор тепла";
 		$description = "";
-		$style = "recuperator-tepla-zakaz.css";
+		$style = "recuperators/recuperator-tepla-zakaz.css";
 		break;
 
 	case "4":
@@ -40,7 +40,7 @@ switch ($page) {
 		$activeItem = 4;
 		$title = "Рекуператоры нового поколения";
 		$description = "";
-		$style = "recuperator-industry-5.css";
+		$style = "recuperators/recuperator-industry-5.css";
 		break;
 
 	case "5":
@@ -48,7 +48,7 @@ switch ($page) {
 		$activeItem = 5;
 		$title = "";
 		$description = "";
-		$style = "news.css";
+		$style = "recuperators/news.css";
 		break;
 
 	case "6":
@@ -56,7 +56,7 @@ switch ($page) {
 		$activeItem = 6;
 		$title = "";
 		$description = "";
-		$style = "form.css";
+		$style = "recuperators/form.css";
 		break;
 
 	case "7":
@@ -64,7 +64,7 @@ switch ($page) {
 		$activeItem = 7;
 		$title = "";
 		$description = "";
-		$style = "capital-remont.css";
+		$style = "capital-remont/capital-remont.css";
 		break;
 
 	case "8":
@@ -72,7 +72,7 @@ switch ($page) {
 		$activeItem = 8;
 		$title = "";
 		$description = "";
-		$style = "vibro-immersers.css";
+		$style = "capital-remont/vibro-immersers.css";
 		break;
 
 	case "9":
@@ -80,7 +80,7 @@ switch ($page) {
 		$activeItem = 9;
 		$title = "";
 		$description = "";
-		$style = "drezin.css";
+		$style = "capital-remont/drezin.css";
 		break;
 
 	case "10":
@@ -88,7 +88,7 @@ switch ($page) {
 		$activeItem = 10;
 		$title = "";
 		$description = "";
-		$style = "cotlovanokopately-base.css";
+		$style = "capital-remont/cotlovanokopately-base.css";
 		break;
 
 	case "11":
@@ -96,7 +96,7 @@ switch ($page) {
 		$activeItem = 11;
 		$title = "";
 		$description = "";
-		$style = "VK-base-DGKU.css";
+		$style = "capital-remont/cotlovanokopately-base/VK-base-DGKU.css";
 		break;
 
 	case "12":
@@ -104,7 +104,7 @@ switch ($page) {
 		$activeItem = 12;
 		$title = "";
 		$description = "";
-		$style = "VK3-rail.css";
+		$style = "capital-remont/cotlovanokopately-base/VK3-rail.css";
 		break;
 
 	case "13":
@@ -112,7 +112,7 @@ switch ($page) {
 		$activeItem = 13;
 		$title = "";
 		$description = "";
-		$style = "MPT-VK-5.css";
+		$style = "capital-remont/cotlovanokopately-base/MPT-VK-5.css";
 		break;
 
 	case "14":
@@ -120,7 +120,7 @@ switch ($page) {
 		$activeItem = 14;
 		$title = "";
 		$description = "";
-		$style = "ADM-1.5B.css";
+		$style = "capital-remont/cotlovanokopately-base/ADM-1.5B.css";
 		break;
 
 	case "15":
@@ -128,7 +128,7 @@ switch ($page) {
 		$activeItem = 15;
 		$title = "";
 		$description = "";
-		$style = "VK-4M-rail.css";
+		$style = "capital-remont/cotlovanokopately-base/VK-4M-rail.css";
 		break;
 
 	case "16":
@@ -144,7 +144,7 @@ switch ($page) {
 		$activeItem = 17;
 		$title = "";
 		$description = "";
-		$style = "navesnoe-oborudovanie.css";
+		$style = "navesnoe-oborudovanie/navesnoe-oborudovanie.css";
 		break;
 
 	case "18":
@@ -152,7 +152,7 @@ switch ($page) {
 		$activeItem = 18;
 		$title = "";
 		$description = "";
-		$style = "burovoe-oborudovanie.css";
+		$style = "navesnoe-oborudovanie/burovoe-oborudovanie.css";
 		break;
 
 	case "19":
@@ -160,7 +160,7 @@ switch ($page) {
 		$activeItem = 19;
 		$title = "";
 		$description = "";
-		$style = "fundamend.css";
+		$style = "navesnoe-oborudovanie/fundamend.css";
 		break;
 
 	case "20":
@@ -168,7 +168,7 @@ switch ($page) {
 		$activeItem = 20;
 		$title = "";
 		$description = "";
-		$style = "vint.css";
+		$style = "navesnoe-oborudovanie/vint.css";
 		break;
 
 	case "21":
@@ -176,15 +176,15 @@ switch ($page) {
 		$activeItem = 21;
 		$title = "";
 		$description = "";
-		$style = "manufacturing.css";
+		$style = "manufacturing/manufacturing.css";
 		break;
 
 	case "22":
-		$connect = "tpl/pages/manufacturing/kotlovanokopateli.php";
+		$connect = "tpl/pages/manufacturing/kotlovanokopateli/kotlovanokopateli.php";
 		$activeItem = 22;
 		$title = "";
 		$description = "";
-		$style = "kotlovanokopateli.css";
+		$style = "manufacturing/kotlovanokopateli/kotlovanokopateli.css";
 		break;
 
 	case "23":
@@ -192,7 +192,7 @@ switch ($page) {
 		$activeItem = 23;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "manufacturing/kotlovanokopateli/VK-3-rail.css";
 		break;
 
 	case "24":
@@ -200,7 +200,7 @@ switch ($page) {
 		$activeItem = 24;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "manufacturing/kotlovanokopateli/MPT-VK-5.css";
 		break;
 
 	case "25":
@@ -208,7 +208,7 @@ switch ($page) {
 		$activeItem = 25;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "manufacturing/kotlovanokopateli/VK-4-rail.css";
 		break;
 
 	case "26":
@@ -216,7 +216,7 @@ switch ($page) {
 		$activeItem = 26;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "manufacturing/kotlovanokopateli/ADM-1.5B.css";
 		break;
 
 	case "27":
@@ -224,7 +224,7 @@ switch ($page) {
 		$activeItem = 27;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "manufacturing/vibro-immersers.css";
 		break;
 
 	case "28":
@@ -232,7 +232,7 @@ switch ($page) {
 		$activeItem = 28;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "buying-used-eqipment/buying-used-eqipment.css";
 		break;
 
 	case "29":
@@ -240,7 +240,7 @@ switch ($page) {
 		$activeItem = 29;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "buying-used-eqipment/fitting-platforms.css";
 		break;
 
 	case "30":
@@ -248,7 +248,7 @@ switch ($page) {
 		$activeItem = 30;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "buying-used-eqipment/drezins.css";
 		break;
 
 	case "31":
@@ -256,7 +256,7 @@ switch ($page) {
 		$activeItem = 31;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "buying-used-eqipment/kotlovanokopateli.css";
 		break;
 
 	case "32":
@@ -264,7 +264,7 @@ switch ($page) {
 		$activeItem = 32;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/material.css";
 		break;
 
 	case "33":
@@ -272,7 +272,7 @@ switch ($page) {
 		$activeItem = 33;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/drezina.css";
 		break;
 
 	case "34":
@@ -280,7 +280,7 @@ switch ($page) {
 		$activeItem = 34;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/avtomatrisa.css";
 		break;
 
 	case "35":
@@ -288,7 +288,7 @@ switch ($page) {
 		$activeItem = 35;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/motovoz.css";
 		break;
 
 	case "36":
@@ -296,7 +296,7 @@ switch ($page) {
 		$activeItem = 36;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/vibropogruzhatel.css";
 		break;
 
 	case "37":
@@ -304,7 +304,7 @@ switch ($page) {
 		$activeItem = 37;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/vibropogruzhatel/princip.css";
 		break;
 
 	case "38":
@@ -312,7 +312,7 @@ switch ($page) {
 		$activeItem = 38;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "material/vibropogruzhatel/tehn-haracter.css";
 		break;
 
 	case "39":
@@ -320,7 +320,7 @@ switch ($page) {
 		$activeItem = 39;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "news.css";
 		break;
 
 	case "40":
@@ -328,7 +328,7 @@ switch ($page) {
 		$activeItem = 40;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "contact.css";
 		break;
 
 	case "41":
@@ -336,14 +336,14 @@ switch ($page) {
 		$activeItem = 41;
 		$title = "";
 		$description = "";
-		$style = ".css";
+		$style = "video.css";
 		break;
 
 	case "404":
 		$connect = "tpl/pages/error-404.php";
 		$title = "Ошибка 404";
 		$description = "";
-		$style = ".css";
+		$style = "error-404.css";
 		break;
 
 	default:

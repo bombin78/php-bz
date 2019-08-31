@@ -13,7 +13,7 @@ const gulp = require('gulp'),
 const paths = {
     scss: [
         './src/scss/style.scss',
-        './src/scss/pages/*.scss',
+        './src/scss/pages/**/*.scss',
     ],
     jsFiles: [
         './src/js/ie6-7blocker.js',
