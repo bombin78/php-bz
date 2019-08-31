@@ -1,6 +1,7 @@
-@import "../utils/variables";
-@import "../utils/mixins";
+@import "./src/scss/utils/variables";
+@import "./src/scss/utils/mixins";
 
 .page {
 	@include main-content();
+	color: red;
 }
