@@ -30,18 +30,9 @@
 // 2.2 Стили страниц (общие)
 
 // 2.3 Стили страниц (индивидуальные)
-// В данном проекте подключаются через текущий scss-файл
-@import 'pages/about-company';
-@import 'pages/contacts';
-@import 'pages/documents';
-@import 'pages/error-404';
-@import 'pages/main';
-@import 'pages/make-ms1g2';
-@import 'pages/make-hinged';
-@import 'pages/make-spare';
-@import 'pages/repair-railway';
-@import 'pages/rent-railway';
-@import 'pages/sale-railway';
+// Стили проектного слоя подключаются к html странице отдельным фалом после
+// общего стиля (style.css). Папка с подключаемыми файлами: 'src/scss/pages'.
+
 //--------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------
