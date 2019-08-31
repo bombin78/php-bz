@@ -292,11 +292,11 @@ switch ($page) {
 		break;
 
 	case "36":
-		$connect = "tpl/pages/material/vibropogruzhatel.php";
+		$connect = "tpl/pages/material/vibropogruzhatel/vibropogruzhatel.php";
 		$activeItem = 36;
 		$title = "";
 		$description = "";
-		$style = "material/vibropogruzhatel.css";
+		$style = "material/vibropogruzhatel/vibropogruzhatel.css";
 		break;
 
 	case "37":
