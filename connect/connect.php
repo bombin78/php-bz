@@ -20,7 +20,7 @@ switch ($page) {
 		break;
 
 	case "2":
-		$connect = "tpl/recuperators/recuperators.php";
+		$connect = "tpl/pages/recuperators/recuperators.php";
 		$activeItem = 2;
 		$title = "Рекуператор тепла";
 		$description = "";
@@ -46,7 +46,7 @@ switch ($page) {
 	case "5":
 		$connect = "tpl/pages/recuperators/news.php";
 		$activeItem = 5;
-		$title = "";
+		$title = "Новости";
 		$description = "";
 		$style = "recuperators/news.css";
 		break;
@@ -54,7 +54,7 @@ switch ($page) {
 	case "6":
 		$connect = "tpl/pages/recuperators/form.php";
 		$activeItem = 6;
-		$title = "";
+		$title = "Опросный лист на теплообменники";
 		$description = "";
 		$style = "recuperators/form.css";
 		break;
@@ -62,7 +62,7 @@ switch ($page) {
 	case "7":
 		$connect = "tpl/pages/capital-remont/capital-remont.php";
 		$activeItem = 7;
-		$title = "";
+		$title = "Капитальный ремонт";
 		$description = "";
 		$style = "capital-remont/capital-remont.css";
 		break;
@@ -70,7 +70,7 @@ switch ($page) {
 	case "8":
 		$connect = "tpl/pages/capital-remont/vibro-immersers.php";
 		$activeItem = 8;
-		$title = "";
+		$title = "Вибропогружатели";
 		$description = "";
 		$style = "capital-remont/vibro-immersers.css";
 		break;
@@ -78,23 +78,23 @@ switch ($page) {
 	case "9":
 		$connect = "tpl/pages/capital-remont/drezin.php";
 		$activeItem = 9;
-		$title = "";
+		$title = "Дрезины, автомотрисы, мотовозы";
 		$description = "";
 		$style = "capital-remont/drezin.css";
 		break;
 
 	case "10":
-		$connect = "tpl/pages/capital-remont/cotlovanokopately-base.php";
+		$connect = "tpl/pages/capital-remont/cotlovanokopately-base/cotlovanokopately-base.php";
 		$activeItem = 10;
-		$title = "";
+		$title = "Котлованокопатели на любой базе";
 		$description = "";
-		$style = "capital-remont/cotlovanokopately-base.css";
+		$style = "capital-remont/cotlovanokopately-base/cotlovanokopately-base.css";
 		break;
 
 	case "11":
 		$connect = "tpl/pages/capital-remont/cotlovanokopately-base/VK-base-DGKU.php";
 		$activeItem = 11;
-		$title = "";
+		$title = "ВК на базе дрезины ДГКУ";
 		$description = "";
 		$style = "capital-remont/cotlovanokopately-base/VK-base-DGKU.css";
 		break;
@@ -102,7 +102,7 @@ switch ($page) {
 	case "12":
 		$connect = "tpl/pages/capital-remont/cotlovanokopately-base/VK3-rail.php";
 		$activeItem = 12;
-		$title = "";
+		$title = "ВК-3 на базе ЖД платформы";
 		$description = "";
 		$style = "capital-remont/cotlovanokopately-base/VK3-rail.css";
 		break;
@@ -110,7 +110,7 @@ switch ($page) {
 	case "13":
 		$connect = "tpl/pages/capital-remont/cotlovanokopately-base/MPT-VK-5.php";
 		$activeItem = 13;
-		$title = "";
+		$title = "МПТ-ВК-5 на базе мотовоза МПТ-6";
 		$description = "";
 		$style = "capital-remont/cotlovanokopately-base/MPT-VK-5.css";
 		break;
@@ -118,7 +118,7 @@ switch ($page) {
 	case "14":
 		$connect = "tpl/pages/capital-remont/cotlovanokopately-base/ADM-1.5B.php";
 		$activeItem = 14;
-		$title = "";
+		$title = "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3";
 		$description = "";
 		$style = "capital-remont/cotlovanokopately-base/ADM-1.5B.css";
 		break;
@@ -126,7 +126,7 @@ switch ($page) {
 	case "15":
 		$connect = "tpl/pages/capital-remont/cotlovanokopately-base/VK-4M-rail.php";
 		$activeItem = 15;
-		$title = "";
+		$title = "ВК-4М на базе ЖД платформы";
 		$description = "";
 		$style = "capital-remont/cotlovanokopately-base/VK-4M-rail.css";
 		break;
@@ -134,7 +134,7 @@ switch ($page) {
 	case "16":
 		$connect = "tpl/pages/spare-parts.php";
 		$activeItem = 16;
-		$title = "";
+		$title = "Запчасти к машинам ВК и АВФ";
 		$description = "";
 		$style = "spare-parts.css";
 		break;
@@ -142,7 +142,7 @@ switch ($page) {
 	case "17":
 		$connect = "tpl/pages/navesnoe-oborudovanie/navesnoe-oborudovanie.php";
 		$activeItem = 17;
-		$title = "";
+		$title = "Навесное оборудование для АВФ и МС";
 		$description = "";
 		$style = "navesnoe-oborudovanie/navesnoe-oborudovanie.css";
 		break;
@@ -150,7 +150,7 @@ switch ($page) {
 	case "18":
 		$connect = "tpl/pages/navesnoe-oborudovanie/burovoe-oborudovanie.php";
 		$activeItem = 18;
-		$title = "";
+		$title = "ТТН-057 для бурения лидирующих скважин";
 		$description = "";
 		$style = "navesnoe-oborudovanie/burovoe-oborudovanie.css";
 		break;
@@ -158,7 +158,7 @@ switch ($page) {
 	case "19":
 		$connect = "tpl/pages/navesnoe-oborudovanie/fundamend.php";
 		$activeItem = 19;
-		$title = "";
+		$title = "ТТН-059 по разрушению фундамента";
 		$description = "";
 		$style = "navesnoe-oborudovanie/fundamend.css";
 		break;
@@ -166,7 +166,7 @@ switch ($page) {
 	case "20":
 		$connect = "tpl/pages/navesnoe-oborudovanie/vint.php";
 		$activeItem = 20;
-		$title = "";
+		$title = "ТТН-064 для завинчивания винтовых металлических опор";
 		$description = "";
 		$style = "navesnoe-oborudovanie/vint.css";
 		break;
@@ -174,7 +174,7 @@ switch ($page) {
 	case "21":
 		$connect = "tpl/pages/manufacturing/manufacturing.php";
 		$activeItem = 21;
-		$title = "";
+		$title = "Изготовление новых машин";
 		$description = "";
 		$style = "manufacturing/manufacturing.css";
 		break;
@@ -182,7 +182,7 @@ switch ($page) {
 	case "22":
 		$connect = "tpl/pages/manufacturing/kotlovanokopateli/kotlovanokopateli.php";
 		$activeItem = 22;
-		$title = "";
+		$title = "Котлованокопатели";
 		$description = "";
 		$style = "manufacturing/kotlovanokopateli/kotlovanokopateli.css";
 		break;
@@ -190,7 +190,7 @@ switch ($page) {
 	case "23":
 		$connect = "tpl/pages/manufacturing/kotlovanokopateli/VK-3-rail.php";
 		$activeItem = 23;
-		$title = "";
+		$title = "ВК-3 на базе ЖД платформы";
 		$description = "";
 		$style = "manufacturing/kotlovanokopateli/VK-3-rail.css";
 		break;
@@ -198,7 +198,7 @@ switch ($page) {
 	case "24":
 		$connect = "tpl/pages/manufacturing/kotlovanokopateli/MPT-VK-5.php";
 		$activeItem = 24;
-		$title = "";
+		$title = "МПТ-ВК-5 на базе мотовоза МПТ-6";
 		$description = "";
 		$style = "manufacturing/kotlovanokopateli/MPT-VK-5.css";
 		break;
@@ -206,7 +206,7 @@ switch ($page) {
 	case "25":
 		$connect = "tpl/pages/manufacturing/kotlovanokopateli/VK-4-rail.php";
 		$activeItem = 25;
-		$title = "";
+		$title = "ВК-4 на базе ЖД платформы";
 		$description = "";
 		$style = "manufacturing/kotlovanokopateli/VK-4-rail.css";
 		break;
@@ -214,7 +214,7 @@ switch ($page) {
 	case "26":
 		$connect = "tpl/pages/manufacturing/kotlovanokopateli/ADM-1.5B.php";
 		$activeItem = 26;
-		$title = "";
+		$title = "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3";
 		$description = "";
 		$style = "manufacturing/kotlovanokopateli/ADM-1.5B.css";
 		break;
@@ -222,7 +222,7 @@ switch ($page) {
 	case "27":
 		$connect = "tpl/pages/manufacturing/vibro-immersers.php";
 		$activeItem = 27;
-		$title = "";
+		$title = "Вибропогружатели – АВФ-1";
 		$description = "";
 		$style = "manufacturing/vibro-immersers.css";
 		break;
@@ -230,7 +230,7 @@ switch ($page) {
 	case "28":
 		$connect = "tpl/pages/buying-used-eqipment/buying-used-eqipment.php";
 		$activeItem = 28;
-		$title = "";
+		$title = "Приобретение б/у техники";
 		$description = "";
 		$style = "buying-used-eqipment/buying-used-eqipment.css";
 		break;
@@ -238,7 +238,7 @@ switch ($page) {
 	case "29":
 		$connect = "tpl/pages/buying-used-eqipment/fitting-platforms.php";
 		$activeItem = 29;
-		$title = "";
+		$title = "Фитинговые платформы";
 		$description = "";
 		$style = "buying-used-eqipment/fitting-platforms.css";
 		break;
@@ -246,7 +246,7 @@ switch ($page) {
 	case "30":
 		$connect = "tpl/pages/buying-used-eqipment/drezins.php";
 		$activeItem = 30;
-		$title = "";
+		$title = "Дрезины ДГКУ, АДМ, МПТ";
 		$description = "";
 		$style = "buying-used-eqipment/drezins.css";
 		break;
@@ -254,7 +254,7 @@ switch ($page) {
 	case "31":
 		$connect = "tpl/pages/buying-used-eqipment/kotlovanokopateli.php";
 		$activeItem = 31;
-		$title = "";
+		$title = "Котлованокопатели и вибропогружатели";
 		$description = "";
 		$style = "buying-used-eqipment/kotlovanokopateli.css";
 		break;
@@ -262,7 +262,7 @@ switch ($page) {
 	case "32":
 		$connect = "tpl/pages/material/material.php";
 		$activeItem = 32;
-		$title = "";
+		$title = "Материалы";
 		$description = "";
 		$style = "material/material.css";
 		break;
@@ -270,7 +270,7 @@ switch ($page) {
 	case "33":
 		$connect = "tpl/pages/material/drezina.php";
 		$activeItem = 33;
-		$title = "";
+		$title = "Дрезина, ремонт дрезин";
 		$description = "";
 		$style = "material/drezina.css";
 		break;
@@ -278,7 +278,7 @@ switch ($page) {
 	case "34":
 		$connect = "tpl/pages/material/avtomatrisa.php";
 		$activeItem = 34;
-		$title = "";
+		$title = "Виды автоматрис и их назначение";
 		$description = "";
 		$style = "material/avtomatrisa.css";
 		break;
@@ -286,7 +286,7 @@ switch ($page) {
 	case "35":
 		$connect = "tpl/pages/material/motovoz.php";
 		$activeItem = 35;
-		$title = "";
+		$title = "Мотовоз, ремонт мотовоза";
 		$description = "";
 		$style = "material/motovoz.css";
 		break;
@@ -294,7 +294,7 @@ switch ($page) {
 	case "36":
 		$connect = "tpl/pages/material/vibropogruzhatel/vibropogruzhatel.php";
 		$activeItem = 36;
-		$title = "";
+		$title = "Вибропогружатель";
 		$description = "";
 		$style = "material/vibropogruzhatel/vibropogruzhatel.css";
 		break;
@@ -302,7 +302,7 @@ switch ($page) {
 	case "37":
 		$connect = "tpl/pages/material/vibropogruzhatel/princip.php";
 		$activeItem = 37;
-		$title = "";
+		$title = "Принцип действия вибропогружателя";
 		$description = "";
 		$style = "material/vibropogruzhatel/princip.css";
 		break;
@@ -310,7 +310,7 @@ switch ($page) {
 	case "38":
 		$connect = "tpl/pages/material/vibropogruzhatel/tehn-haracter.php";
 		$activeItem = 38;
-		$title = "";
+		$title = "Технические характеристики вибропогружателей";
 		$description = "";
 		$style = "material/vibropogruzhatel/tehn-haracter.css";
 		break;
@@ -318,7 +318,7 @@ switch ($page) {
 	case "39":
 		$connect = "tpl/pages/news.php";
 		$activeItem = 39;
-		$title = "";
+		$title = "Новости";
 		$description = "";
 		$style = "news.css";
 		break;
@@ -326,7 +326,7 @@ switch ($page) {
 	case "40":
 		$connect = "tpl/pages/contact.php";
 		$activeItem = 40;
-		$title = "";
+		$title = "Контактная информация";
 		$description = "";
 		$style = "contact.css";
 		break;
@@ -334,7 +334,7 @@ switch ($page) {
 	case "41":
 		$connect = "tpl/pages/video.php";
 		$activeItem = 41;
-		$title = "";
+		$title = "Видео";
 		$description = "";
 		$style = "video.css";
 		break;

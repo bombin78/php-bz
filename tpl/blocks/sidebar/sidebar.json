@@ -9,7 +9,7 @@
         "id": 2,
         "url":"index.php?page=2",
         "name":"Рекуператор тепла",
-        "alias":"recuperators"
+        "alias":"recuperators/"
     },
     {
         "id": 3,
