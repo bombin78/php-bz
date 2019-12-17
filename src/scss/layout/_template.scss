@@ -1,16 +1,16 @@
 //@import "mixins/_mixins.scss";
 //----------------------------------------
 
-* {
-	margin  : 0;
-	padding : 0;
+html {
+	box-sizing: border-box;
 }
 
-html, body {
-	height : 100%;
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 body {
+
 	background  : $white;
 	color       : #000000;
 	font-weight : normal;
@@ -24,57 +24,33 @@ img {
 }
 
 a {
-	color           : $white;;
-	text-decoration : none;
+	color : #2658a2;
 }
 
 strong, b {
 	font-weight: bold;
 }
 
-article, aside, footer, header, nav, section {
-	display : block;
-}
+// article, aside, footer, header, nav, section {
+// 	display : block;
+// }
 
 /* ---------------------------------- */
 .wrapper {
-	display    : table;
-	height     : 100%;
-	min-width  : 940px;
-	width      : 100%;
-
-	background : $blue;
+	display : flex;
+	flex-wrap: wrap;
+	width: 100%;
+	min-width: 1170px;
 }
 
 .header-container {
-	position   : relative;
-	height     : 300px;
-	width      : 100%;
-
-	background : url('../../images/fon_head_substrate.png');
+	width: 100%;
 }
 
 .content-container {
-	display    : table-row;
-	height     : 100%;
-
-	text-align : center;
-	
-	&__block {
-		display    : inline-block;
-		height     : 100%;
-
-		background : url('../../images/lines_1.png') repeat;
-	}
+	width: 100%;
 }
 
 .footer-container {
-	width      : 100%;
-
-	background : $darkBlue;
-
-	&__block {
-		margin : 0 auto;
-		width  : 940px;
-	}
+	width: 100%;
 }

@@ -1,60 +1,117 @@
 .header {
-	background : url('../../images/oblaka.png') repeat-x;
-	height     : 100%;
-	margin     : 0 auto;
-	position   : relative;
-	width      : 100%;
-	&:before {
-		content     : "";
-		position    : absolute;
-		left        : 50%;
-		margin-left : -300px;
-		height      : 100%;
-		width       : 600px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 230px;
 
-		background  : url('../../images/fon_head.png') no-repeat;
-	}
+    background: url(../images/layout/header_bg.jpg) bottom left no-repeat;
 
-	&__block {
-		position   : absolute;
-		left       : 0;
-		top        : 40px;
-		height     : 50px;
-		width      : 100%;
-		z-index    : 10;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 11px;
+        left:0;
+        z-index: -1;
+        width: 100%;
+        height: 53px;
 
-		background-color: rgba(8, 35, 68, 0.8);
+        background: #010101;
+    }
 
-		&._fixed {
-			position : fixed;
-			top      : 0;
-			left     : 0;
-			min-width: 940px;
+    &__links {
+        flex-grow: 0;
+        position: relative;
+        width: 150px;
 
-			background-color: rgba(8, 35, 68, 0.9);
-		}
-	}
-}
+        background: url(../images/layout/top_shest.gif) top left no-repeat;
+    }
 
-.control-panel {
-	position : relative;
-	margin   : 0 auto;
-	height   : 100%;
-	width    : 940px;
+    &__list.link-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
 
-	&__logo {
-		display        : block;
-		position       : absolute;
-		top            : 11px;
-		left           : 20px;
+        position: absolute;
+        top: 120px;
+        left: 25px;
+        width: 56px;
 
-		letter-spacing : 1px;
-		font-weight    : bold;
-		font-size      : $fontSize + 6px;
-		text-shadow    : $textShadowDark;
+        .link-list {
 
-		&:hover {
-			color : $orange;
-		}
-	}
+            &__item {
+                width: 12px;
+                height: 10px;
+
+                background-color: #92a0a5;
+            }
+
+            &__home,
+            &__mail,
+            &__sitemap {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            &__home {
+                background: url(../images/layout/icons/home.gif) 0px 0px no-repeat;
+            }
+
+            &__mail {
+                background: url(../images/layout/icons/mail.gif) 0px 0px no-repeat;
+            }
+
+            &__sitemap {
+                background: url(../images/layout/icons/sitemap.gif) 0px 0px no-repeat;
+            }
+        }
+    }
+
+    &__contacts {
+        flex-grow: 0;
+        width: 315px;
+    }
+
+    &__brend {
+        display: block;
+
+        margin-top: 25px;
+        width: 315px;
+        height: 61px;
+    }
+
+    &__address.dtl {
+        display: flex;
+        flex-wrap: nowrap;
+
+        margin-top: -2px;
+
+        font-size: 11px;
+
+        .dtl {
+            &__l {
+                margin-right: 4px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__email {
+        display: block;
+        margin-top: -4px;
+    }
+
+    &__email-link {
+        font-size: 11px;
+    }
+
+	&__info {
+        flex-grow: 1;
+        padding-bottom: 11px;
+        width: 391px;
+        height: 100%;
+
+        background: url(../images/layout/header-rekuperator.gif) bottom right no-repeat;
+        background-origin: content-box;
+    }
 }
