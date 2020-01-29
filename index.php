@@ -30,33 +30,43 @@ include_once($path."connect/connect.php");
 </head>
 <body>
 <div class="wrapper">
+
 	<div class="header-container">
 		<!-- шапка сайта -->
 		<?php include_once $path."tpl/blocks/header.php" ?>
 		<!-- /шапка сайта -->
 	</div>
+
 	<div class="content-container">
 		<div class="content-container__block">
-			<!-- боковая панель -->
-			<?php include_once $path."tpl/blocks/sidebar/sidebar.php" ?>
-			<!-- /боковая панель -->
-			<!-- основной контент -->
-			<?php include_once $path.$connect; ?>
-			<!-- /основной контент -->
+
+			<aside class="sidebar-container">
+				<!-- боковая панель -->
+				<?php include_once $path."tpl/blocks/sidebar/sidebar.php" ?>
+				<!-- /боковая панель -->
+			</aside>
+
+			<main class="main-container">
+				<!-- основной контент -->
+				<?php include_once $path.$connect; ?>
+				<!-- /основной контент -->
+			</main>
+
 		</div>
 	</div>
+
 	<div class="footer-container">
-		<div class="footer-container__block">
-			<!-- подвал сайта-->
-			<?php include_once $path."tpl/blocks/footer.php" ?>
-			<!-- /подвал сайта-->
-		</div>
+		<!-- подвал сайта-->
+		<?php include_once $path."tpl/blocks/footer.php" ?>
+		<!-- /подвал сайта-->
 	</div>
+
 	<div class="modal-container">
 		<!-- модальное окно галереи -->
 		<?php include_once $path."tpl/modal/modal-gallery.php" ?>
 		<!-- /модальное окно галереи-->
 	</div>
+
 </div>
 <input id="abs_address" type="hidden" value="<?php echo $path; ?>"><!-- for gallery-master -->
 <script src="<?php echo $path; ?>vendors/gallery-master/js/jquery.blueimp-gallery.min.js"></script>

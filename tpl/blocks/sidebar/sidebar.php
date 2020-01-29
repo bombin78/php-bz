@@ -6,14 +6,12 @@ function displaySidebar($path, $activeItem, $linkParam){
 	$menuLevel1Params = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
 	$menuLevel1Length = count($menuLevel1Params);
 
-	echo "<aside class='sidebar-container'>";
-	echo "<div class='sidebar-container__block sidebar'>";
-	echo "<h2 class = 'sidebar__title'>Разделы</h2>";
-	echo "<ul class = 'sidebar__sidebar-menu sidebar-menu'>";
+	echo "<div class='sidebar'>";
+	echo "<ul class = 'sidebar__menu page-list'>";
 
 	for ($i = 0; $i < $menuLevel1Length; $i++) {
 
-		echo "<li class = 'sidebar-menu__item'>";
+		echo "<li class = 'page-list__item'>";
 		displayBlockLinks($path, $menuLevel1Params[$i], $activeItem, $linkParam);;
 
 		if($menuLevel1Params[$i]['items']) {
@@ -21,10 +19,10 @@ function displaySidebar($path, $activeItem, $linkParam){
 			$menuLevel2Params = $menuLevel1Params[$i]['items'];
 			$menuLevel2Length = count($menuLevel2Params);
 
-			echo "<ul class = 'sidebar__sidebar-menu sidebar-menu'>";
+			echo "<ul class = 'sidebar__menu page-list page-list--hidden'>";
 			for ($j = 0; $j < $menuLevel2Length; $j++) {
 
-				echo "<li class = 'sidebar-menu__item'>";
+				echo "<li class = 'page-list__item'>";
 				displayBlockLinks($path, $menuLevel2Params[$j], $activeItem, $linkParam);
 
 				if($menuLevel2Params[$j]['items']) {
@@ -32,9 +30,9 @@ function displaySidebar($path, $activeItem, $linkParam){
 					$menuLevel3Params = $menuLevel2Params[$j]['items'];
 					$menuLevel3Length = count($menuLevel3Params);
 
-					echo "<ul class = 'sidebar__sidebar-menu sidebar-menu'>";
+					echo "<ul class = 'sidebar__menu page-list'>";
 					for ($k = 0; $k < $menuLevel3Length; $k++) {
-						echo "<li class = 'sidebar-menu__item'>";
+						echo "<li class = 'page-list__item'>";
 						displayBlockLinks($path, $menuLevel3Params[$k], $activeItem, $linkParam);
 						echo "</li>";
 					}
@@ -48,7 +46,6 @@ function displaySidebar($path, $activeItem, $linkParam){
 	}
 	echo "</ul>";
 	echo "</div>";
-	echo "</aside>";
 }
 
 // Вспомогательная функция вывода блока для ссылки
@@ -56,8 +53,8 @@ function displayBlockLinks($path, $menuItem, $activeItem, $linkParam) {
 
 	$cssClassActive = ($menuItem['id'] == $activeItem) ? " _active" : "";
 
-	echo "<div class = 'sidebar-menu__block-link'>";
-	echo "<a class='sidebar-menu__link" . $cssClassActive . "' href = '" . $path . $menuItem[$linkParam] . "'>";
+	echo "<div class = 'page-list__block-link'>";
+	echo "<a class='page-list__link" . $cssClassActive . "' href = '" . $path . $menuItem[$linkParam] . "'>";
 	echo $menuItem['name'];
 	echo "</a>";
 	echo "</div>";

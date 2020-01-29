@@ -1,66 +1,102 @@
-.sidebar-container {
-	float      : left;
-	position   : relative;
-	margin     : 10px 0;
-	min-height : 1px;
-	width      : 260px;
-}
-
 .sidebar {
-	margin-left : 10px;
-	width       : 250px;
+	//margin-left : 10px;
+	//width       : 250px;
+	text-align: left;
 
-	text-align  : left;
+	&__menu.page-list {
+		position: relative;
 
-	&._fixed {
-		position : fixed;
-	}
+		.page-list {
 
-	&__title {
-		margin-bottom : 5px;
-		padding       : 12px;
+			&__item {
+				padding: 0 10px;
+			}
 
-		font-size     : $fontSize + 4px;
-		font-weight   : bold;
-		color         : $darkBlue;
-		background    : $yellow;
-		text-shadow   : $textShadowLight;
+			&__block-link {
+				position: relative;
+			}
+
+			&__link {
+				display: block;
+				margin-left: 14px;
+				//padding     : 3px 0;
+				//box-sizing  : border-box;
+				//color       : $white;
+				font-size: 13px;
+
+				&:before {
+					content: '';
+					display: none;
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 15px;
+					width: 10px;
+					background: url(../images/layout/icons/marker.gif) 0px 3px no-repeat;
+				}
+
+				&:hover,
+				&._active {
+					font-weight: bold;
+				}
+
+				&._active {
+					&::before {
+						display: block;
+					}
+				}
+			}
+
+			&--hidden {
+				display: none;
+			}
+		}
 	}
 }
 
-.sidebar-menu {
-	position : relative;
+.page-list {
+	position: relative;
 
 	&__item {
-		padding : 0 10px;
+		padding: 0 10px;
 	}
 
 	&__block-link {
-		position : relative;
+		position: relative;
 	}
 
 	&__link {
-		display     : block;
-		margin-left : 30px;
-		padding     : 3px 0;
-		box-sizing  : border-box;
-
-		color       : $white;
+		display: block;
+		margin-left: 14px;
+		//padding     : 3px 0;
+		//box-sizing  : border-box;
+		//color       : $white;
+		font-size: 13px;
 
 		&:before {
-			content    : '';
-			position   : absolute;
-			top        : 0;
-			left       : 0;
-			height     : 20px;
-			width      : 40px;
-
-			background : url(../../images/arrow.gif) 0 8px no-repeat;
+			content: '';
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 15px;
+			width: 10px;
+			background: url(../images/layout/icons/marker.gif) 0px 3px no-repeat;
 		}
 
 		&:hover,
 		&._active {
-			color : $yellow;
+			font-weight: bold;
 		}
+
+		&._active {
+			&::before {
+				display: block;
+			}
+		}
+	}
+
+	&--hidden {
+		display: none;
 	}
 }

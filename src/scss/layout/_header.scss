@@ -20,7 +20,9 @@
 
     &__links {
         flex-grow: 0;
+        
         position: relative;
+        padding-bottom: 11px;
         width: 150px;
 
         background: url(../images/layout/top_shest.gif) top left no-repeat;
@@ -69,12 +71,13 @@
 
     &__contacts {
         flex-grow: 0;
+
+        padding-bottom: 11px;
         width: 315px;
     }
 
     &__brend {
         display: block;
-
         margin-top: 25px;
         width: 315px;
         height: 61px;
@@ -107,6 +110,7 @@
 
 	&__info {
         flex-grow: 1;
+
         padding-bottom: 11px;
         width: 391px;
         height: 100%;

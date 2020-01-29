@@ -1,27 +1,19 @@
-@mixin float-left($width) {
-	float : left;
-	@if ($width != 'none') {
-		width : $width;
-	}
-}
-//----------------------------------------
-
 .footer {
-	display : inline-block;
-	padding : 10px 20px;
+	position: relative;
+	padding-top: 22px;
 
-	color   : $darkGray;
-
-	&__company {
-		@include float-left(410px);
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 168px;
+		height: 106px;
+		background: url("../images/layout/footer_shest.gif") bottom right no-repeat;
 	}
 
-	&__location {
-		@include float-left(250px);
-	}
-
-	&__phones {
-		@include float-left(230px);
-		text-align: right;
+	&__inner {
+		height: 46px;
+		background: #cccccc url("../images/layout/footer_bgr.jpg") 0 -11px no-repeat;
 	}
 }
