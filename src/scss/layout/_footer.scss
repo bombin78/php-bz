@@ -5,6 +5,25 @@
 	&:after {
 		content: '';
 		position: absolute;
+		top: 22px;
+		left: 0;
+		height: 53px;
+		width: 250px;
+		background: url("../images/layout/footer_bgr.jpg") 0 -11px no-repeat;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 22px;
+		left: 0;
+		height: 46px;
+		width:100%;
+		background: #cccccc;
+	}
+
+	&__counter {
+		position: absolute;
 		top: 0;
 		right: 0;
 		width: 168px;
@@ -12,8 +31,9 @@
 		background: url("../images/layout/footer_shest.gif") bottom right no-repeat;
 	}
 
-	&__inner {
-		height: 46px;
-		background: #cccccc url("../images/layout/footer_bgr.jpg") 0 -11px no-repeat;
+	&__counter-li.live-internet {
+		position: absolute;
+		top: 30px;
+		right: 6px;
 	}
 }
