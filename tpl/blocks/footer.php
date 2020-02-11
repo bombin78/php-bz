@@ -12,9 +12,6 @@
 			"' alt='' title='LiveInternet' "+
 			"border='0' width='31' height='31'><\/a>")
 			//--></script>
-			<a href="http://www.liveinternet.ru/click" target="_blank">
-				<img src="http://counter.yadro.ru/hit?t45.1;r;s1366*768*24;uhttp%3A//www.bushevec.ru/;0.7323596708074347" alt="" title="LiveInternet" border="0" width="31" height="31">
-			</a>
 			<!--/LiveInternet-->
 		</div>
 	</div>

@@ -1,5 +1,7 @@
 <?php
 
+echo $_GET['page'];
+
 // Функция, вывода бокового меню с подпунктами до двух уровней вложенности
 function displaySidebar($path, $activeItem, $linkParam){
 
@@ -12,7 +14,7 @@ function displaySidebar($path, $activeItem, $linkParam){
 	for ($i = 0; $i < $menuLevel1Length; $i++) {
 
 		echo "<li class = 'page-list__item'>";
-		displayBlockLinks($path, $menuLevel1Params[$i], $activeItem, $linkParam);;
+		displayBlockLinks($path, $menuLevel1Params[$i], $activeItem, $linkParam);
 
 		if($menuLevel1Params[$i]['items']) {
 
@@ -54,7 +56,7 @@ function displayBlockLinks($path, $menuItem, $activeItem, $linkParam) {
 	$cssClassActive = ($menuItem['id'] == $activeItem) ? " _active" : "";
 
 	echo "<div class = 'page-list__block-link'>";
-	echo "<a class='page-list__link" . $cssClassActive . "' href = '" . $path . $menuItem[$linkParam] . "'>";
+	echo "<a class='page-list__link" . $cssClassActive . "' href = '/" . $menuItem[$linkParam] . "'>";
 	echo $menuItem['name'];
 	echo "</a>";
 	echo "</div>";

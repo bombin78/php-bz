@@ -14,7 +14,7 @@
 	</div>
 	<div class="header__contacts">
 		<a class="header__brend" href="/">
-			<img class="brend__img" src="./images/layout/logo.gif" alt="Бушевецкий завод">
+			<img class="brend__img" src="/images/layout/logo.gif" alt="Бушевецкий завод">
 		</a>
 		<dl class="header__address dtl">
 			<dt class="dtl__l">Бушевецкий завод, г. Бологое:</dt>
