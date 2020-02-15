@@ -1,12 +1,31 @@
 <?php
 
-echo $_GET['page'];
+function showSelectedMenuItems($itemId, &$menu) {
+
+	foreach($menu as &$line) {
+
+		if($line['id'] == $itemId) {
+			$line['isVisible'] = true;
+			return true;
+		}
+
+		if(is_array($line['items'])) {
+	        if(showSelectedMenuItems($itemId, $line['items'])){
+				$line['isVisible'] = true;
+				return true;
+			}
+	    }
+	}
+}
 
 // Функция, вывода бокового меню с подпунктами до двух уровней вложенности
 function displaySidebar($path, $activeItem, $linkParam){
 
+	$itemId = $_GET['page'];
 	$menuLevel1Params = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
 	$menuLevel1Length = count($menuLevel1Params);
+
+	showSelectedMenuItems($itemId, $menuLevel1Params);
 
 	echo "<div class='sidebar'>";
 	echo "<ul class = 'sidebar__menu page-list'>";
@@ -16,21 +35,23 @@ function displaySidebar($path, $activeItem, $linkParam){
 		echo "<li class = 'page-list__item'>";
 		displayBlockLinks($path, $menuLevel1Params[$i], $activeItem, $linkParam);
 
-		if($menuLevel1Params[$i]['items']) {
+		$menuLevel1IsVisible = $menuLevel1Params[$i]['isVisible'];
+		$menuLevel2Params = $menuLevel1Params[$i]['items'];
+		$menuLevel2Length = count($menuLevel2Params);
 
-			$menuLevel2Params = $menuLevel1Params[$i]['items'];
-			$menuLevel2Length = count($menuLevel2Params);
+		if($menuLevel1IsVisible && $menuLevel2Length > 0) {
 
-			echo "<ul class = 'sidebar__menu page-list page-list--hidden'>";
+			echo "<ul class = 'sidebar__menu page-list'>";
 			for ($j = 0; $j < $menuLevel2Length; $j++) {
 
 				echo "<li class = 'page-list__item'>";
 				displayBlockLinks($path, $menuLevel2Params[$j], $activeItem, $linkParam);
 
-				if($menuLevel2Params[$j]['items']) {
+				$menuLevel2IsVisible = $menuLevel2Params[$j]['isVisible'];
+				$menuLevel3Params = $menuLevel2Params[$j]['items'];
+				$menuLevel3Length = count($menuLevel3Params);
 
-					$menuLevel3Params = $menuLevel2Params[$j]['items'];
-					$menuLevel3Length = count($menuLevel3Params);
+				if($menuLevel2IsVisible && $menuLevel3Length > 0) {
 
 					echo "<ul class = 'sidebar__menu page-list'>";
 					for ($k = 0; $k < $menuLevel3Length; $k++) {
