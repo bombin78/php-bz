@@ -13,7 +13,7 @@ switch ($page) {
 	// Страницы подключаемые через основное меню
 	case "1":
 		$connect = "tpl/pages/main.php";
-		$title = "Главная";
+		$title = "Бушевецкий завод";
 		$description = "";
 		$style = "main.css";
 		break;

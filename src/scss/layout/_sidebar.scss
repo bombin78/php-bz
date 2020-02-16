@@ -1,14 +1,14 @@
 .sidebar {
+	margin-top: 60px;
 	width: 100%;
 	text-align: left;
 	font-size: 13px;
 
 	&__menu.page-list {
 		position: relative;
-		margin-top: 5px;
 
 		.page-list {
-
+			
 			&__item {
 				margin-top: 2px;
 				padding: 0 10px;

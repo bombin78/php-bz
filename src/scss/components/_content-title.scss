@@ -1,9 +1,7 @@
 .content-title {
-	border-bottom  : 2px solid $yellow;
-	padding-bottom : 10px;
+	display: block;
+    margin: 4px 0px 16px 0px;
 
-	font-size      : $fontSize + 7px;
+	font-size      : $fontSize + 12px;
 	font-weight    : bold;
-	color          : $darkBlue;
-	text-shadow    : $textShadowLight;
 }
