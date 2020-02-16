@@ -1,102 +1,55 @@
 .sidebar {
-	//margin-left : 10px;
-	width : 235px;
+	width: 100%;
 	text-align: left;
 
 	&__menu.page-list {
 		position: relative;
+		margin-top: 5px;
 
 		.page-list {
 
 			&__item {
+				margin-top: 2px;
 				padding: 0 10px;
 			}
 
 			&__block-link {
 				position: relative;
+
+				&--level1 {
+					.page-list__link {
+
+						font-size: 13px;
+
+						&::before {
+							content: '';
+							display: none;
+							position: absolute;
+							top: 0;
+							left: 0;
+							height: 15px;
+							width: 10px;
+							background: url(../images/layout/icons/marker.gif) 0px 3px no-repeat;
+						}
+
+						&._active {
+							&::before {
+								display: block;
+							}
+						}
+					}
+				}
 			}
 
 			&__link {
 				display: block;
 				margin-left: 14px;
-				//padding     : 3px 0;
-				//box-sizing  : border-box;
-				//color       : $white;
-				font-size: 13px;
+				font-size: 12px;
 
-				&:before {
-					content: '';
-					display: none;
-					position: absolute;
-					top: 0;
-					left: 0;
-					height: 15px;
-					width: 10px;
-					background: url(../images/layout/icons/marker.gif) 0px 3px no-repeat;
-				}
-
-				&:hover,
 				&._active {
 					font-weight: bold;
 				}
-
-				&._active {
-					&::before {
-						display: block;
-					}
-				}
-			}
-
-			&--hidden {
-				display: none;
 			}
 		}
-	}
-}
-
-.page-list {
-	position: relative;
-
-	&__item {
-		padding: 0 10px;
-	}
-
-	&__block-link {
-		position: relative;
-	}
-
-	&__link {
-		display: block;
-		margin-left: 14px;
-		//padding     : 3px 0;
-		//box-sizing  : border-box;
-		//color       : $white;
-		font-size: 13px;
-
-		&:before {
-			content: '';
-			display: none;
-			position: absolute;
-			top: 0;
-			left: 0;
-			height: 15px;
-			width: 10px;
-			background: url(../images/layout/icons/marker.gif) 0px 3px no-repeat;
-		}
-
-		&:hover,
-		&._active {
-			font-weight: bold;
-		}
-
-		&._active {
-			&::before {
-				display: block;
-			}
-		}
-	}
-
-	&--hidden {
-		display: none;
 	}
 }

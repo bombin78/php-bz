@@ -60,9 +60,9 @@ strong, b {
 	}
 
 	.sidebar-container {
-		flex-grow: 0;
-		flex-shrink: 1;
-		//width:
+		max-width: 300px;
+		min-width: 200px;
+		width:20%;
 	}
 
 	.main-container {

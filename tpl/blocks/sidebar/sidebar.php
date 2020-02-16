@@ -1,6 +1,8 @@
 <?php
 
-function showSelectedMenuItems($itemId, &$menu) {
+// Вспомогательная функция настройки конфигурационного файла: определение
+// значений флагов "isVisible" отвечающих за видимость "дочерних" меню
+function changeVisibilityOfItemsMenu($itemId, &$menu) {
 
 	foreach($menu as &$line) {
 
@@ -10,7 +12,7 @@ function showSelectedMenuItems($itemId, &$menu) {
 		}
 
 		if(is_array($line['items'])) {
-	        if(showSelectedMenuItems($itemId, $line['items'])){
+	        if(changeVisibilityOfItemsMenu($itemId, $line['items'])){
 				$line['isVisible'] = true;
 				return true;
 			}
@@ -18,69 +20,48 @@ function showSelectedMenuItems($itemId, &$menu) {
 	}
 }
 
-// Функция, вывода бокового меню с подпунктами до двух уровней вложенности
-function displaySidebar($path, $activeItem, $linkParam){
-
-	$itemId = $_GET['page'];
-	$menuLevel1Params = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
-	$menuLevel1Length = count($menuLevel1Params);
-
-	showSelectedMenuItems($itemId, $menuLevel1Params);
-
-	echo "<div class='sidebar'>";
-	echo "<ul class = 'sidebar__menu page-list'>";
-
-	for ($i = 0; $i < $menuLevel1Length; $i++) {
-
-		echo "<li class = 'page-list__item'>";
-		displayBlockLinks($path, $menuLevel1Params[$i], $activeItem, $linkParam);
-
-		$menuLevel1IsVisible = $menuLevel1Params[$i]['isVisible'];
-		$menuLevel2Params = $menuLevel1Params[$i]['items'];
-		$menuLevel2Length = count($menuLevel2Params);
-
-		if($menuLevel1IsVisible && $menuLevel2Length > 0) {
-
-			echo "<ul class = 'sidebar__menu page-list'>";
-			for ($j = 0; $j < $menuLevel2Length; $j++) {
-
-				echo "<li class = 'page-list__item'>";
-				displayBlockLinks($path, $menuLevel2Params[$j], $activeItem, $linkParam);
-
-				$menuLevel2IsVisible = $menuLevel2Params[$j]['isVisible'];
-				$menuLevel3Params = $menuLevel2Params[$j]['items'];
-				$menuLevel3Length = count($menuLevel3Params);
-
-				if($menuLevel2IsVisible && $menuLevel3Length > 0) {
-
-					echo "<ul class = 'sidebar__menu page-list'>";
-					for ($k = 0; $k < $menuLevel3Length; $k++) {
-						echo "<li class = 'page-list__item'>";
-						displayBlockLinks($path, $menuLevel3Params[$k], $activeItem, $linkParam);
-						echo "</li>";
-					}
-					echo "</ul>";
-				}
-				echo "</li>";
-			}
-			echo "</ul>";
-		}
-		echo "</li>";
-	}
-	echo "</ul>";
-	echo "</div>";
-}
-
 // Вспомогательная функция вывода блока для ссылки
-function displayBlockLinks($path, $menuItem, $activeItem, $linkParam) {
+function displayBlockLinks($menuItem, $linkParam) {
 
-	$cssClassActive = ($menuItem['id'] == $activeItem) ? " _active" : "";
+	$cssClassActive = ($menuItem['isVisible']) ? " _active" : "";
+	$cssClassModifier = ' page-list__block-link--level'.$menuItem['level'];
 
-	echo "<div class = 'page-list__block-link'>";
+	echo "<div class = 'page-list__block-link" . $cssClassModifier ."'>";
 	echo "<a class='page-list__link" . $cssClassActive . "' href = '/" . $menuItem[$linkParam] . "'>";
 	echo $menuItem['name'];
 	echo "</a>";
 	echo "</div>";
 }
 
-displaySidebar($path, $activeItem, $linkParam);
+// Вспомогательная функция вывода бокового меню
+function displayMenu($menu, $linkParam){
+
+	echo "<ul class = 'sidebar__menu page-list'>";
+
+	foreach($menu as $line) {
+
+		echo "<li class = 'page-list__item'>";
+		displayBlockLinks($line, $linkParam);
+		if($line['isVisible'] && count($line['items']) > 0) {
+			displayMenu($line['items'], $linkParam);
+		}
+		echo "</li>";
+	}
+
+	echo "</ul>";
+}
+
+// Функция, вывода боковой панели
+function displaySidebar($path, $linkParam){
+
+	$itemId = $_GET['page'];
+	$menu = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
+
+	changeVisibilityOfItemsMenu($itemId, $menu);
+
+	echo "<div class='sidebar'>";
+	displayMenu($menu, $linkParam);
+	echo "</div>";
+}
+
+displaySidebar($path, $linkParam);
