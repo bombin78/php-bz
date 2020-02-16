@@ -4,8 +4,12 @@ $dev = TRUE;//TRUE - for development, FALSE - for production
 
 if($dev){
 	$linkParam = 'url';
+	$siteMapLink = '/';
+	$contactsLink = 'index.php?page=9';
 } else {
 	$linkParam = 'alias';
+	$siteMapLink = '/';
+	$contactsLink = 'contact/';
 }
 
 //Контакты

@@ -1,3 +1,20 @@
+<div class="sidebar">
+	<?php displaySidebar($path, $linkParam); ?>
+	<div class="sidebar__info">
+		<div class="sidebar__info-recuperator recuperator">
+			<a class="recuperator__link" href="http://rekuperator.ru/" title="Пластинчатые рекуператоры БушевецТермо - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
+				Открыт новый сайт!<br>
+				Производство рекуператоров
+			</a>
+		</div>
+		<div class="sidebar__info-memder member">
+			<a class="member__link" href="http://www.pushkin-town.net/" target="_blank">
+				<img class="member__img" src="/images/layout/memberc.jpg">
+			</a>
+		</div>
+	</div>
+</div>
+
 <?php
 
 // Вспомогательная функция настройки конфигурационного файла: определение
@@ -58,10 +75,5 @@ function displaySidebar($path, $linkParam){
 	$menu = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
 
 	changeVisibilityOfItemsMenu($itemId, $menu);
-
-	echo "<div class='sidebar'>";
 	displayMenu($menu, $linkParam);
-	echo "</div>";
 }
-
-displaySidebar($path, $linkParam);

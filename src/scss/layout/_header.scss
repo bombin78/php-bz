@@ -20,7 +20,7 @@
 
     &__links {
         flex-grow: 0;
-        
+
         position: relative;
         padding-bottom: 11px;
         width: 150px;
@@ -48,7 +48,7 @@
             }
 
             &__home,
-            &__mail,
+            &__contacts,
             &__sitemap {
                 display: block;
                 width: 100%;
@@ -59,7 +59,7 @@
                 background: url(../images/layout/icons/home.gif) 0px 0px no-repeat;
             }
 
-            &__mail {
+            &__contacts {
                 background: url(../images/layout/icons/mail.gif) 0px 0px no-repeat;
             }
 

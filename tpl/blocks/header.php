@@ -5,10 +5,10 @@
 				<a class="link-list__home" href="/"></a>
 			</li>
 			<li class="link-list__item">
-				<a class="link-list__mail" href="/"></a>
+				<a class="link-list__contacts" href="<?php echo $contactsLink; ?>"></a>
 			</li>
 			<li class="link-list__item">
-				<a class="link-list__sitemap" href="/"></a>
+				<a class="link-list__sitemap" href="<?php echo $siteMapLink; ?>"></a>
 			</li>
 		</ul>
 	</div>
