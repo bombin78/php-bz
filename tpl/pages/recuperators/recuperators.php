@@ -141,7 +141,7 @@
 					<ul class="additional-material__list">
 			    		<li class="additional-material__item">
 							<a href="http://bushevec.ru/recuperators/obzor/" title="Рекуператоры">
-								Рекуператоры*
+								Рекуператоры
 							</a>
 						</li>
 			    		<li class="additional-material__item">
