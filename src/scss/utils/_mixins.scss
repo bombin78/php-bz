@@ -5,3 +5,27 @@
 
 	text-align : left;
 }
+
+@mixin description() {
+	padding: 20px;
+
+	background-color: rgba(247, 247, 247, 1);
+	box-shadow: 0 0 3px rgba(32, 32, 32, .3);
+	color: rgba(51, 51, 51, 1);
+	font-family: "Times New Roman", serif;
+
+	&__row {
+		margin: 0 -20px;
+		padding: 20px;
+		text-align: center;
+
+		&:nth-of-type(even) {
+			background-color: #fff;
+		}
+	}
+
+	&__text {
+		margin: 15px 0;
+		text-align: left;
+	}
+}

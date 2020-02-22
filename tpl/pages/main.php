@@ -9,17 +9,17 @@
             автомотрисам АДМ, мотовозам МПТ-4, МПТ-6, МПТГ-2 и машинам АВФ и МС
         </h2>
 
-        <p class="description__text">
-            Имеем условный номер клеймения <b>1771</b> выданный ФАЖТ.
-        </p>
-
-        <p class="description__text">
-            Предоставляем гарантию на ремонт 6 месяцев.
-        </p>
-
-        <p class="description__text">
-            Предлагаем ремонт двигателей ЯМЗ и их модификаций, ремонт гидропередач.
-        </p>
+        <ul class="advantages">
+            <li class="advantages__item">
+                Имеем условный номер клеймения <b>1771</b> выданный ФАЖТ.
+            </li>
+            <li class="advantages__item">
+                Предоставляем гарантию на ремонт 6 месяцев.
+            </li>
+            <li class="advantages__item">
+                Предлагаем ремонт двигателей ЯМЗ и их модификаций, ремонт гидропередач.
+            </li>
+        </ul>
 
         <div class="description__imgs">
             <img class="description__img" src="/images/pages/main/gmov3.jpg" title="дрезина 1" alt="фото3.jpg">

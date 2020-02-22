@@ -5,25 +5,20 @@
 	@include main-content();
 
 	.description {
-		padding: 20px;
-		background-color: rgb(247, 247, 247);
-		font-family: "Times New Roman", serif;
+		@include description();
 		font-size: 18px;
-		color: rgb(51, 51, 51);
-		box-shadow: 0 0 3px rgba(32,32,32,.3);
+	}
 
-		&__row {
-			margin: 0 -20px;
-			padding: 20px;
-			text-align: center;
-			&:nth-of-type(even) {
-				background-color: #fff;
-			}
+	.additional-material {
+		text-align: left;
+		margin-bottom: 40px;
+
+		&__label {
+		    margin-bottom: 20px;
 		}
 
-		&__text {
-			margin: 15px 0;
-			text-align: left;
+		&__item {
+			margin-top: 7px;
 		}
 	}
 }

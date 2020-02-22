@@ -1,14 +1,15 @@
 .sidebar {
 	margin-top: 60px;
 	width: 100%;
+	
+	font-size: 12px;
 	text-align: left;
-	font-size: 13px;
 
 	&__menu.page-list {
 		position: relative;
 
 		.page-list {
-			
+
 			&__item {
 				margin-top: 2px;
 				padding: 0 10px;
@@ -18,6 +19,7 @@
 				position: relative;
 
 				&--level1 {
+					font-size: 13px;
 					.page-list__link {
 
 						&::before {
@@ -43,7 +45,6 @@
 			&__link {
 				display: block;
 				margin-left: 14px;
-				font-size: 12px;
 
 				&._active {
 					font-weight: bold;

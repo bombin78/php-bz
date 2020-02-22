@@ -17,6 +17,7 @@
 		</div>
 
 		<div class="description__row">
+
 			<p class="description__text">
 				Уважаемые господа — посетители нашего сайта, все, кого привлек термин «рекуператоры»,
 				все, кого волнует энергосбережение!
@@ -103,7 +104,7 @@
 
 			<p>Рекуператор - Готовое изделие</p>
 
-			<p>
+			<p class="description__text">
 				Понимаем, что специалисты, знающие историю развития теплообменной аппаратуры в нашей стране,
 				с недоверием могут воспринять информацию об очередной попытке «реанимировать» оребренные
 				панели, как основу нового направления в развитии теплообменной аппаратуры. Тем не менее,
@@ -124,50 +125,54 @@
 
 			<p class="description__text">
 				Многих посетителей сайта, прежде чем купить рекуператор, интересует вопрос, какова цена на
-				рекуператоры, чтобы узнать это - просто позвоните нам по телефону. Уважаемые посетители сайта.
-				Звездочкой отмечены дополнительные материалы по теме "Рекуператоры" для того, чтобы у вас
-				сложилось представление о разнообразных технологиях и сфер применения рекуператоров.
+				рекуператоры, чтобы узнать это - просто позвоните нам по телефону.
 			</p>
 		</div>
 
 		<div class="description__row">
-			<ul>
-	    		<li>
-					<a href="http://bushevec.ru/recuperators/obzor/" title="Рекуператоры">
-						Рекуператоры*
-					</a>
-				</li>
 
-	    		<li>
-					<a href="/recuperators/v_sist-ventil/" title="Рекуператоры в системах вентиляции">
-						Рекуператоры&nbsp;в&nbsp;системах&nbsp;вентиляции&nbsp;*
-					</a>
-				</li>
+			<dl class="additional-material">
+				<dt class="additional-material__label">
+					Уважаемые посетители сайта, для того, чтобы у вас сложилось представление о разнообразных технологиях и
+					сферах применения рекуператоров, предлагаем ознакомиться с дополнительными материалами:
+				</dt>
+				<dd class="additional-material__value">
 
-	    		<li>
-					<a href="/recuperators/centr_otoplenie/" title="Рекуператор">
-						Центральные&nbsp;кондиционеры.&nbsp;Рекуператоры&nbsp;*
-					</a>
-				</li>
+					<ul class="additional-material__list">
+			    		<li class="additional-material__item">
+							<a href="http://bushevec.ru/recuperators/obzor/" title="Рекуператоры">
+								Рекуператоры*
+							</a>
+						</li>
+			    		<li class="additional-material__item">
+							<a href="/recuperators/v_sist-ventil/" title="Рекуператоры в системах вентиляции">
+								Рекуператоры в системах вентиляции
+							</a>
+						</li>
+			    		<li class="additional-material__item">
+							<a href="/recuperators/centr_otoplenie/" title="Рекуператор">
+								Центральные кондиционеры. Рекуператоры
+							</a>
+						</li>
+			    		<li class="additional-material__item">
+							<a href="/recuperators/sistema_ventil/" title="Рекуператор">
+								Система вентиляции. Рекуператор
+							</a>
+						</li>
+			    		<li class="additional-material__item">
+							<a href="/recuperators/teploizoljatori/" title="Рекуператоры">
+								Рекуператоры. Теплоутилизаторы пластинчатые
+							</a>
+						</li>
+			    		<li class="additional-material__item">
+							<a href="/recuperators/articles/" title="Звездочкой отмечены дополнительные материалы по теме ">
+								Подборка материалов по теме "Рекуператоры"
+							</a>
+						</li>
+			   		</ul>
 
-	    		<li>
-					<a href="/recuperators/sistema_ventil/" title="Рекуператор">
-						Система&nbsp;вентиляции.&nbsp;Рекуператор&nbsp;*
-					</a>
-				</li>
-
-	    		<li>
-					<a href="/recuperators/teploizoljatori/" title="Рекуператоры">
-						Рекуператоры.&nbsp;Теплоутилизаторы&nbsp;пластинчатые&nbsp;*
-					</a>
-				</li>
-
-	    		<li>
-					<a href="/recuperators/articles/" title="Звездочкой отмечены дополнительные материалы по теме ">
-						*&nbsp;материалы&nbsp;по&nbsp;теме&nbsp;"Рекуператоры"
-					</a>
-				</li>
-	   		</ul>
+				</dd>
+			</dl>
 
 			<p class="description__text">
 				Деятельность Бушевецкого завода отражена в основном разделе

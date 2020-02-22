@@ -5,11 +5,9 @@
 	@include main-content();
 
 	.description {
-		padding: 20px;
-		background-color: rgb(247, 247, 247);
-		font-family: "Times New Roman", serif;
+		@include description();
+
 		font-size: 18px;
-		color: rgb(51, 51, 51);
 
 		&__title {
 			margin: {
@@ -18,10 +16,6 @@
 			}
 			font-size: 24px;
 			font-weight: 700;
-		}
-
-		&__text {
-			padding: 5px 0px;
 		}
 
 		&__imgs {
@@ -53,6 +47,12 @@
 				top: 45px;
 				bottom: 15px;
 			}
+		}
+	}
+
+	.advantages {
+		&__item {
+			padding: 5px 0px;
 		}
 	}
 
