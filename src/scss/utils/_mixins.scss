@@ -38,14 +38,16 @@
 		justify-content: center;
 		margin: $figMargin;
 
-		&__img {
-			height: $imgH;
-			width: $imgW;
-		}
+		.figure {
+			&__img {
+				height: $imgH;
+				width: $imgW;
+			}
 
-		&__caption {
-			margin-top: 24px;
-			width: 100%;
+			&__caption {
+				margin-top: 24px;
+				width: 100%;
+			}
 		}
 	}
 }
