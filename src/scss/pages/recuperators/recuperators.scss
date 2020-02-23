@@ -9,6 +9,7 @@
 		@include figure($prefix: '&__pie');
 		@include figure($prefix: '&__panel', $imgH: 400px, $imgW: 300px);
 		@include figure($prefix: '&__product', $imgH: 349px, $imgW: 400px);
+		@include figure($prefix: '&__plan', $imgH: 283px, $imgW: 690px, $capMargin: 5px 0 10px 0);
 
 		font-size: 18px;
 
@@ -21,11 +22,6 @@
 			text-align: left;
 			font-size: 24px;
 			font-weight: 700;
-		}
-
-		&__calendar-plan {
-			height: 283px;
-			width: 690px;
 		}
 	}
 
@@ -40,6 +36,37 @@
 		&__img {
 			height: 709px;
 			width: 786px;
+		}
+	}
+
+	.actions {
+		display: flex;
+		justify-content: center;
+		margin: 45px 0 25px 0;
+		width: 100%;
+
+		font-size: 16px;
+		font-weight: bold;
+
+		&__fill {
+			margin-right: 150px;
+			color: #ff0000;
+		}
+
+		&__download {
+			position: relative;
+			padding-left: 45px;
+			color: #ff0000;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: -8px;
+				left: 0;
+				height: 35px;
+				width: 35px;
+				background: url(../../images/pages/icons/word-icon.gif) no-repeat left top;
+			}
 		}
 	}
 

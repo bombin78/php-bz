@@ -30,7 +30,7 @@
 	}
 }
 
-@mixin figure($prefix: '', $figMargin: 25px 0, $imgH: 300px, $imgW: 400px) {
+@mixin figure($prefix: '', $figMargin: 25px 0, $imgH: 300px, $imgW: 400px, $capMargin: 24px 0 0 0) {
 
 	#{$prefix}.figure {
 		display: flex;
@@ -45,7 +45,7 @@
 			}
 
 			&__caption {
-				margin-top: 24px;
+				margin: $capMargin;
 				width: 100%;
 			}
 		}

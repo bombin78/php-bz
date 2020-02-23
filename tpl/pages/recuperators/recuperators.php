@@ -11,9 +11,21 @@
 		</div>
 
 		<div class="description__row">
+
 			<a class="bnri" href="http://rekuperator.ru/" title="Заказать рекуператор" target="_blank" rel="nofollow">
 				<img class="bnri__img" src="/images/pages/recuperators/rekuperator2.gif" title="Рекуператор тепла"alt="Рекуператор тепла">
 			</a>
+
+			<div class="actions">
+				<noindex>
+					<a class="actions__fill" href="http://rekuperator.ru/form.php" target="_blank" rel="nofollow">
+						Заполните опросный лист on-line
+					</a>
+				</noindex>
+				<a class="actions__download" href="/docs/recuperators-form.doc">
+					Скачайте и распечатайте опросный лист
+				</a>
+			</div>
 		</div>
 
 		<div class="description__row">
@@ -31,7 +43,7 @@
 			<figure class="description__pie figure">
 				<img class="figure__img" src="/images/pages/recuperators/1-pirog.jpg" alt="Рекуператор - 'Слоеный пирог' из оребренных панелей">
 				<figcaption class="figure__caption">
-					Рекуператор - "Слоеный пирог" из оребренных панелей
+					<b>Рекуператор</b> - "слоеный пирог" из оребренных панелей
 				</figcaption>
 			</figure>
 
@@ -107,7 +119,7 @@
 			<figure class="description__product figure">
 				<img class="figure__img" src="/images/pages/recuperators/3-rekuperator.jpg" alt="Рекуператор - готовое изделие">
 				<figcaption class="figure__caption">
-					Рекуператор - готовое изделие
+					<b>Рекуператор</b> - готовое изделие
 				</figcaption>
 			</figure>
 
@@ -128,7 +140,12 @@
 				середине 2009 года. См. календарный план.
 			</p>
 
-			<img class="description__calendar-plan" src="/images/pages/recuperators/rekuperator-plan.gif" alt="Рекуператор - Календарный план">
+			<figure class="description__plan figure">
+				<figcaption class="figure__caption">
+					<b>Производство рекуператоров</b> - календарный план
+				</figcaption>
+				<img class="figure__img" src="/images/pages/recuperators/rekuperator-plan.gif" alt="Рекуператор - Календарный план">
+			</figure>
 
 			<p class="description__text">
 				Многих посетителей сайта, прежде чем купить рекуператор, интересует вопрос, какова цена на
