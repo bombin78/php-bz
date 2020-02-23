@@ -6,7 +6,41 @@
 
 	.description {
 		@include description();
+		@include figure($prefix: '&__pie');
+		@include figure($prefix: '&__panel', $imgH: 400px, $imgW: 300px);
+		@include figure($prefix: '&__product', $imgH: 349px, $imgW: 400px);
+
 		font-size: 18px;
+
+		&__title {
+			margin: {
+				top: 50px;
+				bottom: 30px;
+			}
+
+			text-align: left;
+			font-size: 24px;
+			font-weight: 700;
+		}
+
+		&__calendar-plan {
+			height: 283px;
+			width: 690px;
+		}
+	}
+
+	.bnrc {
+		&__img {
+			height: 550px;
+			width: 800px;
+		}
+	}
+
+	.bnri {
+		&__img {
+			height: 709px;
+			width: 786px;
+		}
 	}
 
 	.additional-material {

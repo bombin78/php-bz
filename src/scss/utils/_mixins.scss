@@ -29,3 +29,23 @@
 		text-align: left;
 	}
 }
+
+@mixin figure($prefix: '', $figMargin: 25px 0, $imgH: 300px, $imgW: 400px) {
+
+	#{$prefix}.figure {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: $figMargin;
+
+		&__img {
+			height: $imgH;
+			width: $imgW;
+		}
+
+		&__caption {
+			margin-top: 24px;
+			width: 100%;
+		}
+	}
+}

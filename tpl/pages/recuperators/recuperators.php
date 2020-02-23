@@ -1,18 +1,18 @@
 <section class="page">
 
-	<h2 class="page__content-title content-title"><?php echo $title; ?></h2>
+	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
 
 	<div class="description">
 
 		<div class="description__row">
-			<a href="http://rekuperator.ru/">
-				<img src="/images/pages/recuperators/rekuperator.ru.jpg" border="0" width="800" height="550">
+			<a class="bnrc" href="http://rekuperator.ru/">
+				<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
 			</a>
 		</div>
 
 		<div class="description__row">
-			<a href="http://rekuperator.ru/" title="Заказать рекуператор" target="_blank" rel="nofollow">
-				<img src="/images/pages/recuperators/rekuperator2.gif" title="Рекуператор тепла" hspace="10" border="0" alt="Рекуператор тепла" width="786" height="709">
+			<a class="bnri" href="http://rekuperator.ru/" title="Заказать рекуператор" target="_blank" rel="nofollow">
+				<img class="bnri__img" src="/images/pages/recuperators/rekuperator2.gif" title="Рекуператор тепла"alt="Рекуператор тепла">
 			</a>
 		</div>
 
@@ -28,11 +28,12 @@
 				Применение их может быть весьма разнообразным (не только в области рекуперации).
 			</p>
 
-			<img src="/images/pages/recuperators/1-pirog.jpg" height="300" alt="Рекуператор - " hspace="5" width="400" vspace="5">
-
-			<p>
-				Рекуператор - "Слоеный пирог" из оребренных панелей
-			</p>
+			<figure class="description__pie figure">
+				<img class="figure__img" src="/images/pages/recuperators/1-pirog.jpg" alt="Рекуператор - 'Слоеный пирог' из оребренных панелей">
+				<figcaption class="figure__caption">
+					Рекуператор - "Слоеный пирог" из оребренных панелей
+				</figcaption>
+			</figure>
 
 			<p class="description__text">
 				Появление такого типа теплообменников стало возможным благодаря разработке уникальной
@@ -72,9 +73,12 @@
 				им В. П. Вологдина и представителями НПО «Союзпрогноз» еще в конце 70-х годов.
 			</p>
 
-			<img src="/images/pages/recuperators/2-orebr-panel.jpg" height="400" alt="Рекуператор - Оребренная панель" hspace="5" width="300" vspace="5">
-
-			<p>Оребренная панель</p>
+			<figure class="description__panel figure">
+				<img class="figure__img" src="/images/pages/recuperators/2-orebr-panel.jpg" alt="Оребренная панель">
+				<figcaption class="figure__caption">
+					Оребренная панель
+				</figcaption>
+			</figure>
 
 			<p class="description__text">
 				В последующие годы предпринимались две попытки освоить производство рекуператоров.
@@ -88,7 +92,7 @@
 				комбинаты, Ухтинский нефтеперерабатывающий завод, Волгоградский завод «Оргсинтез».
 			</p>
 
-			<h2>Где купить промышленный рекуператор тепла?</h2>
+			<h2 class="description__title">Где купить промышленный рекуператор тепла?</h2>
 
 			<p class="description__text">
 				Для того чтобы вы могли купить промышленный рекуператор в настоящее время Бушевецкий
@@ -100,9 +104,16 @@
 				теплообменной аппаратуры.
 			</p>
 
-			<img src="/images/pages/recuperators/3-rekuperator.jpg" height="349" alt="Рекуператор - Готовое изделие" hspace="5" width="400" vspace="5">
+			<figure class="description__product figure">
+				<img class="figure__img" src="/images/pages/recuperators/3-rekuperator.jpg" alt="Рекуператор - готовое изделие">
+				<figcaption class="figure__caption">
+					Рекуператор - готовое изделие
+				</figcaption>
+			</figure>
 
-			<p>Рекуператор - Готовое изделие</p>
+		</div>
+
+		<div class="description__row">
 
 			<p class="description__text">
 				Понимаем, что специалисты, знающие историю развития теплообменной аппаратуры в нашей стране,
@@ -112,16 +123,12 @@
 				по строительству линии.
 			</p>
 
-		</div>
-
-		<div class="description__row">
-
 			<p class="description__text">
 				По нашим планам, производство теплообменников на новой скоростной линии будет начато к
 				середине 2009 года. См. календарный план.
 			</p>
 
-			<img src="/images/pages/recuperators/rekuperator-plan.gif" height="283" alt="Рекуператор - Календарный план" hspace="5" width="690" vspace="5">
+			<img class="description__calendar-plan" src="/images/pages/recuperators/rekuperator-plan.gif" alt="Рекуператор - Календарный план">
 
 			<p class="description__text">
 				Многих посетителей сайта, прежде чем купить рекуператор, интересует вопрос, какова цена на
@@ -140,32 +147,32 @@
 
 					<ul class="additional-material__list">
 			    		<li class="additional-material__item">
-							<a href="http://bushevec.ru/recuperators/obzor/" title="Рекуператоры">
+							<a class="additional-material__link" href="http://bushevec.ru/recuperators/obzor/">
 								Рекуператоры
 							</a>
 						</li>
 			    		<li class="additional-material__item">
-							<a href="/recuperators/v_sist-ventil/" title="Рекуператоры в системах вентиляции">
+							<a class="additional-material__link" href="/recuperators/v_sist-ventil/">
 								Рекуператоры в системах вентиляции
 							</a>
 						</li>
-			    		<li class="additional-material__item">
-							<a href="/recuperators/centr_otoplenie/" title="Рекуператор">
+			    		<li class="additional-material__link" class="additional-material__item">
+							<a class="additional-material__link" href="/recuperators/centr_otoplenie/">
 								Центральные кондиционеры. Рекуператоры
 							</a>
 						</li>
 			    		<li class="additional-material__item">
-							<a href="/recuperators/sistema_ventil/" title="Рекуператор">
+							<a class="additional-material__link" href="/recuperators/sistema_ventil/">
 								Система вентиляции. Рекуператор
 							</a>
 						</li>
 			    		<li class="additional-material__item">
-							<a href="/recuperators/teploizoljatori/" title="Рекуператоры">
+							<a class="additional-material__link" href="/recuperators/teploizoljatori/">
 								Рекуператоры. Теплоутилизаторы пластинчатые
 							</a>
 						</li>
 			    		<li class="additional-material__item">
-							<a href="/recuperators/articles/" title="Звездочкой отмечены дополнительные материалы по теме ">
+							<a class="additional-material__link" href="/recuperators/articles/">
 								Подборка материалов по теме "Рекуператоры"
 							</a>
 						</li>
