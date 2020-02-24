@@ -5,6 +5,16 @@
 	<div class="description">
 
 		<div class="description__row">
+			
+			<div class="marquee">
+				<a class="marquee__link" href="http://rekuperator.ru/opros/">
+					<span>
+						«Бушевецкий завод продолжает производить пластинчатые рекуператоры тепла для температур 150-12500С.»
+						Информация на 2019 г.
+					</span>
+				</a>
+			</div>
+
 			<a class="bnrc" href="http://rekuperator.ru/">
 				<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
 			</a>
