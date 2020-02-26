@@ -10,19 +10,6 @@
 		@include figure($prefix: '&__panel', $imgH: 400px, $imgW: 300px);
 		@include figure($prefix: '&__product', $imgH: 349px, $imgW: 400px);
 		@include figure($prefix: '&__plan', $imgH: 283px, $imgW: 690px, $capMargin: 5px 0 10px 0);
-
-		font-size: 16px;
-
-		&__title {
-			margin: {
-				top: 50px;
-				bottom: 30px;
-			}
-
-			text-align: left;
-			font-size: 24px;
-			font-weight: 700;
-		}
 	}
 
 	.marquee {
@@ -75,7 +62,6 @@
 		margin: 45px 0 25px 0;
 		width: 100%;
 
-		font-size: 16px;
 		font-weight: bold;
 
 		&__fill {
@@ -105,7 +91,7 @@
 		margin-bottom: 40px;
 
 		&__label {
-		    margin-bottom: 20px;
+		    margin-bottom: 16px;
 		}
 
 		&__list {

@@ -6,25 +6,12 @@
 
 	.description {
 		@include description();
-
-		font-size: 16px;
-
-		&__title {
-			margin: {
-				top: 50px;
-				bottom: 30px;
-			}
-
-			text-align: left;
-			font-size: 24px;
-			font-weight: 700;
-		}
 	}
 
 	.bnrc {
 		display: inline-block;
 		margin-bottom: 35px;
-		
+
 		&__img {
 			height: 550px;
 			width: 800px;

@@ -24,13 +24,26 @@
 		}
 	}
 
+	font-size: 16px;
+
+	&__title {
+		margin: {
+			top: 40px;
+			bottom: 25px;
+		}
+
+		text-align: left;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
 	&__text {
 		margin: 15px 0;
 		text-align: left;
 	}
 }
 
-@mixin figure($prefix: '', $figMargin: 25px 0, $imgH: 300px, $imgW: 400px, $capMargin: 24px 0 0 0) {
+@mixin figure($prefix: '', $figMargin: 25px 0, $imgH: 300px, $imgW: 400px, $capMargin: 22px 0 0 0) {
 
 	#{$prefix}.figure {
 		display: flex;
