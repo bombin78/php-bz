@@ -3,4 +3,18 @@
 
 .page {
 	@include main-content();
+
+	.description {
+		@include description();
+	}
+
+	.bnrc {
+		display: inline-block;
+		//margin-bottom: 35px;
+
+		&__img {
+			height: 550px;
+			width: 800px;
+		}
+	}
 }
