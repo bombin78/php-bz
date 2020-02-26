@@ -11,7 +11,7 @@
 		@include figure($prefix: '&__product', $imgH: 349px, $imgW: 400px);
 		@include figure($prefix: '&__plan', $imgH: 283px, $imgW: 690px, $capMargin: 5px 0 10px 0);
 
-		font-size: 18px;
+		font-size: 16px;
 
 		&__title {
 			margin: {
@@ -55,6 +55,7 @@
 	}
 
 	.bnrc {
+		display: inline-block;
 		&__img {
 			height: 550px;
 			width: 800px;
