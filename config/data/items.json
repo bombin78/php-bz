@@ -1,26 +1,29 @@
 [
     {
+        "id": 1,
+        "level": 1,
+        "url": "index.php?page=1",
+        "name": "Бушевецкий завод",
+        "alias": "",
+        "used": ["breadcrambs"],
+        "isVisible": false
+    },
+    {
         "id": 2,
         "level": 1,
         "url": "index.php?page=2",
         "name": "Рекуператор тепла",
         "alias": "recuperators/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false,
         "items": [
-            {
-                "id": 21,
-                "level": 2,
-                "url": "index.php?page=21",
-                "name": "Рекуператор тепла",
-                "alias": "recuperators/recuperator-tepla-zakaz/",
-                "isVisible": false
-            },
             {
                 "id": 22,
                 "level": 2,
                 "url": "index.php?page=22",
                 "name": "Рекуператоры нового поколения",
                 "alias": "recuperators/recuperator-industry-5/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -29,6 +32,7 @@
                 "url": "index.php?page=23",
                 "name": "Новости",
                 "alias": "recuperators/news/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -37,6 +41,7 @@
                 "url": "index.php?page=24",
                 "name": "Опросный лист на теплообменники",
                 "alias": "recuperators/form/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             }
         ]
@@ -47,6 +52,7 @@
         "url": "index.php?page=3",
         "name": "Капитальный ремонт",
         "alias": "capital-remont/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false,
         "items": [
             {
@@ -55,6 +61,7 @@
                 "url": "index.php?page=31",
                 "name": "Вибропогружатели",
                 "alias": "capital-remont/vibro-immersers/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -63,6 +70,7 @@
                 "url": "index.php?page=32",
                 "name": "Дрезины, автомотрисы, мотовозы",
                 "alias": "capital-remont/drezin/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -71,6 +79,7 @@
                 "url": "index.php?page=33",
                 "name": "Котлованокопатели на любой базе",
                 "alias": "capital-remont/cotlovanokopately-base/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false,
                 "items": [
                     {
@@ -79,6 +88,7 @@
                         "url": "index.php?page=331",
                         "name": "ВК на базе дрезины ДГКУ",
                         "alias": "capital-remont/cotlovanokopately-base/VK-base-DGKU/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -87,6 +97,7 @@
                         "url": "index.php?page=332",
                         "name": "ВК-3 на базе ЖД платформы",
                         "alias": "capital-remont/cotlovanokopately-base/VK3-rail/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -95,6 +106,7 @@
                         "url": "index.php?page=333",
                         "name": "МПТ-ВК-5 на базе мотовоза МПТ-6",
                         "alias": "capital-remont/cotlovanokopately-base/MPT-VK-5/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -103,6 +115,7 @@
                         "url": "index.php?page=334",
                         "name": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
                         "alias": "capital-remont/cotlovanokopately-base/ADM-1.5B/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -111,6 +124,7 @@
                         "url": "index.php?page=335",
                         "name": "ВК-4М на базе ЖД платформы",
                         "alias": "capital-remont/cotlovanokopately-base/VK-4M-rail/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     }
                 ]
@@ -123,6 +137,7 @@
         "url": "index.php?page=4",
         "name": "Запчасти к машинам ВК и АВФ",
         "alias": "spare-parts/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false,
         "items": [
             {
@@ -131,6 +146,7 @@
                 "url": "index.php?page=41",
                 "name": "Навесное оборудование для АВФ и МС",
                 "alias": "navesnoe-oborudovanie/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -139,6 +155,7 @@
                 "url": "index.php?page=42",
                 "name": "ТТН-057 для бурения лидирующих скважин",
                 "alias": "navesnoe-oborudovanie/burovoe-oborudovanie/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -147,6 +164,7 @@
                 "url": "index.php?page=43",
                 "name": "ТТН-059 по разрушению фундамента",
                 "alias": "navesnoe-oborudovanie/fundamend/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -155,6 +173,7 @@
                 "url": "index.php?page=44",
                 "name": "ТТН-064 для завинчивания винтовых металлических опор",
                 "alias": "navesnoe-oborudovanie/vint/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             }
         ]
@@ -165,6 +184,7 @@
         "url": "index.php?page=5",
         "name": "Изготовление новых машин",
         "alias": "manufacturing/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false,
         "items": [
             {
@@ -173,6 +193,7 @@
                 "url": "index.php?page=51",
                 "name": "Котлованокопатели",
                 "alias": "manufacturing/kotlovanokopateli/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false,
                 "items": [
                     {
@@ -181,6 +202,7 @@
                         "url": "index.php?page=511",
                         "name": "ВК-3 на базе ЖД платформы",
                         "alias": "manufacturing/kotlovanokopateli/VK-3-rail/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -189,6 +211,7 @@
                         "url": "index.php?page=512",
                         "name": "МПТ-ВК-5 на базе мотовоза МПТ-6",
                         "alias": "manufacturing/kotlovanokopateli/MPT-VK-5/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -197,6 +220,7 @@
                         "url": "index.php?page=513",
                         "name": "ВК-4 на базе ЖД платформы",
                         "alias": "manufacturing/kotlovanokopateli/VK-4-rail/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -205,6 +229,7 @@
                         "url": "index.php?page=26",
                         "name": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
                         "alias": "manufacturing/kotlovanokopateli/ADM-1.5B/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     }
                 ]
@@ -215,6 +240,7 @@
                 "url": "index.php?page=52",
                 "name": "Вибропогружатели – АВФ-1",
                 "alias": "manufacturing/vibro-immersers/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             }
         ]
@@ -225,6 +251,7 @@
         "url": "index.php?page=6",
         "name": "Приобретение б/у техники",
         "alias": "buying-used-eqipment/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false,
         "items": [
             {
@@ -233,6 +260,7 @@
                 "url": "index.php?page=61",
                 "name": "Фитинговые платформы",
                 "alias": "buying-used-eqipment/fitting-platforms/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -241,6 +269,7 @@
                 "url": "index.php?page=62",
                 "name": "Дрезины ДГКУ, АДМ, МПТ",
                 "alias": "buying-used-eqipment/drezins/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -249,6 +278,7 @@
                 "url": "index.php?page=63",
                 "name": "Котлованокопатели и вибропогружатели",
                 "alias": "buying-used-eqipment/kotlovanokopateli/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             }
         ]
@@ -259,6 +289,7 @@
         "url": "index.php?page=7",
         "name": "Материалы",
         "alias": "material/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false,
         "items": [
             {
@@ -267,6 +298,7 @@
                 "url": "index.php?page=71",
                 "name": "Дрезина, ремонт дрезин",
                 "alias": "material/drezina/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -275,6 +307,7 @@
                 "url": "index.php?page=72",
                 "name": "Виды автоматрис и их назначение",
                 "alias": "material/avtomatrisa/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -283,6 +316,7 @@
                 "url": "index.php?page=73",
                 "name": "Мотовоз, ремонт мотовоза",
                 "alias": "material/motovoz/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false
             },
             {
@@ -291,6 +325,7 @@
                 "url": "index.php?page=74",
                 "name": "Вибропогружатель",
                 "alias": "material/vibropogruzhatel/",
+                "used": ["menu", "breadcrambs"],
                 "isVisible": false,
                 "items": [
                     {
@@ -299,6 +334,7 @@
                         "url": "index.php?page=741",
                         "name": "Принцип действия вибропогружателя",
                         "alias": "material/vibropogruzhatel/princip/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     },
                     {
@@ -307,6 +343,7 @@
                         "url": "index.php?page=742",
                         "name": "Технические характеристики вибропогружателей",
                         "alias": "material/vibropogruzhatel/tehn-haracter/",
+                        "used": ["menu", "breadcrambs"],
                         "isVisible": false
                     }
                 ]
@@ -319,6 +356,7 @@
         "url": "index.php?page=8",
         "name": "Новости",
         "alias": "news/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false
     },
     {
@@ -327,6 +365,7 @@
         "url": "index.php?page=9",
         "name": "Контактная информация",
         "alias": "contact/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false
     },
     {
@@ -335,6 +374,7 @@
         "url": "index.php?page=10",
         "name": "Видео",
         "alias": "video/",
+        "used": ["menu", "breadcrambs"],
         "isVisible": false
     }
 ]

@@ -1,5 +1,5 @@
 <div class="sidebar">
-	<?php displaySidebar($path, $linkParam); ?>
+	<?php displaySidebar($pageId, $breadcrambItems, $linkParam); ?>
 	<div class="sidebar__info">
 		<div class="sidebar__info-recuperator recuperator">
 			<a class="recuperator__link" href="http://rekuperator.ru/" title="Пластинчатые рекуператоры БушевецТермо - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
@@ -19,17 +19,17 @@
 
 // Вспомогательная функция настройки конфигурационного файла: определение
 // значений флагов "isVisible" отвечающих за видимость "дочерних" меню
-function changeVisibilityOfItemsMenu($itemId, &$menu) {
+function changeVisibilityOfItemsMenu($pageId, &$menu) {
 
 	foreach($menu as &$line) {
 
-		if($line['id'] == $itemId) {
+		if($line['id'] == $pageId) {
 			$line['isVisible'] = true;
 			return true;
 		}
 
 		if(is_array($line['items'])) {
-	        if(changeVisibilityOfItemsMenu($itemId, $line['items'])){
+	        if(changeVisibilityOfItemsMenu($pageId, $line['items'])){
 				$line['isVisible'] = true;
 				return true;
 			}
@@ -69,11 +69,8 @@ function displayMenu($menu, $linkParam){
 }
 
 // Функция, вывода боковой панели
-function displaySidebar($path, $linkParam){
+function displaySidebar($pageId, $menuItems, $linkParam){
 
-	$itemId = $_GET['page'];
-	$menu = json_decode(file_get_contents($path.'/tpl/blocks/sidebar/sidebar.json'),true);
-
-	changeVisibilityOfItemsMenu($itemId, $menu);
-	displayMenu($menu, $linkParam);
+	changeVisibilityOfItemsMenu($pageId, $menuItems);
+	displayMenu($menuItems, $linkParam);
 }

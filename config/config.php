@@ -1,6 +1,6 @@
 <?php
-$path = "./";
-$dev = TRUE;//TRUE - for development, FALSE - for production
+//Режим работы сайта: TRUE - for development, FALSE - for production
+$dev = TRUE;
 
 if($dev){
 	$linkParam = 'url';
@@ -12,14 +12,56 @@ if($dev){
 	$contactsLink = 'contact/';
 }
 
-//Контакты
-$nameCompany        = 'ООО "Бушевецкий завод"';
-$contactPerson_1    = '';
-$contactPerson_2    = '';
-$index              = '';
-$location           = '';
-$numPhone_1         = 'Тел.: +7 (920) 194-84-13';//основной номер телефона
-$numPhone_2         = false;//дополнительный номер телефона
-$eMail              = 'bushevec2009@yandex.ru';
-//$copyright          = '&copy; 2015 - 2019';
-$companyDetails      = '';
+if (isset ($_GET['page'])) $pageId = $_GET['page'];
+else $pageId = 1;
+
+$path = "./";
+$menuItems = [];
+$breadcrambItems = [];
+
+// Подключение файлов с данными
+$commonParams = json_decode(file_get_contents($path.'/config/data/common.json'),true);
+$routesParams  = json_decode(file_get_contents($path.'/config/data/items.json'),true);
+$connectParams = json_decode(file_get_contents($path.'/config/data/pages.json'),true);
+
+$menuItems = getNewList($routesParams, 'menu', $pageId);
+$breadcrambItems = getNewList($routesParams, 'breadcrambs', $pageId);
+
+function getNewList($list, $nameParam, $pageId) {
+
+	$newList = [];
+	setNewList($list, $newList, $nameParam, $pageId);
+	return $newList;
+}
+
+function setNewList($list, &$newList, $nameParam, $pageId) {
+
+	foreach($list as $key => $line) {
+		foreach($line['used'] as $item) {
+			if($item == $nameParam){
+
+				$newItem = $line;
+
+				if(is_array($line['items'])) {
+					$newItem['items'] = [];
+					setNewList($line['items'], $newItem['items'], $nameParam, $pageId);
+				}
+
+				array_push($newList, $newItem);
+			}
+		}
+	}
+}
+
+// Блок переменных для подключения файлов к index.php
+foreach($connectParams as $line) {
+
+	if($line['id'] == $pageId) {
+		$title = $line['title'];
+		$keywords = $line['keywords'];
+		$description = $line['description'];
+		$phpFile = $line['phpFile'];
+		$cssFile = $line['cssFile'];
+		return;
+	}
+}

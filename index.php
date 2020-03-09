@@ -1,19 +1,19 @@
 <?php
 header("Content-Type:text/html;charset utf-8");
-include_once($path."connect/connect.php");
+include_once($path."config/config.php");
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title><?php echo $title; ?></title>
 	<meta charset="utf-8">
-	<meta name="keywords" content="">
+	<meta name="keywords" content="<?php echo $keywords; ?>">
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo $path; ?>favicon.ico">
 	<link rel="stylesheet" href="/vendors/gallery-master/css/blueimp-gallery.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/<?php echo $style; ?>">
+	<link rel="stylesheet" type="text/css" href="/css/<?php echo $cssFile; ?>">
 	<script type="text/javascript" src="/vendors/jquery-1.11.2.min.js"></script>
 	<!--[if lt IE 9]>
 	<script>
@@ -42,13 +42,16 @@ include_once($path."connect/connect.php");
 
 			<aside class="sidebar-container">
 				<!-- боковая панель -->
-				<?php include_once $path."tpl/blocks/sidebar/sidebar.php" ?>
+				<?php include_once $path."tpl/blocks/sidebar.php" ?>
 				<!-- /боковая панель -->
 			</aside>
 
 			<main class="main-container">
+				<!-- навигационная цепочка -->
+				<?php include_once $path."tpl/blocks/breadcrumbs.php" ?>
+				<!-- /навигационная цепочка -->
 				<!-- основной контент -->
-				<?php include_once $path.$connect; ?>
+				<?php include_once $path.$phpFile; ?>
 				<!-- /основной контент -->
 			</main>
 

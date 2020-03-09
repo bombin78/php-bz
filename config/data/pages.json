@@ -1,0 +1,330 @@
+[
+    {
+        "id": 1,
+		"title": "Бушевецкий завод",
+        "keywords": "Труба оцинкованная, рекуператор, горячее цинкование, линия горячего цинкования, рекуператоры тепла, стальная труба оцинкованная",
+		"description": "Бушевецкий завод предлагает трубы оцинкованные, рекуператор, горячее цинкование, линия горячего цинкования, рекуператоры тепла, стальная труба оцинкованная",
+        "phpFile": "tpl/pages/main.php",
+		"cssFile": "main.css"
+    },
+    {
+        "id": 2,
+		"title": "Рекуператор тепла",
+        "keywords": "Рекуператоры, купить рекуператор, рекуператоры, производство рекуператоров",
+		"description": "Бушевецкий завод предлагает рекуператоры, купить рекуператор, рекуператоры, производство рекуператоров",
+        "phpFile": "tpl/pages/recuperators/recuperators.php",
+		"cssFile": "recuperators/recuperators.css"
+    },
+    {
+        "id": 22,
+        "title": "Рекуператоры нового поколения",
+        "keywords": "Рекуператоры, купить рекуператор, рекуператоры, производство рекуператоров",
+        "description": "",
+        "phpFile": "tpl/pages/recuperators/recuperator-industry-5.php",
+        "cssFile": "recuperators/recuperator-industry-5.css"
+    },
+    {
+        "id": 23,
+        "title": "Новости",
+        "keywords": "Рекуператоры, купить рекуператор, рекуператоры, производство рекуператоров",
+        "description": "",
+        "phpFile": "tpl/pages/recuperators/news.php",
+        "cssFile": "recuperators/news.css"
+    },
+    {
+        "id": 24,
+        "title": "Опросный лист на теплообменники",
+        "keywords": "Рекуператоры, купить рекуператор, рекуператоры, производство рекуператоров",
+        "description": "",
+        "phpFile": "tpl/pages/recuperators/form.php",
+        "cssFile": "recuperators/form.css"
+    },
+    {
+        "id": 3,
+        "title": "Капитальный ремонт",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/capital-remont.php",
+        "cssFile": "capital-remont/capital-remont.css"
+    },
+    {
+        "id": 31,
+        "title": "Вибропогружатели",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/vibro-immersers.php",
+        "cssFile": "capital-remont/vibro-immersers.css"
+    },
+    {
+        "id": 32,
+        "title": "Дрезины, автомотрисы, мотовозы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/drezin.php",
+        "cssFile": "capital-remont/drezin.css"
+    },
+    {
+        "id": 33,
+        "title": "Котлованокопатели на любой базе",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/cotlovanokopately-base/cotlovanokopately-base.php",
+        "cssFile": "capital-remont/cotlovanokopately-base/cotlovanokopately-base.css"
+    },
+    {
+        "id": 331,
+        "title": "ВК на базе дрезины ДГКУ",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/cotlovanokopately-base/VK-base-DGKU.php",
+        "cssFile": "capital-remont/cotlovanokopately-base/VK-base-DGKU.css"
+    },
+    {
+        "id": 332,
+        "title": "ВК-3 на базе ЖД платформы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/cotlovanokopately-base/VK3-rail.php",
+        "cssFile": "capital-remont/cotlovanokopately-base/VK3-rail.css"
+    },
+    {
+        "id": 333,
+        "title": "МПТ-ВК-5 на базе мотовоза МПТ-6",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/cotlovanokopately-base/MPT-VK-5.php",
+        "cssFile": "capital-remont/cotlovanokopately-base/MPT-VK-5.css"
+    },
+    {
+        "id": 334,
+        "title": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/cotlovanokopately-base/ADM-1.5B.php",
+        "cssFile": "capital-remont/cotlovanokopately-base/ADM-1.5B.css"
+    },
+    {
+        "id": 335,
+        "title": "ВК-4М на базе ЖД платформы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/capital-remont/cotlovanokopately-base/VK-4M-rail.php",
+        "cssFile": "capital-remont/cotlovanokopately-base/VK-4M-rail.css"
+    },
+    {
+        "id": 4,
+        "title": "Запчасти к машинам ВК и АВФ",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/spare-parts.php",
+        "cssFile": "spare-parts.css"
+    },
+    {
+        "id": 41,
+        "title": "Навесное оборудование для АВФ и МС",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/navesnoe-oborudovanie/navesnoe-oborudovanie.php",
+        "cssFile": "navesnoe-oborudovanie/navesnoe-oborudovanie.css"
+    },
+    {
+        "id": 42,
+        "title": "ТТН-057 для бурения лидирующих скважин",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/navesnoe-oborudovanie/burovoe-oborudovanie.php",
+        "cssFile": "navesnoe-oborudovanie/burovoe-oborudovanie.css"
+    },
+    {
+        "id": 43,
+        "title": "ТТН-059 по разрушению фундамента",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/navesnoe-oborudovanie/fundamend.php",
+        "cssFile": "navesnoe-oborudovanie/fundamend.css"
+    },
+    {
+        "id": 44,
+        "title": "ТТН-064 для завинчивания винтовых металлических опор",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/navesnoe-oborudovanie/vint.php",
+        "cssFile": "navesnoe-oborudovanie/vint.css"
+    },
+    {
+        "id": 5,
+        "title": "Изготовление новых машин",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/manufacturing.php",
+        "cssFile": "manufacturing/manufacturing.css"
+    },
+    {
+        "id": 51,
+        "title": "Котлованокопатели",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/kotlovanokopateli/kotlovanokopateli.php",
+        "cssFile": "manufacturing/kotlovanokopateli/kotlovanokopateli.css"
+    },
+    {
+        "id": 511,
+        "title": "ВК-3 на базе ЖД платформы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/kotlovanokopateli/VK-3-rail.php",
+        "cssFile": "manufacturing/kotlovanokopateli/VK-3-rail.css"
+    },
+    {
+        "id": 512,
+        "title": "МПТ-ВК-5 на базе мотовоза МПТ-6",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/kotlovanokopateli/MPT-VK-5.php",
+        "cssFile": "manufacturing/kotlovanokopateli/MPT-VK-5.css"
+    },
+    {
+        "id": 513,
+        "title": "ВК-4 на базе ЖД платформы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/kotlovanokopateli/VK-4-rail.php",
+        "cssFile": "manufacturing/kotlovanokopateli/VK-4-rail.css"
+    },
+    {
+        "id": 514,
+        "title": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/kotlovanokopateli/ADM-1.5B.php",
+        "cssFile": "manufacturing/kotlovanokopateli/ADM-1.5B.css"
+    },
+    {
+        "id": 52,
+        "title": "Вибропогружатели – АВФ-1",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/manufacturing/vibro-immersers.php",
+        "cssFile": "manufacturing/vibro-immersers.css"
+    },
+    {
+        "id": 6,
+        "title": "Приобретение б/у техники",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/buying-used-eqipment/buying-used-eqipment.php",
+        "cssFile": "buying-used-eqipment/buying-used-eqipment.css"
+    },
+    {
+        "id": 61,
+        "title": "Фитинговые платформы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/buying-used-eqipment/fitting-platforms.php",
+        "cssFile": "buying-used-eqipment/fitting-platforms.css"
+    },
+    {
+        "id": 62,
+        "title": "Дрезины ДГКУ, АДМ, МПТ",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/buying-used-eqipment/drezins.php",
+        "cssFile": "buying-used-eqipment/drezins.css"
+    },
+    {
+        "id": 63,
+        "title": "Котлованокопатели и вибропогружатели",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/buying-used-eqipment/kotlovanokopateli.php",
+        "cssFile": "buying-used-eqipment/kotlovanokopateli.css"
+    },
+    {
+        "id": 7,
+        "title": "Материалы",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/material.php",
+        "cssFile": "material/material.css"
+    },
+    {
+        "id": 71,
+        "title": "Дрезина, ремонт дрезин",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/drezina.php",
+        "cssFile": "material/drezina.css"
+    },
+    {
+        "id": 72,
+        "title": "Виды автоматрис и их назначение",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/avtomatrisa.php",
+        "cssFile": "material/avtomatrisa.css"
+    },
+    {
+        "id": 73,
+        "title": "Мотовоз, ремонт мотовоза",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/motovoz.php",
+        "cssFile": "material/motovoz.css"
+    },
+    {
+        "id": 74,
+        "title": "Вибропогружатель",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/vibropogruzhatel/vibropogruzhatel.php",
+        "cssFile": "material/vibropogruzhatel/vibropogruzhatel.css"
+    },
+    {
+        "id": 741,
+        "title": "Принцип действия вибропогружателя",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/vibropogruzhatel/princip.php",
+        "cssFile": "material/vibropogruzhatel/princip.css"
+    },
+    {
+        "id": 742,
+        "title": "Технические характеристики вибропогружателей",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/material/vibropogruzhatel/tehn-haracter.php",
+        "cssFile": "material/vibropogruzhatel/tehn-haracter.css"
+    },
+    {
+        "id": 8,
+        "title": "Новости",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/news.php",
+        "cssFile": "news.css"
+    },
+    {
+        "id": 9,
+        "title": "Контактная информация",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/contact.php",
+        "cssFile": "contact.css"
+    },
+    {
+        "id": 10,
+        "title": "Видео",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/video.php",
+        "cssFile": "video.css"
+    },
+    {
+        "id": 404,
+        "title": "Ошибка 404",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/error-404.php",
+        "cssFile": "error-404.css"
+    }
+]
