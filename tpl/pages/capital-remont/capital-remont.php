@@ -1,5 +1,8 @@
 <section class="page">
 
-	<h2 class="page__content-title content-title"><?php echo $title; ?></h2>
+	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+
+	<h3><a href="/capital-remont/drezin/">Капитальный ремонт дрезин, автомотрис, мотовозов</a></h3>
+ООО&nbsp;«Бушевецкий завод» производит <b><a href="/capital-remont/drezin/">капитальный ремонт</a></b> наиболее распространенных <b><a href="/capital-remont/drezin/">автодрезин и&nbsp;автомотрис</a></b> типа ДГКу, АДМ  и&nbsp;их модификаций, в&nbsp;соответствии с&nbsp;«Положением о&nbsp;планово-предупредительном ремонте специального подвижного состава хозяйства электроснабжения ОАО&nbsp;«РЖД» № ВС&nbsp;— 11224&nbsp;от 21&nbsp;ноября&nbsp;2005г., <b>капитальный ремонт и&nbsp;модернизацию</b> выше указанных машин (например: замена дизеля У1Д6&nbsp;на дизель <nobr>ЯМЗ-238,</nobr> генератора и&nbsp;т.&nbsp;п.), находящихся в&nbsp;подразделениях ОАО&nbsp;«РЖД» и&nbsp;сторонних организациях.
 
 </section>

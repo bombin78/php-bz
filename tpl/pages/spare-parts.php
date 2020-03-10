@@ -1,6 +1,6 @@
 <section class="page">
 
-	<h2 class="page__content-title content-title"><?php echo $title; ?></h2>
+	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
 
 	<p class="page__text">
 		Запчасти к котлованокопателям, механизмы выдвижения, механизмы подачи,

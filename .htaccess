@@ -22,37 +22,38 @@ RewriteRule ^capital-remont/cotlovanokopately-base/ADM-1.5B/$ index.php?page=334
 RewriteRule ^capital-remont/cotlovanokopately-base/VK-4M-rail/$ index.php?page=335 [L]
 
 RewriteRule ^spare-parts/$ index.php?page=4 [L]
-RewriteRule ^navesnoe-oborudovanie/$ index.php?page=41 [L]
-RewriteRule ^navesnoe-oborudovanie/burovoe-oborudovanie/$ index.php?page=42 [L]
-RewriteRule ^navesnoe-oborudovanie/fundamend/$ index.php?page=43 [L]
-RewriteRule ^navesnoe-oborudovanie/vint/$ index.php?page=44 [L]
 
-RewriteRule ^manufacturing/$ index.php?page=5 [L]
-RewriteRule ^manufacturing/kotlovanokopateli/$ index.php?page=51 [L]
-RewriteRule ^manufacturing/kotlovanokopateli/VK-3-rail/$ index.php?page=511 [L]
-RewriteRule ^manufacturing/kotlovanokopateli/MPT-VK-5/$ index.php?page=512 [L]
-RewriteRule ^manufacturing/kotlovanokopateli/VK-4-rail/$ index.php?page=513 [L]
-RewriteRule ^manufacturing/kotlovanokopateli/ADM-1.5B/$ index.php?page=514 [L]
-RewriteRule ^manufacturing/vibro-immersers/$ index.php?page=52 [L]
+RewriteRule ^navesnoe-oborudovanie/$ index.php?page=5 [L]
+RewriteRule ^navesnoe-oborudovanie/burovoe-oborudovanie/$ index.php?page=51 [L]
+RewriteRule ^navesnoe-oborudovanie/fundamend/$ index.php?page=52 [L]
+RewriteRule ^navesnoe-oborudovanie/vint/$ index.php?page=53 [L]
 
-RewriteRule ^buying-used-eqipment/$ index.php?page=6 [L]
-RewriteRule ^buying-used-eqipment/fitting-platforms/$ index.php?page=61 [L]
-RewriteRule ^buying-used-eqipment/drezins/$ index.php?page=62 [L]
-RewriteRule ^buying-used-eqipment/kotlovanokopateli/$ index.php?page=63 [L]
+RewriteRule ^manufacturing/$ index.php?page=6 [L]
+RewriteRule ^manufacturing/kotlovanokopateli/$ index.php?page=61 [L]
+RewriteRule ^manufacturing/kotlovanokopateli/VK-3-rail/$ index.php?page=611 [L]
+RewriteRule ^manufacturing/kotlovanokopateli/MPT-VK-5/$ index.php?page=612 [L]
+RewriteRule ^manufacturing/kotlovanokopateli/VK-4-rail/$ index.php?page=613 [L]
+RewriteRule ^manufacturing/kotlovanokopateli/ADM-1.5B/$ index.php?page=614 [L]
+RewriteRule ^manufacturing/vibro-immersers/$ index.php?page=62 [L]
 
-RewriteRule ^material/$ index.php?page=7 [L]
-RewriteRule ^material/drezina/$ index.php?page=71 [L]
-RewriteRule ^material/avtomatrisa/$ index.php?page=72 [L]
-RewriteRule ^material/motovoz/$ index.php?page=73 [L]
-RewriteRule ^material/vibropogruzhatel/$ index.php?page=74 [L]
-RewriteRule ^material/vibropogruzhatel/princip/$ index.php?page=741 [L]
-RewriteRule ^material/vibropogruzhatel/tehn-haracter/$ index.php?page=742 [L]
+RewriteRule ^buying-used-eqipment/$ index.php?page=7 [L]
+RewriteRule ^buying-used-eqipment/fitting-platforms/$ index.php?page=71 [L]
+RewriteRule ^buying-used-eqipment/drezins/$ index.php?page=72 [L]
+RewriteRule ^buying-used-eqipment/kotlovanokopateli/$ index.php?page=73 [L]
 
-RewriteRule ^news/$ index.php?page=8 [L]
+RewriteRule ^material/$ index.php?page=8 [L]
+RewriteRule ^material/drezina/$ index.php?page=81 [L]
+RewriteRule ^material/avtomatrisa/$ index.php?page=82 [L]
+RewriteRule ^material/motovoz/$ index.php?page=83 [L]
+RewriteRule ^material/vibropogruzhatel/$ index.php?page=84 [L]
+RewriteRule ^material/vibropogruzhatel/princip/$ index.php?page=841 [L]
+RewriteRule ^material/vibropogruzhatel/tehn-haracter/$ index.php?page=842 [L]
 
-RewriteRule ^contact/$ index.php?page=9 [L]
+RewriteRule ^news/$ index.php?page=9 [L]
 
-RewriteRule ^video/$ index.php?page=10 [L]
+RewriteRule ^contact/$ index.php?page=10 [L]
+
+RewriteRule ^video/$ index.php?page=11 [L]
 
 
 ErrorDocument 404 /index.php?page=404
