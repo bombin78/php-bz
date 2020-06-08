@@ -18,7 +18,7 @@
 		<!-- <script type="text/javascript" src="/bitrix/templates/main-template/js/jquery-1.2.6.js"></script>
 		<script type="text/javascript" src="/bitrix/templates/main-template/js/jquery.validate.js"></script> -->
 
-		<form method="POST" id="order-form">
+		<form method="POST" id="order-form" action="mail.php">
 			<table width="550px" cellpadding="3" cellspacing="0" border="0">
 			<tbody><tr>
 			<td><b>1.&nbsp;Название и&nbsp;описание технологического процесса, в&nbsp;котором будет использован теплообменник</b><span class="starrequired">*</span></td>
@@ -158,7 +158,7 @@
 				Пластинчатые рекуператоры
 			</a>"
 		</p>
-		
+
 	</div>
 
 </section>

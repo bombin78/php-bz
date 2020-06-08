@@ -1,5 +1,5 @@
 <div class="sidebar">
-	<?php displaySidebar($pageId, $breadcrambItems, $linkParam); ?>
+	<?php displaySidebar($pageId, $menuItems, $linkParam); ?>
 	<div class="sidebar__info">
 		<div class="sidebar__info-recuperator recuperator">
 			<a class="recuperator__link" href="http://rekuperator.ru/" title="Пластинчатые рекуператоры БушевецТермо - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
@@ -51,11 +51,11 @@ function displayBlockLinks($menuItem, $linkParam) {
 }
 
 // Вспомогательная функция вывода бокового меню
-function displayMenu($menu, $linkParam){
+function displayMenu($menuItems, $linkParam){
 
 	echo "<ul class = 'sidebar__menu page-list'>";
 
-	foreach($menu as $line) {
+	foreach($menuItems as $line) {
 
 		echo "<li class = 'page-list__item'>";
 		displayBlockLinks($line, $linkParam);

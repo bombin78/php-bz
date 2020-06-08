@@ -36,19 +36,22 @@ function getNewList($list, $nameParam, $pageId) {
 
 function setNewList($list, &$newList, $nameParam, $pageId) {
 
-	foreach($list as $key => $line) {
-		foreach($line['used'] as $item) {
-			if($item == $nameParam){
+	foreach($list as $line) {
+		// array_push($...., [
+		// 	'url' => $line['url'],
+		// 	'name' => $line['name'],
+		// 	'alias' => $line['alias'],
+		// ]);
 
-				$newItem = $line;
+		if(in_array($nameParam, $line['used'], true)){
 
-				if(is_array($line['items'])) {
-					$newItem['items'] = [];
-					setNewList($line['items'], $newItem['items'], $nameParam, $pageId);
-				}
+			$newItem = $line;
 
-				array_push($newList, $newItem);
+			if(is_array($line['items'])) {
+				$newItem['items'] = [];
+				setNewList($line['items'], $newItem['items'], $nameParam, $pageId);
 			}
+			array_push($newList, $newItem);
 		}
 	}
 }
