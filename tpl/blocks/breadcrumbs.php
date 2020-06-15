@@ -1,8 +1,10 @@
 <ul class="breadcrumbs">
 <?php
-    foreach($breadcrambs as $item) {
-        echo '<li class="first">';
-        echo '<a href="'.$item['url'].'" title="'.$item['name'].'">'.$item['name'].'</a>';
+    foreach($breadcrambItems as $key => $item) {
+        echo '<li class="breadcrumbs__item">';
+        //if($key < $breadcrambItems.count()) {
+            echo '<a href="'.$item['url'].'" title="'.$item['name'].'">'.$item['name'].'</a>';
+        //}
         echo '</li>';
     }
 ?>

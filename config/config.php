@@ -24,34 +24,57 @@ $commonParams = json_decode(file_get_contents($path.'/config/data/common.json'),
 $routesParams  = json_decode(file_get_contents($path.'/config/data/items.json'),true);
 $connectParams = json_decode(file_get_contents($path.'/config/data/pages.json'),true);
 
-$menuItems = getNewList($routesParams, 'menu', $pageId);
-$breadcrambItems = getNewList($routesParams, 'breadcrambs', $pageId);
+$menuItems = getNewList($routesParams, $routesParams[0], $pageId);
+setBreadcrambItems($menuItems, $breadcrambItems, $pageId);
 
-function getNewList($list, $nameParam, $pageId) {
+function getNewList($list, $rootItem, $pageId) {
 
 	$newList = [];
-	setNewList($list, $newList, $nameParam, $pageId);
+	$breadcrambs = [];
+	array_push($breadcrambs, [
+		'url' => $rootItem['url'],
+		'name' => $rootItem['name'],
+		'alias' => $rootItem['alias'],
+	]);
+
+	setNewList($rootItem['id'], $pageId, $list, $newList, $breadcrambs);
 	return $newList;
 }
 
-function setNewList($list, &$newList, $nameParam, $pageId) {
+function setNewList($rootItemId, $pageId, $list, &$newList, $breadcrambs) {
 
 	foreach($list as $line) {
-		// array_push($...., [
-		// 	'url' => $line['url'],
-		// 	'name' => $line['name'],
-		// 	'alias' => $line['alias'],
-		// ]);
 
-		if(in_array($nameParam, $line['used'], true)){
+		if($rootItemId !== $line['id']){
 
 			$newItem = $line;
+			$newItem['breadcrambs'] = $breadcrambs;
+			array_push($newItem['breadcrambs'], [
+				'url' => $line['url'],
+				'name' => $line['name'],
+				'alias' => $line['alias'],
+			]);
 
-			if(is_array($line['items'])) {
+			if(is_array($line['items']) ) {
 				$newItem['items'] = [];
-				setNewList($line['items'], $newItem['items'], $nameParam, $pageId);
+				setNewList($rootItemId, $pageId, $line['items'], $newItem['items'], $newItem['breadcrambs']);
 			}
 			array_push($newList, $newItem);
+		}
+	}
+}
+
+function setBreadcrambItems($menuItems, &$breadcrambItems, $pageId) {
+
+	foreach($menuItems as $line) {
+
+		if($line['id'] == $pageId) {
+			$breadcrambItems = $line['breadcrambs'];
+			break;
+		}
+
+		if (is_array($line['items'])) {
+			setBreadcrambItems($line['items'], $breadcrambItems, $pageId);
 		}
 	}
 }
