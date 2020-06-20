@@ -12,7 +12,7 @@ html {
 body {
 
 	background  : $white;
-	color       : #000000;
+	color       : $black;
 	font-weight : normal;
 	font-size   : $fontSize;
 	font-family : Tahoma, sans-serif;
@@ -24,7 +24,7 @@ img {
 }
 
 a {
-	color : #2658a2;
+	color : $blue;
 }
 
 strong, b {

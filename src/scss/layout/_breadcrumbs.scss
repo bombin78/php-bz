@@ -2,7 +2,13 @@
     display: flex;
     justify-content: flex-start;
     padding: 0 20px;
-    &__item {
-        margin-right: 8px;
+
+    &__separator {
+        margin: {
+            right: 5px;
+            left: 5px;
+        }
+
+        color : $blue;
     }
 }

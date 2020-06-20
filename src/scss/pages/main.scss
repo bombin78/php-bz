@@ -3,6 +3,7 @@
 
 .page {
 	@include main-content();
+	padding-top:28px;
 
 	.description {
 		@include description();
