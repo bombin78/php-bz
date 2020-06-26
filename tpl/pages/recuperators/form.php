@@ -11,357 +11,368 @@
 		</div>
 
 
-		<h3>Опросный лист для разработки исходных требований к проектированию  теплообменника типа ОПТ </h3>
-		<p>
-			Также вы можете <b><a href="/media/recuperators-form.doc">скачать опросный лист</a></b>, заполнить его и отправить нам по факсу.<br><br>
-		</p>
-		<!-- <script type="text/javascript" src="/bitrix/templates/main-template/js/jquery-1.2.6.js"></script>
-		<script type="text/javascript" src="/bitrix/templates/main-template/js/jquery.validate.js"></script> -->
+		<div class="checklist">
 
-		<form method="POST" id="order-form" action="mail.php">
-			<table width="550px" cellpadding="3" cellspacing="0" border="0">
-			<tbody>
 
-				<tr>
-					<td>
-						<b>1. Название и описание технологического процесса, в котором будет использован теплообменник</b>
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<textarea cols="30" rows="4" name="f1" class="required"></textarea>
-					</td>
-				</tr>
+			<!-- <script type="text/javascript" src="/bitrix/templates/main-template/js/jquery-1.2.6.js"></script>
+			<script type="text/javascript" src="/bitrix/templates/main-template/js/jquery.validate.js"></script> -->
 
-				<tr>
-					<td colspan="2">
-						<b>2.Теплоноситель</b>
-					</td>
-				</tr>
+			<form class="checklist__form" method="POST" id="order-form" action="mail.php">
 
-				<tr>
-					<td class="label">
-						Греющая среда
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<select name="f2_1" class="required">
-							<option value="газ">газ</option>
-							<option value="жидкость">жидкость</option>
-							<option value="воздух">воздух</option>
-						</select>
-					</td>
-				</tr>
+				<h2 class="checklist__title">
+					Опросный лист для разработки исходных требований<br> к проектированию  теплообменника типа ОПТ
+				</h3>
 
-				<tr>
-					<td class="label">
-						Температура на входе теплообменника ,°C
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input type="text" size="40" class="required" name="f2_2">
-					</td>
-				</tr>
+				<p class="checklist__download">
+					(также вы можете <b><a href="/docs/recuperators-form.doc">скачать опросный лист</a></b>,
+					заполнить его и отправить нам по факсу)
+				</p>
 
-				<tr>
-					<td class="label">
-						Температура на выходе теплообменника ,°C
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f2_3">
-					</td>
-				</tr>
+				<ul class="params">
 
-				<tr>
-					<td class="label">
-						Расход газа (подводимого к теплообменнику), м³ /час, (или кг/час)
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input type="text" class="required" size="40" name="f2_4">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							<b>1. Название и описание технологического процесса, в котором будет использован теплообменник</b>
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<textarea cols="30" rows="4" name="f1" required></textarea>
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						Давление на входе теплообменника, МПа
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input type="text" class="required" size="40" name="f2_5">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__subtitle">
+							<b>2.Теплоноситель</b>
+						</div>
 
-				<tr>
-					<td class="label">
-						Химический состав
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input type="text" class="required" size="40" name="f2_6">
-					</td>
-				</tr>
+						<ul class="params__sublist">
+							<li class="params__item">
+								<div class="params__label">
+									Греющая среда
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<select name="f2_1" required>
+										<option value="газ">газ</option>
+										<option value="жидкость">жидкость</option>
+										<option value="воздух">воздух</option>
+									</select>
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Количество механических примесей, г/м³
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f2_7">
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Температура на входе теплообменника ,°C
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input type="text" required name="f2_2">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Допустимое аэродинамическое сопротивление, мм.вод.ст.
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f2_8">
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Температура на выходе теплообменника ,°C
+								</div>
+								<div class="params__field">
+									<input type="text" name="f2_3">
+								</div>
+							</li>
 
-				<tr>
-					<td colspan="2">
-						<b>3. Нагреваемая среда</b>
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Расход газа (подводимого к теплообменнику), м³ /час, (или кг/час)
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input type="text" required name="f2_4">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Нагреваемая среда
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<select class="required" name="f3_1">
-							<option value="газ">газ</option>
-							<option value="жидкость">жидкость</option>
-						</select>
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Давление на входе теплообменника, МПа
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input type="text" required name="f2_5">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Температура на входе теплообменника ,°C
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f3_2">
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Химический состав
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input type="text" required name="f2_6">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Температура на выходе теплообменника,°C
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f3_3">
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Количество механических примесей, г/м³
+								</div>
+								<div class="params__field">
+									<input type="text" name="f2_7">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Расход воздуха (подводимого к теплообменнику), м³/час (или кг/час)
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f3_4">
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Допустимое аэродинамическое сопротивление, мм.вод.ст.
+								</div>
+								<div class="params__field">
+									<input type="text" name="f2_8">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						Давление на входе теплообменника, МПа
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f3_5">
-					</td>
-				</tr>
+						</ul>
+					</li>
 
-				<tr>
-					<td class="label">
-						Допустимое аэродинамическое сопротивление, мм.вод.ст.
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f3_6">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__subtitle">
+							<b>3. Нагреваемая среда</b>
+						</div>
 
-				<tr>
-					<td class="label">
-						4. Место предполагаемой установки теплообменника (описание, эскизы с размерами, фото)
-					</td>
-					<td class="field">
-						<textarea cols="30" rows="4" name="f4"></textarea>
-					</td>
-				</tr>
+						<ul class="params__sublist">
+							<li class="params__item">
+								<div class="params__label">
+									Нагреваемая среда
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<select required name="f3_1">
+										<option value="газ">газ</option>
+										<option value="жидкость">жидкость</option>
+									</select>
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">5.
-						Присоединительные размеры и сечения подводящих и отводящих магистралей
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f5"></td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Температура на входе теплообменника ,°C
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input required type="text" name="f3_2">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						6. Есть ли ограничения по геометрическим размерам (ширине, глубине, высоте)
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f6">
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Температура на выходе теплообменника,°C
+								</div>
+								<div class="params__field">
+									<input type="text" name="f3_3">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						7. Режим работы теплообменника
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<select class="required" name="f7">
-							<option value="односменный">односменный</option>
-							<option value="двухсменный">двухсменный</option>
-							<option value="непрерывный">непрерывный</option>
-						</select>
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Расход воздуха (подводимого к теплообменнику), м³/час (или кг/час)
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input required type="text" name="f3_4">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						8. Направление движения сред
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<select name="f8">
-							<option value="встречное">встречное</option>
-							<option value="перекрестное">перекрестное</option>
-							<option value="согласное">согласное</option>
-						</select>
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Давление на входе теплообменника, МПа
+									<span class="starrequired">*</span>
+								</div>
+								<div class="params__field">
+									<input required type="text" name="f3_5">
+								</div>
+							</li>
 
-				<tr>
-					<td class="label">
-						9. Использовались ли ранее в данном технологическом процессе теплообменники?<br>
-						<small>Если использовался, то их параметры (габариты, срок службы, недостатки, достоинства, технические характеристики указанные выше)</small>
-					</td>
-					<td class="field">
-						<textarea name="f9" cols="30" rows="6"></textarea>
-					</td>
-				</tr>
+							<li class="params__item">
+								<div class="params__label">
+									Допустимое аэродинамическое сопротивление, мм.вод.ст.
+								</div>
+								<div class="params__field">
+									<input type="text" name="f3_6">
+								</div>
+							</li>
+						</ul>
 
-				<tr>
-					<td class="label">
-						10. Откуда предполагается производить забор нагреваемой среды
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<select class="required" name="f10">
-							<option value="из помещения">из помещения</option>
-							<option value="с улицы">с улицы</option>
-						</select>
-					</td>
-				</tr>
+					</li>
+					<li class="params__item">
+						<div class="params__label">
+							4. Место предполагаемой установки теплообменника (описание, эскизы с размерами, фото)
+						</div>
+						<div class="params__field">
+							<textarea cols="30" rows="4" name="f4"></textarea>
+						</div>
+					</li>
 
-				<tr>
-				</tr>
-				<tr>
-					<td class="label">
-						11. Назначение нагретой среды, куда производится ее выброс
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f11">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							5. Присоединительные размеры и сечения подводящих и отводящих магистралей
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f5">
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						12. Требуется ли разработка и изготовление теплоизоляции (или она делается «по месту»)?
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f12">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							6. Есть ли ограничения по геометрическим размерам (ширине, глубине, высоте)
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f6">
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						13. Количество  теплообменников
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f13">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							7. Режим работы теплообменника
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<select required name="f7">
+								<option value="односменный">односменный</option>
+								<option value="двухсменный">двухсменный</option>
+								<option value="непрерывный">непрерывный</option>
+							</select>
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						14. Необходимые сроки поставки
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f14">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							8. Направление движения сред
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<select name="f8">
+								<option value="встречное">встречное</option>
+								<option value="перекрестное">перекрестное</option>
+								<option value="согласное">согласное</option>
+							</select>
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						15. Источник информации, из которого узнали о теплообменниках типа ОПТ (Оребренный Пластинчатый Теплообменник)
-					</td>
-					<td class="field">
-						<input type="text" size="40" name="f15">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							9. Использовались ли ранее в данном технологическом процессе теплообменники?<br>
+							<small>Если использовался, то их параметры (габариты, срок службы, недостатки, достоинства, технические характеристики указанные выше)</small>
+						</div>
+						<div class="params__field">
+							<textarea name="f9" cols="30" rows="6"></textarea>
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						16. Название и реквизиты предприятия-заказчика
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<textarea class="required" cols="30" rows="6" name="f16"></textarea>
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							10. Откуда предполагается производить забор нагреваемой среды
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<select required name="f10">
+								<option value="из помещения">из помещения</option>
+								<option value="с улицы">с улицы</option>
+							</select>
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						17. Ф.И.О. контактного лица
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f17">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							11. Назначение нагретой среды, куда производится ее выброс
+						</div>
+						<div class="params__field">
+							<input type="text" name="f11">
+						</div>
+					</li>
 
-				<tr>
-					<td class="label">
-						18. Телефон контактного лица
-						<span class="starrequired">*</span>
-					</td>
-					<td class="field">
-						<input class="required" type="text" size="40" name="f18">
-					</td>
-				</tr>
+					<li class="params__item">
+						<div class="params__label">
+							12. Требуется ли разработка и изготовление теплоизоляции (или она делается «по месту»)?
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f12">
+						</div>
+					</li>
 
-				<tr>
-					<td colspan="2">
+					<li class="params__item">
+						<div class="params__label">
+							13. Количество  теплообменников
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f13">
+						</div>
+					</li>
+
+					<li class="params__item">
+						<div class="params__label">
+							14. Необходимые сроки поставки
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f14">
+						</div>
+					</li>
+
+					<li class="params__item">
+						<div class="params__label">
+							15. Источник информации, из которого узнали о теплообменниках типа ОПТ (Оребренный Пластинчатый Теплообменник)
+						</div>
+						<div class="params__field">
+							<input type="text" name="f15">
+						</div>
+					</li>
+
+					<li class="params__item">
+						<div class="params__label">
+							16. Название и реквизиты предприятия-заказчика
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<textarea required cols="30" rows="6" name="f16"></textarea>
+						</div>
+					</li>
+
+					<li class="params__item">
+						<div class="params__label">
+							17. Ф.И.О. контактного лица
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f17">
+						</div>
+					</li>
+
+					<li class="params__item">
+						<div class="params__label">
+							18. Телефон контактного лица
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input required type="text" name="f18">
+						</div>
+					</li>
+
+				</ul>
+
+				<div>
+					<div>
 						<span class="starrequired">*</span>
 						— поля, обязательные для заполнения.
-					</td>
-				</tr>
-
-				<tr>
-					<td colspan="2" align="right">
+					</div>
+					<div>
 						<input type="submit" id="submit" name="send" value="Отправить заявку">
 						<input type="reset" name="clear" value="Очистить форму">
-					</td>
-				</tr>
+					</div>
+				</div>
 
-			</tbody>
-			</table>
-		</form>
+			</form>
+
+		</div>
 
 		<!-- <script type="text/javascript">
 			$(document).ready(function(){
