@@ -36,7 +36,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<textarea cols="30" rows="4" name="f1" required></textarea>
+							<textarea cols="30" rows="4" name="f1"></textarea>
 						</div>
 					</li>
 
@@ -52,7 +52,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<select name="f2_1" required>
+									<select name="f2_1">
 										<option value="газ">газ</option>
 										<option value="жидкость">жидкость</option>
 										<option value="воздух">воздух</option>
@@ -66,7 +66,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input type="text" required name="f2_2">
+									<input type="text" name="f2_2">
 								</div>
 							</li>
 
@@ -85,7 +85,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input type="text" required name="f2_4">
+									<input type="text" name="f2_4">
 								</div>
 							</li>
 
@@ -95,7 +95,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input type="text" required name="f2_5">
+									<input type="text" name="f2_5">
 								</div>
 							</li>
 
@@ -105,7 +105,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input type="text" required name="f2_6">
+									<input type="text" name="f2_6">
 								</div>
 							</li>
 
@@ -142,7 +142,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<select required name="f3_1">
+									<select name="f3_1">
 										<option value="газ">газ</option>
 										<option value="жидкость">жидкость</option>
 									</select>
@@ -155,7 +155,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input required type="text" name="f3_2">
+									<input type="text" name="f3_2">
 								</div>
 							</li>
 
@@ -174,7 +174,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input required type="text" name="f3_4">
+									<input type="text" name="f3_4">
 								</div>
 							</li>
 
@@ -184,7 +184,7 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input required type="text" name="f3_5">
+									<input type="text" name="f3_5">
 								</div>
 							</li>
 
@@ -214,7 +214,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f5">
+							<input type="text" name="f5">
 						</div>
 					</li>
 
@@ -224,7 +224,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f6">
+							<input type="text" name="f6">
 						</div>
 					</li>
 
@@ -234,7 +234,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<select required name="f7">
+							<select name="f7">
 								<option value="односменный">односменный</option>
 								<option value="двухсменный">двухсменный</option>
 								<option value="непрерывный">непрерывный</option>
@@ -272,7 +272,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<select required name="f10">
+							<select name="f10">
 								<option value="из помещения">из помещения</option>
 								<option value="с улицы">с улицы</option>
 							</select>
@@ -294,7 +294,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f12">
+							<input type="text" name="f12">
 						</div>
 					</li>
 
@@ -304,7 +304,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f13">
+							<input type="text" name="f13">
 						</div>
 					</li>
 
@@ -314,7 +314,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f14">
+							<input type="text" name="f14">
 						</div>
 					</li>
 
@@ -333,7 +333,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<textarea required cols="30" rows="6" name="f16"></textarea>
+							<textarea cols="30" rows="6" name="f16"></textarea>
 						</div>
 					</li>
 
@@ -343,7 +343,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f17">
+							<input type="text" name="f17">
 						</div>
 					</li>
 
@@ -353,7 +353,7 @@
 							<span class="starrequired">*</span>
 						</div>
 						<div class="params__field">
-							<input required type="text" name="f18">
+							<input type="text" name="f18">
 						</div>
 					</li>
 
@@ -374,14 +374,144 @@
 
 		</div>
 
-		<!-- <script type="text/javascript">
+		<script type="text/javascript">
 			$(document).ready(function(){
-				$("#order-form").validate();
-			 	$(".required").validate({
-			  		rules: { field: "required" }
+				$("#order-form").validate({
+					rules: {
+						f1: {
+							required: true,
+						},
+						f2_1: {
+							required: true,
+						},
+						f2_2: {
+							required: true,
+						},
+						f2_4: {
+							required: true,
+						},
+						f2_5: {
+							required: true,
+						},
+						f2_6: {
+							required: true,
+						},
+						f3_1: {
+							required: true,
+						},
+						f3_2: {
+							required: true,
+						},
+						f3_4: {
+							required: true,
+						},
+						f3_5: {
+							required: true,
+						},
+						f5: {
+							required: true,
+						},
+						f6: {
+							required: true,
+						},
+						f7: {
+							required: true,
+						},
+						f10: {
+							required: true,
+						},
+						f11: {
+							required: true,
+						},
+						f12: {
+							required: true,
+						},
+						f13: {
+							required: true,
+							digits: true,
+						},
+						f14: {
+							required: true,
+						},
+						f16: {
+							required: true,
+						},
+						f17: {
+							required: true,
+						},
+						f18: {
+							required: true,
+						},
+					},
+					messages: {
+						f1: {
+							required: 'поле не заполнено',
+						},
+						f2_1: {
+							required: 'поле не заполнено',
+						},
+						f2_2: {
+							required: 'поле не заполнено',
+						},
+						f2_4: {
+							required: 'поле не заполнено',
+						},
+						f2_5: {
+							required: 'поле не заполнено',
+						},
+						f2_6: {
+							required: 'поле не заполнено',
+						},
+						f3_1: {
+							required: 'поле не заполнено',
+						},
+						f3_2: {
+							required: 'поле не заполнено',
+						},
+						f3_4: {
+							required: 'поле не заполнено',
+						},
+						f3_5: {
+							required: 'поле не заполнено',
+						},
+						f5: {
+							required: 'поле не заполнено',
+						},
+						f6: {
+							required: 'поле не заполнено',
+						},
+						f7: {
+							required: 'поле не заполнено',
+						},
+						f10: {
+							required: 'поле не заполнено',
+						},
+						f11: {
+							required: 'поле не заполнено',
+						},
+						f12: {
+							required: 'поле не заполнено',
+						},
+						f13: {
+							required: 'поле не заполнено',
+							digits: 'значение должно быть целым числом',
+						},
+						f14: {
+							required: 'поле не заполнено',
+						},
+						f16: {
+							required: 'поле не заполнено',
+						},
+						f17: {
+							required: 'поле не заполнено',
+						},
+						f18: {
+							required: 'поле не заполнено',
+						},
+					},
 				});
 			});
-		</script> -->
+		</script>
 
 		<p>
 			Деятельность Бушевецкого завода отражена на основном сайте "

@@ -73,6 +73,7 @@ include_once($path."config/config.php");
 </div>
 <input id="abs_address" type="hidden" value="<?php echo $path; ?>"><!-- for gallery-master -->
 <script src="/vendors/gallery-master/js/jquery.blueimp-gallery.min.js"></script>
+<script src="/vendors/jquery-validation-1.19.2/jquery.validate.min.js"></script>
 <script>
 	$('.blueimp-links').on('click', function (event) {
 		event = event || window.event;

@@ -57,17 +57,62 @@
 		}
 
 		&__field {
+			position: relative;
 			width: 50%;
-
 
 			textarea,
 			select,
-			input {
+			input[type="text"] {
 				width: 100%;
 
-				//&:required:invalid {
-				&:invalid {
-					border: 1px solid $red;
+				background: $white;
+				border-radius: 3px;
+				border: 1px solid $middleGray;
+			}
+
+			select,
+			input[type="text"] {
+				padding: 4px 10px;
+				height: 28px;
+			}
+
+			textarea {
+				padding: 8px 10px;
+				min-width: 100%;
+				max-width: 100%;
+			}
+
+			label.error {
+				position: absolute;
+				bottom: 100%;
+				left: 50%;
+				margin-bottom: 10px;
+			    padding: 6px 12px;
+			    min-width: 100px;
+
+			    border-radius: 3px;
+			    border: 1px solid $brError;
+			    background: $bgError;
+
+			    color: $red;
+			    white-space: nowrap;
+			    transform: translate(-50%, 0);
+
+				&::before {
+					content: '';
+				    display: block;
+				    position: absolute;
+					bottom: -5px;
+				    width: 0;
+				    height: 0;
+					left: 50%;
+
+				    border: {
+						left: 6px solid transparent;
+					    right: 6px solid transparent;
+					    top: 6px solid #f4d3d3;
+					}
+				    transform: translate(-50%, 0);
 				}
 			}
 		}
