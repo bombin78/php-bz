@@ -5,7 +5,7 @@
 	<div class="description">
 
 		<div class="description__row">
-			
+
 			<div class="marquee">
 				<a class="marquee__link" href="http://rekuperator.ru/opros/">
 					<span>
@@ -174,7 +174,7 @@
 
 					<ul class="additional-material__list">
 			    		<li class="additional-material__item">
-							<a class="additional-material__link" href="http://bushevec.ru/recuperators/obzor/">
+							<a class="additional-material__link" href="/recuperators/obzor/">
 								Рекуператоры
 							</a>
 						</li>
@@ -210,7 +210,7 @@
 
 			<p class="description__text">
 				Деятельность Бушевецкого завода отражена в основном разделе
-				<a href="http://bushevec.ru/recuperators/"><b>Рекуператоры</b></a>
+				<a href="/recuperators/"><b>Рекуператоры</b></a>
 			</p>
 
 		</div>

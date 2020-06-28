@@ -9,7 +9,7 @@ if($dev){
 } else {
 	$linkParam = 'alias';
 	$siteMapLink = '/';
-	$contactsLink = 'contact/';
+	$contactsLink = '/contact/';
 }
 
 if (isset ($_GET['page'])) $pageId = $_GET['page'];
