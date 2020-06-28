@@ -73,35 +73,35 @@
             <img class="site-map__img" src="/images/pages/main/site-map.png" title="карта сайта" usemap="#Map" border="0" alt="site-map.png" width="953" height="650">
             <map name="Map">
                 <!-- главная -->
-                <area href="http://bushevec.ru/" coords="468,390,80" shape="CIRCLE">
+                <area href="<?= $routesParams[0][$linkParam]?>" coords="468,390,80" shape="CIRCLE">
                 <!-- рекуператоры -->
-                <area href="http://bushevec.ru/recuperators/" coords="322,535,70" shape="CIRCLE">
-                <!-- запчачти к машинам АВФ -->
-                <area href="http://bushevec.ru/spare-parts/" coords="620,535,70" shape="CIRCLE">
+                <area href="<?= $routesParams[1][$linkParam]?>" coords="322,535,70" shape="CIRCLE">
                 <!-- капитальный ремонт -->
-                <area href="http://www.bushevec.ru/capital-remont/" coords="670,345,70" shape="CIRCLE">
+                <area href="<?= $routesParams[2][$linkParam]?>" coords="670,345,70" shape="CIRCLE">
                 <!-- капитальный ремонт - вибропогружатели -->
-                <area href="http://bushevec.ru/capital-remont/vibro-immersers/" coords="750,195,900,240" shape="RECT">
+                <area href="<?= $routesParams[2]['items'][0][$linkParam]?>" coords="750,195,900,240" shape="RECT">
                 <!-- капитальный ремонт - Котлованокопатели на любой базе -->
-                <area href="http://bushevec.ru/capital-remont/cotlovanokopately-base/" coords="765,260,918,303" shape="RECT">
+                <area href="<?= $routesParams[2]['items'][2][$linkParam]?>" coords="765,260,918,303" shape="RECT">
                 <!-- капитальный ремонт - дрезины -->
-                <area href="http://bushevec.ru/capital-remont/drezin/" coords="785,325,940,365" shape="RECT">
+                <area href="<?= $routesParams[2]['items'][1][$linkParam]?>" coords="785,325,940,365" shape="RECT">
+                <!-- запчачти к машинам АВФ -->
+                <area href="<?= $routesParams[3][$linkParam]?>" coords="620,535,70" shape="CIRCLE">
                 <!-- изготовление новых машин -->
-                <area href="http://bushevec.ru/manufacturing/" coords="468,185,70" shape="CIRCLE">
-                <!-- изготовление новых машин - вибропогружатели -->
-                <area href="http://bushevec.ru/manufacturing/vibro-immersers/" coords="283,48,436,90" shape="RECT">
+                <area href="<?= $routesParams[5][$linkParam]?>" coords="468,185,70" shape="CIRCLE">
                 <!-- изготовление новых машин - катлованокопатели -->
-                <area href="http://bushevec.ru/manufacturing/kotlovanokopateli/" coords="504,48,656,90" shape="RECT">
+                <area href="<?= $routesParams[5]['items'][0][$linkParam]?>" coords="504,48,656,90" shape="RECT">
+                <!-- изготовление новых машин - вибропогружатели -->
+                <area href="<?= $routesParams[5]['items'][1][$linkParam]?>" coords="283,48,436,90" shape="RECT">
                 <!-- приобретение и продажа б/у техникики -->
-                <area href="http://bushevec.ru/buying-used-eqipment/" coords="268,343,70" shape="CIRCLE">
-                <!-- приобретение и продажа б/у техникики - Котлованокопатели и вибропогружатели -->
-                <area href="http://bushevec.ru/buying-used-eqipment/kotlovanokopateli/" coords="39,228,190,266" shape="RECT">
-                <!-- приобретение и продажа б/у техникики - Котлованокопатели и вибропогружатели -->
-                <area href="http://bushevec.ru/buying-used-eqipment/kotlovanokopateli/" coords="20,291,171,331" shape="RECT">
-                <!-- приобретение и продажа б/у техникики - дрезины -->
-                 <area href="http://bushevec.ru/buying-used-eqipment/drezins/" coords="20,353,171,395" shape="RECT">
+                <area href="<?= $routesParams[6][$linkParam]?>" coords="268,343,70" shape="CIRCLE">
                 <!-- приобретение и продажа б/у техникики - Фитинговые платформы -->
-                <area href="http://bushevec.ru/buying-used-eqipment/fitting-platforms/" coords="40,415,189,458" shape="RECT">
+                <area href="<?= $routesParams[6]['items'][0][$linkParam]?>" coords="40,415,189,458" shape="RECT">
+                <!-- приобретение и продажа б/у техникики - дрезины -->
+                <area href="<?= $routesParams[6]['items'][1][$linkParam]?>" coords="20,353,171,395" shape="RECT">
+                <!-- приобретение и продажа б/у техникики - Котлованокопатели и вибропогружатели -->
+                <area href="<?= $routesParams[6]['items'][2][$linkParam]?>" coords="39,228,190,266" shape="RECT">
+                <!-- приобретение и продажа б/у техникики - Котлованокопатели и вибропогружатели -->
+                <area href="<?= $routesParams[6]['items'][2][$linkParam]?>" coords="20,291,171,331" shape="RECT">
             </map>
         </div>
 
