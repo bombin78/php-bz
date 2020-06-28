@@ -11,11 +11,7 @@
 		</div>
 
 
-		<div class="checklist">
-
-
-			<!-- <script type="text/javascript" src="/bitrix/templates/main-template/js/jquery-1.2.6.js"></script>
-			<script type="text/javascript" src="/bitrix/templates/main-template/js/jquery.validate.js"></script> -->
+		<div class="description__checklist checklist">
 
 			<form class="checklist__form" method="POST" id="order-form" action="mail.php">
 
@@ -28,7 +24,7 @@
 					заполнить его и отправить нам по факсу)
 				</p>
 
-				<ul class="params">
+				<ul class="checklist__params params">
 
 					<li class="params__item">
 						<div class="params__label">
@@ -359,14 +355,18 @@
 
 				</ul>
 
-				<div>
-					<div>
+				<div class="checklist__footer">
+					<div class="checklist__footer-info">
 						<span class="starrequired">*</span>
 						— поля, обязательные для заполнения.
 					</div>
-					<div>
-						<input type="submit" id="submit" name="send" value="Отправить заявку">
-						<input type="reset" name="clear" value="Очистить форму">
+					<div class="checklist__footer-btns btns">
+						<button type="submit" class="btns__submit">
+							Отправить заявку
+						</button>
+						<button type="reset" class="btns__reset">
+							Очистить форму
+						</button>
 					</div>
 				</div>
 
@@ -512,13 +512,6 @@
 				});
 			});
 		</script>
-
-		<p>
-			Деятельность Бушевецкого завода отражена на основном сайте "
-			<a href="http://rekuperator.ru/info12.php" title="Пластинчатые рекуператоры Бушевецкого завода - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
-				Пластинчатые рекуператоры
-			</a>"
-		</p>
 
 	</div>
 

@@ -33,6 +33,15 @@
 		&__download {
 			margin-bottom: 40px;
 		}
+
+		&__footer {
+			display: flex;
+			justify-content: space-between;
+			margin: {
+				top:45px;
+				bottom: 35px;
+			}
+		}
 	}
 
 	.params {
@@ -116,9 +125,25 @@
 				}
 			}
 		}
+	}
 
-		.starrequired {
-			color: $red;
+	.starrequired {
+		color: $red;
+	}
+
+	.btns {
+
+		&__submit,
+		&__reset {
+			height:28px;
+			padding: 0 12px;
+
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		&__submit {
+			margin-right: 10px;
 		}
 	}
 }
