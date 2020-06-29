@@ -171,40 +171,9 @@
 					сферах применения рекуператоров, предлагаем ознакомиться с дополнительными материалами:
 				</dt>
 				<dd class="additional-material__value">
-
-					<ul class="additional-material__list">
-			    		<li class="additional-material__item">
-							<a class="additional-material__link" href="/recuperators/obzor/">
-								Рекуператоры
-							</a>
-						</li>
-			    		<li class="additional-material__item">
-							<a class="additional-material__link" href="/recuperators/v_sist-ventil/">
-								Рекуператоры в системах вентиляции
-							</a>
-						</li>
-			    		<li class="additional-material__link" class="additional-material__item">
-							<a class="additional-material__link" href="/recuperators/centr_otoplenie/">
-								Центральные кондиционеры. Рекуператоры
-							</a>
-						</li>
-			    		<li class="additional-material__item">
-							<a class="additional-material__link" href="/recuperators/sistema_ventil/">
-								Система вентиляции. Рекуператор
-							</a>
-						</li>
-			    		<li class="additional-material__item">
-							<a class="additional-material__link" href="/recuperators/teploizoljatori/">
-								Рекуператоры. Теплоутилизаторы пластинчатые
-							</a>
-						</li>
-			    		<li class="additional-material__item">
-							<a class="additional-material__link" href="/recuperators/articles/">
-								Подборка материалов по теме "Рекуператоры"
-							</a>
-						</li>
-			   		</ul>
-
+					<!-- список дополнительных материалов -->
+					<?php include_once $path."tpl/blocks/additional-materials.php" ?>
+					<!-- /список дополнительных материалов -->
 				</dd>
 			</dl>
 
