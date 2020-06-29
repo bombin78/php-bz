@@ -16,27 +16,75 @@
         "isVisible": false,
         "items": [
             {
+                "id": 21,
+                "level": 2,
+                "url": "index.php?page=21",
+                "name": "Рекуператоры нового поколения",
+                "alias": "recuperators/recuperator-industry-5/",
+                "isVisible": false
+            },
+            {
                 "id": 22,
                 "level": 2,
                 "url": "index.php?page=22",
-                "name": "Рекуператоры нового поколения",
-                "alias": "recuperators/recuperator-industry-5/",
+                "name": "Новости",
+                "alias": "recuperators/news/",
                 "isVisible": false
             },
             {
                 "id": 23,
                 "level": 2,
                 "url": "index.php?page=23",
-                "name": "Новости",
-                "alias": "recuperators/news/",
+                "name": "Опросный лист на теплообменники",
+                "alias": "recuperators/form/",
                 "isVisible": false
             },
             {
                 "id": 24,
                 "level": 2,
                 "url": "index.php?page=24",
-                "name": "Опросный лист на теплообменники",
-                "alias": "recuperators/form/",
+                "name": "Рекуператоры: обзор",
+                "alias": "recuperators/obzor/",
+                "isVisible": false
+            },
+            {
+                "id": 25,
+                "level": 2,
+                "url": "index.php?page=25",
+                "name": "Рекуператоры в системах вентиляции",
+                "alias": "recuperators/v_sist-ventil/",
+                "isVisible": false
+            },
+            {
+                "id": 26,
+                "level": 2,
+                "url": "index.php?page=26",
+                "name": "Центральные кондиционеры. Рекуператоры",
+                "alias": "recuperators/centr_otoplenie/",
+                "isVisible": false
+            },
+            {
+                "id": 27,
+                "level": 2,
+                "url": "index.php?page=27",
+                "name": "Система вентиляции. Рекуператор",
+                "alias": "recuperators/sistema_ventil/",
+                "isVisible": false
+            },
+            {
+                "id": 28,
+                "level": 2,
+                "url": "index.php?page=28",
+                "name": "Промышленные перекрестноточные рекуператоры тепла",
+                "alias": "recuperators/teploizoljatori/",
+                "isVisible": false
+            },
+            {
+                "id": 29,
+                "level": 2,
+                "url": "index.php?page=29",
+                "name": "Материалы по теме \"Рекуператоры\"",
+                "alias": "recuperators/articles/",
                 "isVisible": false
             }
         ]
