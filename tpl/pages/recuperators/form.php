@@ -13,7 +13,7 @@
 
 		<div class="description__checklist checklist">
 
-			<form class="checklist__form" method="POST" id="order-form" action="mail.php">
+			<form class="checklist__form" method="POST" id="order-form" action="/mail.php">
 
 				<h2 class="checklist__title">
 					Опросный лист для разработки исходных требований<br> к проектированию  теплообменника типа ОПТ
