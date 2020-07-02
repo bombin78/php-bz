@@ -31,6 +31,10 @@
                 </dd>
             </dl>
 
+			<p class="description__text">
+				Наша деятельность отражена в основном разделе "<a href="/recuperators/">Рекуператоры</a>".
+			</p>
+
 	    </div>
 
 	</div>
