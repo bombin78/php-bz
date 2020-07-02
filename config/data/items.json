@@ -384,5 +384,13 @@
         "name": "Видео",
         "alias": "video/",
         "isVisible": false
+    },
+    {
+        "id": 12,
+        "level": 1,
+        "url": "index.php?page=12",
+        "name": "Карта сайта",
+        "alias": "map/",
+        "isVisible": false
     }
 ]
