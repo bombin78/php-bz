@@ -60,5 +60,6 @@ RewriteRule ^contact/$ index.php?page=10 [L]
 
 RewriteRule ^video/$ index.php?page=11 [L]
 
+RewriteRule ^map/$ index.php?page=12 [L]
 
 ErrorDocument 404 /index.php?page=404

@@ -368,6 +368,14 @@
         "cssFile": "video.css"
     },
     {
+        "id": 12,
+        "title": "Карта сайта",
+        "keywords": "",
+        "description": "",
+        "phpFile": "tpl/pages/map.php",
+        "cssFile": "map.css"
+    },
+    {
         "id": 404,
         "title": "Ошибка 404",
         "keywords": "",

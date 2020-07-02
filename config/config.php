@@ -4,11 +4,11 @@ $dev = TRUE;
 
 if($dev){
 	$linkParam = 'url';
-	$siteMapLink = '/';
+	$siteMapLink = 'index.php?page=12';
 	$contactsLink = 'index.php?page=9';
 } else {
 	$linkParam = 'alias';
-	$siteMapLink = '/';
+	$siteMapLink = '/map/';
 	$contactsLink = '/contact/';
 }
 
