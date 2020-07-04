@@ -10,7 +10,8 @@ include_once($path."config/config.php");
 	<meta name="keywords" content="<?php echo $keywords; ?>">
 	<meta name="description" content="<?php echo $description; ?>">
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo $path; ?>favicon.ico">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
 	<link rel="stylesheet" href="/vendors/gallery-master/css/blueimp-gallery.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/css/<?php echo $cssFile; ?>">
