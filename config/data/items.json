@@ -5,7 +5,7 @@
         "url": "index.php?page=1",
         "name": "Главная",
         "alias": "",
-        "isVisible": false
+        "isMenu": false
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "url": "index.php?page=2",
         "name": "Рекуператор тепла",
         "alias": "recuperators/",
-        "isVisible": false,
+        "isMenu": true,
         "items": [
             {
                 "id": 21,
@@ -21,7 +21,7 @@
                 "url": "index.php?page=21",
                 "name": "Рекуператоры нового поколения",
                 "alias": "recuperators/recuperator-industry-5/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 22,
@@ -29,7 +29,7 @@
                 "url": "index.php?page=22",
                 "name": "Новости",
                 "alias": "recuperators/news/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 23,
@@ -37,7 +37,7 @@
                 "url": "index.php?page=23",
                 "name": "Опросный лист на теплообменники",
                 "alias": "recuperators/form/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 24,
@@ -45,7 +45,7 @@
                 "url": "index.php?page=24",
                 "name": "Рекуператоры: обзор",
                 "alias": "recuperators/obzor/",
-                "isVisible": false
+                "isMenu": false
             },
             {
                 "id": 25,
@@ -53,7 +53,7 @@
                 "url": "index.php?page=25",
                 "name": "Рекуператоры в системах вентиляции",
                 "alias": "recuperators/v_sist-ventil/",
-                "isVisible": false
+                "isMenu": false
             },
             {
                 "id": 26,
@@ -61,7 +61,7 @@
                 "url": "index.php?page=26",
                 "name": "Центральные кондиционеры. Рекуператоры",
                 "alias": "recuperators/centr_otoplenie/",
-                "isVisible": false
+                "isMenu": false
             },
             {
                 "id": 27,
@@ -69,7 +69,7 @@
                 "url": "index.php?page=27",
                 "name": "Система вентиляции. Рекуператор",
                 "alias": "recuperators/sistema_ventil/",
-                "isVisible": false
+                "isMenu": false
             },
             {
                 "id": 28,
@@ -77,7 +77,7 @@
                 "url": "index.php?page=28",
                 "name": "Промышленные перекрестноточные рекуператоры тепла",
                 "alias": "recuperators/teploizoljatori/",
-                "isVisible": false
+                "isMenu": false
             },
             {
                 "id": 29,
@@ -85,7 +85,7 @@
                 "url": "index.php?page=29",
                 "name": "Материалы по теме \"Рекуператоры\"",
                 "alias": "recuperators/articles/",
-                "isVisible": false
+                "isMenu": false
             }
         ]
     },
@@ -95,7 +95,7 @@
         "url": "index.php?page=3",
         "name": "Капитальный ремонт",
         "alias": "capital-remont/",
-        "isVisible": false,
+        "isMenu": true,
         "items": [
             {
                 "id": 31,
@@ -103,7 +103,7 @@
                 "url": "index.php?page=31",
                 "name": "Вибропогружатели",
                 "alias": "capital-remont/vibro-immersers/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 32,
@@ -111,7 +111,7 @@
                 "url": "index.php?page=32",
                 "name": "Дрезины, автомотрисы, мотовозы",
                 "alias": "capital-remont/drezin/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 33,
@@ -119,7 +119,7 @@
                 "url": "index.php?page=33",
                 "name": "Котлованокопатели на любой базе",
                 "alias": "capital-remont/cotlovanokopately-base/",
-                "isVisible": false,
+                "isMenu": true,
                 "items": [
                     {
                         "id": 331,
@@ -127,7 +127,7 @@
                         "url": "index.php?page=331",
                         "name": "ВК на базе дрезины ДГКУ",
                         "alias": "capital-remont/cotlovanokopately-base/VK-base-DGKU/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 332,
@@ -135,7 +135,7 @@
                         "url": "index.php?page=332",
                         "name": "ВК-3 на базе ЖД платформы",
                         "alias": "capital-remont/cotlovanokopately-base/VK3-rail/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 333,
@@ -143,7 +143,7 @@
                         "url": "index.php?page=333",
                         "name": "МПТ-ВК-5 на базе мотовоза МПТ-6",
                         "alias": "capital-remont/cotlovanokopately-base/MPT-VK-5/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 334,
@@ -151,7 +151,7 @@
                         "url": "index.php?page=334",
                         "name": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
                         "alias": "capital-remont/cotlovanokopately-base/ADM-1.5B/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 335,
@@ -159,7 +159,7 @@
                         "url": "index.php?page=335",
                         "name": "ВК-4М на базе ЖД платформы",
                         "alias": "capital-remont/cotlovanokopately-base/VK-4M-rail/",
-                        "isVisible": false
+                        "isMenu": true
                     }
                 ]
             }
@@ -171,7 +171,7 @@
         "url": "index.php?page=4",
         "name": "Запчасти к машинам ВК и АВФ",
         "alias": "spare-parts/",
-        "isVisible": false
+        "isMenu": true
     },
     {
         "id": 5,
@@ -179,7 +179,7 @@
         "url": "index.php?page=5",
         "name": "Навесное оборудование для АВФ и МС",
         "alias": "navesnoe-oborudovanie/",
-        "isVisible": false,
+        "isMenu": true,
         "items": [
             {
                 "id": 51,
@@ -187,7 +187,7 @@
                 "url": "index.php?page=51",
                 "name": "ТТН-057 для бурения лидирующих скважин",
                 "alias": "navesnoe-oborudovanie/burovoe-oborudovanie/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 52,
@@ -195,7 +195,7 @@
                 "url": "index.php?page=52",
                 "name": "ТТН-059 по разрушению фундамента",
                 "alias": "navesnoe-oborudovanie/fundamend/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 53,
@@ -203,7 +203,7 @@
                 "url": "index.php?page=53",
                 "name": "ТТН-064 для завинчивания винтовых металлических опор",
                 "alias": "navesnoe-oborudovanie/vint/",
-                "isVisible": false
+                "isMenu": true
             }
         ]
     },
@@ -213,7 +213,7 @@
         "url": "index.php?page=6",
         "name": "Изготовление новых машин",
         "alias": "manufacturing/",
-        "isVisible": false,
+        "isMenu": true,
         "items": [
             {
                 "id": 61,
@@ -221,7 +221,7 @@
                 "url": "index.php?page=61",
                 "name": "Котлованокопатели",
                 "alias": "manufacturing/kotlovanokopateli/",
-                "isVisible": false,
+                "isMenu": true,
                 "items": [
                     {
                         "id": 611,
@@ -229,7 +229,7 @@
                         "url": "index.php?page=611",
                         "name": "ВК-3 на базе ЖД платформы",
                         "alias": "manufacturing/kotlovanokopateli/VK-3-rail/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 612,
@@ -237,7 +237,7 @@
                         "url": "index.php?page=612",
                         "name": "МПТ-ВК-5 на базе мотовоза МПТ-6",
                         "alias": "manufacturing/kotlovanokopateli/MPT-VK-5/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 613,
@@ -245,7 +245,7 @@
                         "url": "index.php?page=613",
                         "name": "ВК-4 на базе ЖД платформы",
                         "alias": "manufacturing/kotlovanokopateli/VK-4-rail/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 614,
@@ -253,7 +253,7 @@
                         "url": "index.php?page=614",
                         "name": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
                         "alias": "manufacturing/kotlovanokopateli/ADM-1.5B/",
-                        "isVisible": false
+                        "isMenu": true
                     }
                 ]
             },
@@ -263,7 +263,7 @@
                 "url": "index.php?page=62",
                 "name": "Вибропогружатели – АВФ-1",
                 "alias": "manufacturing/vibro-immersers/",
-                "isVisible": false
+                "isMenu": true
             }
         ]
     },
@@ -273,7 +273,7 @@
         "url": "index.php?page=7",
         "name": "Приобретение б/у техники",
         "alias": "buying-used-eqipment/",
-        "isVisible": false,
+        "isMenu": true,
         "items": [
             {
                 "id": 71,
@@ -281,7 +281,7 @@
                 "url": "index.php?page=71",
                 "name": "Фитинговые платформы",
                 "alias": "buying-used-eqipment/fitting-platforms/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 72,
@@ -289,7 +289,7 @@
                 "url": "index.php?page=72",
                 "name": "Дрезины ДГКУ, АДМ, МПТ",
                 "alias": "buying-used-eqipment/drezins/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 73,
@@ -297,7 +297,7 @@
                 "url": "index.php?page=73",
                 "name": "Котлованокопатели и вибропогружатели",
                 "alias": "buying-used-eqipment/kotlovanokopateli/",
-                "isVisible": false
+                "isMenu": true
             }
         ]
     },
@@ -307,7 +307,7 @@
         "url": "index.php?page=8",
         "name": "Материалы",
         "alias": "material/",
-        "isVisible": false,
+        "isMenu": true,
         "items": [
             {
                 "id": 81,
@@ -315,7 +315,7 @@
                 "url": "index.php?page=81",
                 "name": "Дрезина, ремонт дрезин",
                 "alias": "material/drezina/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 82,
@@ -323,7 +323,7 @@
                 "url": "index.php?page=82",
                 "name": "Виды автоматрис и их назначение",
                 "alias": "material/avtomatrisa/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 83,
@@ -331,7 +331,7 @@
                 "url": "index.php?page=83",
                 "name": "Мотовоз, ремонт мотовоза",
                 "alias": "material/motovoz/",
-                "isVisible": false
+                "isMenu": true
             },
             {
                 "id": 84,
@@ -339,7 +339,7 @@
                 "url": "index.php?page=84",
                 "name": "Вибропогружатель",
                 "alias": "material/vibropogruzhatel/",
-                "isVisible": false,
+                "isMenu": true,
                 "items": [
                     {
                         "id": 841,
@@ -347,7 +347,7 @@
                         "url": "index.php?page=841",
                         "name": "Принцип действия вибропогружателя",
                         "alias": "material/vibropogruzhatel/princip/",
-                        "isVisible": false
+                        "isMenu": true
                     },
                     {
                         "id": 842,
@@ -355,7 +355,7 @@
                         "url": "index.php?page=842",
                         "name": "Технические характеристики вибропогружателей",
                         "alias": "material/vibropogruzhatel/tehn-haracter/",
-                        "isVisible": false
+                        "isMenu": true
                     }
                 ]
             }
@@ -367,7 +367,7 @@
         "url": "index.php?page=9",
         "name": "Новости",
         "alias": "news/",
-        "isVisible": false
+        "isMenu": true
     },
     {
         "id": 10,
@@ -375,15 +375,15 @@
         "url": "index.php?page=10",
         "name": "Контактная информация",
         "alias": "contact/",
-        "isVisible": false
+        "isMenu": true
     },
     {
         "id": 11,
         "level": 1,
         "url": "index.php?page=11",
-        "name": "Видео",
+        "name": "Видеоролики",
         "alias": "video/",
-        "isVisible": false
+        "isMenu": true
     },
     {
         "id": 12,
@@ -391,6 +391,6 @@
         "url": "index.php?page=12",
         "name": "Карта сайта",
         "alias": "map/",
-        "isVisible": false
+        "isMenu": false
     }
 ]

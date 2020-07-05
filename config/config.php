@@ -5,7 +5,7 @@ $dev = TRUE;
 if($dev){
 	$linkParam = 'url';
 	$siteMapLink = 'index.php?page=12';
-	$contactsLink = 'index.php?page=9';
+	$contactsLink = 'index.php?page=10';
 } else {
 	$linkParam = 'alias';
 	$siteMapLink = '/map/';
@@ -16,6 +16,7 @@ if (isset ($_GET['page'])) $pageId = $_GET['page'];
 else $pageId = 1;
 
 $path = "./";
+$validList = [];
 $menuItems = [];
 $breadcrambItems = [];
 
@@ -24,12 +25,14 @@ $commonParams = json_decode(file_get_contents($path.'/config/data/common.json'),
 $routesParams  = json_decode(file_get_contents($path.'/config/data/items.json'),true);
 $connectParams = json_decode(file_get_contents($path.'/config/data/pages.json'),true);
 
-$menuItems = getNewList($routesParams, $routesParams[0], $pageId);
-setBreadcrambItems($menuItems, $breadcrambItems, $pageId);
+$validList = getValidList($routesParams, $routesParams[0], $pageId);
 
-function getNewList($list, $rootItem, $pageId) {
+setMenuItems($validList, $menuItems);
+setBreadcrambItems($validList, $breadcrambItems, $pageId);
 
-	$newList = [];
+function getValidList($list, $rootItem, $pageId) {
+
+	$validList = [];
 	$breadcrambs = [];
 	array_push($breadcrambs, [
 		'url' => $rootItem['url'],
@@ -37,18 +40,20 @@ function getNewList($list, $rootItem, $pageId) {
 		'alias' => $rootItem['alias'],
 	]);
 
-	setNewList($rootItem['id'], $pageId, $list, $newList, $breadcrambs);
-	return $newList;
+	setValidList($rootItem['id'], $pageId, $list, $validList, $breadcrambs);
+	return $validList;
 }
 
-function setNewList($rootItemId, $pageId, $list, &$newList, $breadcrambs) {
+function setValidList($rootItemId, $pageId, $list, &$validList, $breadcrambs) {
 
 	foreach($list as $line) {
 
 		if($rootItemId !== $line['id']){
 
 			$newItem = $line;
+			$newItem['isVisible'] = false;
 			$newItem['breadcrambs'] = $breadcrambs;
+
 			array_push($newItem['breadcrambs'], [
 				'url' => $line['url'],
 				'name' => $line['name'],
@@ -57,16 +62,33 @@ function setNewList($rootItemId, $pageId, $list, &$newList, $breadcrambs) {
 
 			if(is_array($line['items']) ) {
 				$newItem['items'] = [];
-				setNewList($rootItemId, $pageId, $line['items'], $newItem['items'], $newItem['breadcrambs']);
+				setValidList($rootItemId, $pageId, $line['items'], $newItem['items'], $newItem['breadcrambs']);
 			}
-			array_push($newList, $newItem);
+			array_push($validList, $newItem);
 		}
 	}
 }
 
-function setBreadcrambItems($menuItems, &$breadcrambItems, $pageId) {
+function setMenuItems($validList, &$menuItems) {
 
-	foreach($menuItems as $line) {
+	foreach($validList as $line) {
+
+		if($line['isMenu']) {
+
+			$newItem = $line;
+
+			if (is_array($line['items'])) {
+				$newItem['items'] = [];
+				setMenuItems($line['items'], $newItem['items']);
+			}
+			array_push($menuItems, $newItem);
+		}
+	}
+}
+
+function setBreadcrambItems($validList, &$breadcrambItems, $pageId) {
+
+	foreach($validList as $line) {
 
 		if($line['id'] == $pageId) {
 			$breadcrambItems = $line['breadcrambs'];
