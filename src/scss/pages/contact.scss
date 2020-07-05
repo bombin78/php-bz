@@ -3,4 +3,8 @@
 
 .page {
 	@include main-content();
+
+	.description {
+		@include description();
+	}
 }
