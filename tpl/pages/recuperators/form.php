@@ -420,9 +420,6 @@
 						f10: {
 							required: true,
 						},
-						f11: {
-							required: true,
-						},
 						f12: {
 							required: true,
 						},
@@ -484,9 +481,6 @@
 							required: 'поле не заполнено',
 						},
 						f10: {
-							required: 'поле не заполнено',
-						},
-						f11: {
 							required: 'поле не заполнено',
 						},
 						f12: {
