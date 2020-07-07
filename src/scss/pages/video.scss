@@ -3,4 +3,28 @@
 
 .page {
 	@include main-content();
+
+	.description {
+		@include description();
+	}
+
+	.video {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		&__item {
+			margin-top: 50px;
+			text-align: left;
+
+			&:nth-of-type(1),
+			&:nth-of-type(2) {
+				margin-top: 0;
+			}
+		}
+
+		&__data {
+			margin-top: 20px;
+		}
+	}
 }
