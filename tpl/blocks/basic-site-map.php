@@ -11,9 +11,9 @@
         <!-- капитальный ремонт - вибропогружатели -->
         <area href="/<?= $routesParams[2]['items'][0][$linkParam]?>" coords="750,195,900,240" shape="RECT">
         <!-- капитальный ремонт - Котлованокопатели на любой базе -->
-        <area href="/<?= $routesParams[2]['items'][2][$linkParam]?>" coords="765,260,918,303" shape="RECT">
+        <!-- <area href="/<?= $routesParams[2]['items'][2][$linkParam]?>" coords="765,260,918,303" shape="RECT">
         <!-- капитальный ремонт - дрезины -->
-        <area href="/<?= $routesParams[2]['items'][1][$linkParam]?>" coords="785,325,940,365" shape="RECT">
+        <area href="/<?= $routesParams[2]['items'][1][$linkParam]?>" coords="785,325,940,365" shape="RECT"> -->
         <!-- запчачти к машинам АВФ -->
         <area href="/<?= $routesParams[3][$linkParam]?>" coords="620,535,70" shape="CIRCLE">
         <!-- изготовление новых машин -->

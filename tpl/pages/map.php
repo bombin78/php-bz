@@ -27,7 +27,7 @@
 
 						<li><a href="/capital-remont/drezin/">Дрезины, автомотрисы, мотовозы</a></li>
 
-						<li>
+						<!-- <li>
 							<a href="/capital-remont/cotlovanokopately-base/">Котлованокопатели на любой базе</a>
 							<ul class="map-level-2">
 
@@ -41,7 +41,7 @@
 
 								<li><a href="/capital-remont/cotlovanokopately-base/VK-4M-rail/">ВК-4М на базе  ЖД платформы</a></li>
 							</ul>
-						</li>
+						</li> -->
 
 					</ul>
 				</li>
@@ -130,7 +130,7 @@
 			</ul>
 
 		</div>
-		
+
 	</div>
 
 </section>
