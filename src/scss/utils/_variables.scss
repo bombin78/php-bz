@@ -1,18 +1,27 @@
 //1.Палитра
-$black:         #000000;
-$white:         #ffffff;
-$lightBlue:     #4b86c8;
-$blue:          #2658a2;
-$darkBlue:      #081f3e;
-$yellow:        #f9bf00;
-$orange:        #fd9438;
-$bgError:       #f4d3d2;
-$brError:       #d2a5a6;
-$red:           #872b1c;
-$lightGray:     #cccccc;
-$middleGray:    #aaaaaa;
-$darkGray:      #777777;
-$darkerGray:    #555555;
+$lightBlue:         #4b86c8;
+$blue:              #2658a2;
+$darkBlue:          #081f3e;
+$yellow:            #f9bf00;
+$orange:            #fd9438;
+$bgError:           #f4d3d2;
+$brError:           #d2a5a6;
+$red:               #872b1c;
+
+$white:             #ffffff;
+$lightestGray:      #dddddd;
+$lighterGray:       #cccccc;
+$beforeLightGray:   #bbbbbb;
+$lightGray:         #aaaaaa;
+$afterLightGray:    #999999;
+$beforeMiddleGray:  #888888;
+$afterMiddleGray:   #777777;
+$beforeDarkGray:    #666666;
+$darkGray:          #555555;
+$afterDarkGray:     #444444;
+$darkerGray:        #333333;
+$darkestGray:       #222222;
+$black:             #000000;
 
 //2. Шрифт
 $fontSize: 14px;

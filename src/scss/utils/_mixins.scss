@@ -11,8 +11,9 @@
 
 	background-color: rgba(247, 247, 247, 1);
 	box-shadow: 0 0 3px rgba(32, 32, 32, .3);
-	color: rgba(51, 51, 51, 1);
+	color: $darkerGray;
 	font-family: "Times New Roman", serif;
+	font-size: 16px;
 
 	&__row {
 		margin: 0 -20px;
@@ -20,11 +21,20 @@
 		text-align: center;
 
 		&:nth-of-type(even) {
-			background-color: #fff;
+			background-color: $white;
 		}
 	}
 
-	font-size: 16px;
+	&__bottom {
+		margin: {
+			top: 20px;
+			right: -20px;
+			bottom: -20px;
+			left: -20px;
+		};
+		padding: 30px 20px;
+		background-color: $lightestGray;
+	}
 
 	&__title {
 		margin: {

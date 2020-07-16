@@ -22,7 +22,7 @@ $borderTable : 1px solid $black;
     }
 
     &__head {
-        background  : $middleGray;
+        background  : $lightGray;
     }
 
     &__head-question,
@@ -40,7 +40,7 @@ $borderTable : 1px solid $black;
 	&__foot-call {
 		@include border-cell(5px 10px);
 
-        color: $darkerGray;
+        color: $darkGray;
         font-size     : $fontSize - 1px;
 	}
 }

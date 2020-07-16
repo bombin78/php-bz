@@ -7,4 +7,31 @@
 	.description {
 		@include description();
 	}
+
+	.departments {
+		text-align: left;
+
+		&__item {
+
+			&:not(:nth-of-type(1)) {
+				margin-top: 24px;
+				padding-top: 24px;
+				border-top: 1px solid $lightestGray;
+			}
+		}
+	}
+
+	.department {
+		&__label {
+			font-weight: 700;
+		}
+	}
+
+	.contacts {
+
+		&__item,
+		&__email {
+			margin-top: 10px;
+		}
+	}
 }
