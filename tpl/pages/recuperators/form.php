@@ -77,21 +77,43 @@
 
 							<li class="params__item">
 								<div class="params__label">
-									Расход газа (подводимого к теплообменнику), м³ /час, (или кг/час)
+									Расход газа (подводимого к теплообменнику), Нм³/час (или: м³/час, кг/час)
 									<span class="starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="params__fields">
 									<input type="text" name="f2_4">
+									<select name="f2_4_1">
+										<option value="Нм³/час">Нм³/час</option>
+										<option value="м³/час">м³/час</option>
+										<option value="кг/час">кг/час</option>
+									</select>
 								</div>
 							</li>
 
 							<li class="params__item">
 								<div class="params__label">
-									Давление на входе теплообменника, МПа
+									Давление на входе теплообменника, мм.вод.ст. (или Па)
 									<span class="starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="params__fields">
 									<input type="text" name="f2_5">
+									<select name="f2_5_1">
+										<option value="мм.вод.ст.">мм.вод.ст.</option>
+										<option value="Па">Па</option>
+									</select>
+								</div>
+							</li>
+
+							<li class="params__item">
+								<div class="params__label">
+									Допустимое аэродинамическое сопротивление, мм.вод.ст. (или Па)
+								</div>
+								<div class="params__fields">
+									<input type="text" name="f2_6">
+									<select name="f2_6_1">
+										<option value="мм.вод.ст.">мм.вод.ст.</option>
+										<option value="Па">Па</option>
+									</select>
 								</div>
 							</li>
 
@@ -101,22 +123,13 @@
 									<span class="starrequired">*</span>
 								</div>
 								<div class="params__field">
-									<input type="text" name="f2_6">
-								</div>
-							</li>
-
-							<li class="params__item">
-								<div class="params__label">
-									Количество механических примесей, г/м³
-								</div>
-								<div class="params__field">
 									<input type="text" name="f2_7">
 								</div>
 							</li>
 
 							<li class="params__item">
 								<div class="params__label">
-									Допустимое аэродинамическое сопротивление, мм.вод.ст.
+									Количество механических примесей, г/м³
 								</div>
 								<div class="params__field">
 									<input type="text" name="f2_8">
@@ -166,30 +179,43 @@
 
 							<li class="params__item">
 								<div class="params__label">
-									Расход воздуха (подводимого к теплообменнику), м³/час (или кг/час)
+									Расход воздуха (подводимого к теплообменнику), Нм³/час (или: м³/час, кг/час)
 									<span class="starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="params__fields">
 									<input type="text" name="f3_4">
+									<select name="f3_4_1">
+										<option value="Нм³/час">Нм³/час</option>
+										<option value="м³/час">м³/час</option>
+										<option value="кг/час">кг/час</option>
+									</select>
 								</div>
 							</li>
 
 							<li class="params__item">
 								<div class="params__label">
-									Давление на входе теплообменника, МПа
+									Давление на входе теплообменника, мм.вод.ст. (или Па)
 									<span class="starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="params__fields">
 									<input type="text" name="f3_5">
+									<select name="f3_5_1">
+										<option value="мм.вод.ст.">мм.вод.ст.</option>
+										<option value="Па">Па</option>
+									</select>
 								</div>
 							</li>
 
 							<li class="params__item">
 								<div class="params__label">
-									Допустимое аэродинамическое сопротивление, мм.вод.ст.
+									Допустимое аэродинамическое сопротивление, мм.вод.ст. (или Па)
 								</div>
-								<div class="params__field">
+								<div class="params__fields">
 									<input type="text" name="f3_6">
+									<select name="f3_6_1">
+										<option value="мм.вод.ст.">мм.вод.ст.</option>
+										<option value="Па">Па</option>
+									</select>
 								</div>
 							</li>
 						</ul>
@@ -353,6 +379,16 @@
 						</div>
 					</li>
 
+					<li class="params__item">
+						<div class="params__label">
+							19. E-mail контактного лица
+							<span class="starrequired">*</span>
+						</div>
+						<div class="params__field">
+							<input type="text" name="f19">
+						</div>
+					</li>
+
 				</ul>
 
 				<div class="checklist__footer">
@@ -439,6 +475,10 @@
 						f18: {
 							required: true,
 						},
+						f19: {
+							email: true,
+							required: true,
+						},
 					},
 					messages: {
 						f1: {
@@ -500,6 +540,10 @@
 							required: 'поле не заполнено',
 						},
 						f18: {
+							required: 'поле не заполнено',
+						},
+						f19: {
+							email: 'пожалуйста, введите адрес своей электронной почты',
 							required: 'поле не заполнено',
 						},
 					},

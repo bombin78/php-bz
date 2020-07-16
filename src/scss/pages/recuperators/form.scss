@@ -65,15 +65,14 @@
 			width: 50%;
 		}
 
-		&__field {
+		&__field,
+		&__fields {
 			position: relative;
 			width: 50%;
 
 			textarea,
 			select,
 			input[type="text"] {
-				width: 100%;
-
 				background: $white;
 				border-radius: 3px;
 				border: 1px solid $lightGray;
@@ -81,6 +80,7 @@
 
 			select,
 			input[type="text"] {
+				margin-bottom: 12px;
 				padding: 4px 10px;
 				height: 28px;
 			}
@@ -89,6 +89,7 @@
 				padding: 8px 10px;
 				min-width: 100%;
 				max-width: 100%;
+				min-height: 40px;
 			}
 
 			label.error {
@@ -123,6 +124,29 @@
 					}
 				    transform: translate(-50%, 0);
 				}
+			}
+		}
+
+		&__fields {
+			display: flex;
+			justify-content: space-between;
+
+			input[type="text"] {
+				width: 73%;
+			}
+
+			select {
+				width: 26%;
+			}
+
+		}
+
+		&__field {
+
+			textarea,
+			select,
+			input[type="text"] {
+				width: 100%;
 			}
 		}
 	}
