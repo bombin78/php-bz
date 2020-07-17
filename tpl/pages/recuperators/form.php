@@ -4,13 +4,6 @@
 
 	<div class="description">
 
-		<div class="description__row">
-			<a class="bnrc" href="http://rekuperator.ru/">
-				<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
-			</a>
-		</div>
-
-
 		<div class="description__checklist checklist">
 
 			<form class="checklist__form" method="POST" id="order-form" action="/mail.php">

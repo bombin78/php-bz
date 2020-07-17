@@ -10,11 +10,48 @@
 
 	.bnrc {
 		display: inline-block;
-		margin-bottom: 35px;
+		margin-bottom: 20px;
 
 		&__img {
 			height: 550px;
 			width: 800px;
+		}
+	}
+
+	.bnri {
+		&__img {
+			height: 709px;
+			width: 786px;
+		}
+	}
+
+	.actions {
+		display: flex;
+		justify-content: center;
+		margin: 45px 0 25px 0;
+		width: 100%;
+
+		font-weight: bold;
+
+		&__fill {
+			margin-right: 150px;
+			color: #ff0000;
+		}
+
+		&__download {
+			position: relative;
+			padding-left: 45px;
+			color: #ff0000;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: -8px;
+				left: 0;
+				height: 35px;
+				width: 35px;
+				background: url(../../images/pages/icons/word-icon.gif) no-repeat left top;
+			}
 		}
 	}
 }

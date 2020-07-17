@@ -6,6 +6,10 @@
 
 	.description {
 		@include description();
+
+		&__bottom {
+			margin-top: 20px;
+		}
 	}
 
 	.departments {

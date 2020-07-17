@@ -4,38 +4,11 @@
 
 	<div class="description">
 
-		<div class="description__row">
+		<div class="description__row video">
 
-			<div class="marquee">
-				<a class="marquee__link" href="http://rekuperator.ru/opros/">
-					<span>
-						«Бушевецкий завод продолжает производить пластинчатые рекуператоры тепла для температур 150-1250С.»
-						Информация на 2020 г.
-					</span>
-				</a>
-			</div>
+			<iframe width="420" height="315" src="//www.youtube.com/embed/oimUug8tUWg" frameborder="0" allowfullscreen=""></iframe>
+			<iframe width="420" height="315"  src="//www.youtube.com/embed/qISe2-dwcQg" frameborder="0" allowfullscreen=""></iframe>
 
-			<a class="bnrc" href="http://rekuperator.ru/">
-				<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
-			</a>
-		</div>
-
-		<div class="description__row">
-
-			<a class="bnri" href="http://rekuperator.ru/" title="Заказать рекуператор" target="_blank" rel="nofollow">
-				<img class="bnri__img" src="/images/pages/recuperators/rekuperator2.gif" title="Рекуператор тепла"alt="Рекуператор тепла">
-			</a>
-
-			<div class="actions">
-				<noindex>
-					<a class="actions__fill" href="http://rekuperator.ru/form.php" target="_blank" rel="nofollow">
-						Заполните опросный лист on-line
-					</a>
-				</noindex>
-				<a class="actions__download" href="/docs/recuperators-form.doc">
-					Скачайте и распечатайте опросный лист
-				</a>
-			</div>
 		</div>
 
 		<div class="description__row">
@@ -80,10 +53,37 @@
 				участвующих в тепловом обмене, значений температур, видов сред).
 			</p>
 
+			<ul class="demo">
+
+				<li class="demo__item">
+					<img class="demo__img" src="/images/pages/recuperators/rekuperator-1-q1.gif">
+
+				</li>
+
+				<li class="demo__item">
+					<img class="demo__img" src="/images/pages/recuperators/rekuperator-2-q1.gif">
+
+				</li>
+
+				<li class="demo__item">
+					<img class="demo__img" src="/images/pages/recuperators/rekuperator-3-q1.gif">
+
+				</li>
+
+				<li class="demo__item">
+					<img class="demo__img" src="/images/pages/recuperators/rekuperator-4-q1.gif">
+				</li>
+
+			</ul>
+
 			<p class="description__text">
 				К достоинствам новых теплообменников относятся все основные параметры, характеризующие
 				эти устройства: эффективность теплообмена, габариты, вес, термопластичность.
 			</p>
+
+		</div>
+
+		<div class="description__row">
 
 			<p class="description__text">
 				Коротко об истории вопроса:
@@ -114,53 +114,6 @@
 				комбинаты, Ухтинский нефтеперерабатывающий завод, Волгоградский завод «Оргсинтез».
 			</p>
 
-			<h2 class="description__title">Где купить промышленный рекуператор тепла?</h2>
-
-			<p class="description__text">
-				Для того чтобы вы могли купить промышленный рекуператор в настоящее время Бушевецкий
-				завод (г. Бологое) на своих площадях, с привлечением разработчиков данного проекта и
-				лучших специалистов в указанных областях техники создал новую скоростную промышленную
-				линию по производству теплообменной аппаратуры (в т.ч. разные типы рекуператоров)
-				данного типа, в которой учтены выявленные ранее недостатки опытной линии и применены
-				новые разработки как в области высокочастотной сварки, так и в области производства
-				теплообменной аппаратуры.
-			</p>
-
-			<figure class="description__product figure">
-				<img class="figure__img" src="/images/pages/recuperators/3-rekuperator.jpg" alt="Рекуператор - готовое изделие">
-				<figcaption class="figure__caption">
-					<b>Рекуператор</b> - готовое изделие
-				</figcaption>
-			</figure>
-
-		</div>
-
-		<div class="description__row">
-
-			<p class="description__text">
-				Понимаем, что специалисты, знающие историю развития теплообменной аппаратуры в нашей стране,
-				с недоверием могут воспринять информацию об очередной попытке «реанимировать» оребренные
-				панели, как основу нового направления в развитии теплообменной аппаратуры. Тем не менее,
-				всех, кому это может быть интересно, мы будем информировать через наш сайт о ходе работ
-				по строительству линии.
-			</p>
-
-			<p class="description__text">
-				По нашим планам, производство теплообменников на новой скоростной линии будет начато к
-				середине 2009 года. См. календарный план.
-			</p>
-
-			<figure class="description__plan figure">
-				<figcaption class="figure__caption">
-					<b>Производство рекуператоров</b> - календарный план
-				</figcaption>
-				<img class="figure__img" src="/images/pages/recuperators/rekuperator-plan.gif" alt="Рекуператор - Календарный план">
-			</figure>
-
-			<p class="description__text">
-				Многих посетителей сайта, прежде чем купить рекуператор, интересует вопрос, какова цена на
-				рекуператоры, чтобы узнать это - просто позвоните нам по телефону.
-			</p>
 		</div>
 
 		<div class="description__row">
@@ -176,6 +129,10 @@
 					<!-- /список дополнительных материалов -->
 				</dd>
 			</dl>
+
+		</div>
+
+		<div class="description__bottom">
 
 			<p class="description__text">
 				Деятельность Бушевецкого завода отражена в основном разделе

@@ -10,6 +10,27 @@
 				<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
 			</a>
 
+		</div>
+
+		<div class="description__row">
+
+			<a class="bnri" href="http://rekuperator.ru/" title="Заказать рекуператор" target="_blank" rel="nofollow">
+				<img class="bnri__img" src="/images/pages/recuperators/rekuperator2.gif" title="Рекуператор тепла"alt="Рекуператор тепла">
+			</a>
+
+			<div class="actions">
+				<a class="actions__fill" href="http://rekuperator.ru/form.php" target="_blank" rel="nofollow">
+					Заполните опросный лист on-line
+				</a>
+				<a class="actions__download" href="/docs/recuperators-form.doc">
+					Скачайте и распечатайте опросный лист
+				</a>
+			</div>
+
+		</div>
+
+		<div class="description__row">
+
 			<p class="description__text">
 				Бушевецкий завод предлагает вашему вниманию новую серию <strong>рекуператоров тепла</strong>.
 				Для производства рекуператоров в настоящее время строится новая высокотехнологичная линия.
@@ -55,6 +76,10 @@
 				изготовленные на новой производственной линии. Ознакомится с ходом строительства новой линии вы можете на
 				нашем сайте.
 			</p>
+
+		</div>
+
+		<div class="description__bottom">
 
 			<p class="description__text">
 				Деятельность Бушевецкого завода отражена на основном сайте
