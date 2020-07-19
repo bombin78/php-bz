@@ -2,13 +2,15 @@
 
 	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
 
-      <div class="description">
+    <div class="description">
 
 		<div class="description__row">
 
-			<a class="bnrc" href="http://rekuperator.ru/">
-				<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
-			</a>
+			<noindex>
+				<a class="bnrc" href="http://rekuperator.ru/">
+					<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
+				</a>
+			</noindex>
 
           	<p class="description__text">
       			Деятельность Бушевецкого завода по производству теплообменников отражена на на сайте "
