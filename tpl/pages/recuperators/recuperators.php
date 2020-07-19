@@ -4,10 +4,21 @@
 
 	<div class="description">
 
-		<div class="description__row video">
+		<div class="description__row">
 
-			<iframe width="420" height="315" src="//www.youtube.com/embed/oimUug8tUWg" frameborder="0" allowfullscreen=""></iframe>
-			<iframe width="420" height="315"  src="//www.youtube.com/embed/qISe2-dwcQg" frameborder="0" allowfullscreen=""></iframe>
+			<div class="marquee">
+				<a class="marquee__link" href="/recuperators/form/">
+					<span>
+						«Бушевецкий завод продолжает производить пластинчатые рекуператоры тепла для температур 150-1250С.»
+						Информация на 2020 г.
+					</span>
+				</a>
+			</div>
+
+			<div class="video">
+				<iframe width="420" height="315" src="//www.youtube.com/embed/oimUug8tUWg" frameborder="0" allowfullscreen=""></iframe>
+				<iframe width="420" height="315"  src="//www.youtube.com/embed/qISe2-dwcQg" frameborder="0" allowfullscreen=""></iframe>
+			</div>
 
 		</div>
 
