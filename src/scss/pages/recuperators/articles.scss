@@ -19,8 +19,13 @@
 	}
 
 	.additional-material {
+
+		margin: {
+			top: 15px;
+			bottom: 15px;
+		}
+		
 		text-align: left;
-		margin-bottom: 40px;
 
 		&__label {
 			margin-bottom: 16px;
