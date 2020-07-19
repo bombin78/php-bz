@@ -1,0 +1,47 @@
+.spare-part-list {
+
+    .spare-parts-section {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+        &:not(:nth-of-type(1)){
+            margin-top: 50px;
+        }
+
+        &__title {
+            width: 100%;
+            font-weight: 700;
+        }
+    }
+
+    .spare-parts {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-top: 24px;
+        width: 800px;
+
+        text-align: left;
+
+        &__label,
+        &__value {
+            padding: 12px 8px;
+            border-bottom: 1px solid $lightestGray;
+
+            &:nth-of-type(1){
+                border-top: 1px solid $lightestGray;
+            }
+        }
+
+        &__label {
+            width: 5%;
+        }
+
+        &__value {
+            width: 95%;
+        }
+    }
+}

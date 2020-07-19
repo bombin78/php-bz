@@ -9,8 +9,8 @@
 @mixin description() {
 	padding: 20px;
 
-	background-color: rgba(247, 247, 247, 1);
-	box-shadow: 0 0 3px rgba(32, 32, 32, .3);
+	background-color: $bgDescription;
+	box-shadow: $shadowDescription;
 	color: $darkerGray;
 	font-family: "Times New Roman", serif;
 	font-size: 16px;

@@ -19,16 +19,19 @@ $path = "./";
 $validList = [];
 $menuItems = [];
 $breadcrambItems = [];
+$sparePartsItems= [];
 
 // Подключение файлов с данными
 $commonParams = json_decode(file_get_contents($path.'/config/data/common.json'),true);
 $routesParams  = json_decode(file_get_contents($path.'/config/data/items.json'),true);
 $connectParams = json_decode(file_get_contents($path.'/config/data/pages.json'),true);
+$sparePartsParams = json_decode(file_get_contents($path.'/config/data/spare-parts.json'),true);
 
 $validList = getValidList($routesParams, $routesParams[0], $pageId);
 
 setMenuItems($validList, $menuItems);
 setBreadcrambItems($validList, $breadcrambItems, $pageId);
+setSparePartsItems($sparePartsParams, $sparePartsItems);
 
 function getValidList($list, $rootItem, $pageId) {
 
@@ -99,6 +102,10 @@ function setBreadcrambItems($validList, &$breadcrambItems, $pageId) {
 			setBreadcrambItems($line['items'], $breadcrambItems, $pageId);
 		}
 	}
+}
+
+function setSparePartsItems($sparePartsParams, &$sparePartsItems){
+	$sparePartsItems = $sparePartsParams;
 }
 
 // Блок переменных для подключения файлов к index.php

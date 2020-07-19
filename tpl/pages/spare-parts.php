@@ -2,9 +2,15 @@
 
 	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
 
-	<p class="page__text">
-		Запчасти к котлованокопателям, механизмы выдвижения, механизмы подачи,
-		органы рабочие, фермы выдвижения, фермы поворота, котлованокопатели.
-	</p>
+	<div class="description">
+
+		<div class="description__row">
+
+			<!-- список запасных частей -->
+			<?php include_once $path."tpl/blocks/spare-part-list.php" ?>
+			<!-- /список запасных частей -->
+
+		</div>
+	</div>
 
 </section>

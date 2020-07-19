@@ -39,7 +39,7 @@
 			float: left;
 			margin-right: 20px;
 			height: 250px;
-			border: 1px solid #aaaaaa;
+			border: 1px solid $lightGray;
 		}
 
 		&__address {
@@ -86,7 +86,7 @@
 			margin-left: 110px;
 			padding: 3px 10px;
 
-			border: 2px solid rgb(39, 88, 162);
+			border: 2px solid $blue;
 
 			&:nth-of-type(1){
 				margin-left: 0;
