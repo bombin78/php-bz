@@ -21,11 +21,51 @@
             </li>
         </ul>
 
-        <div class="description__imgs">
-            <img class="description__img" src="/images/pages/main/gmov3.jpg" title="дрезина 1" alt="фото3.jpg">
-            <img class="description__img" src="/images/pages/main/IMG_20181221_114302.jpg" title="дрезина 2" alt="IMG_20181221_114302.jpg">
-            <img class="description__img" src="/images/pages/main/IMG_20181219_111451.jpg" title="дрезина 3" alt="IMG_20181219_111451.jpg">
-        </div>
+		<section id="gallery">
+		    <div class="container">
+		        <h2 class="title">Фотогалерея</h2>
+		        <div class="slider">
+		            <div class="swiper-container">
+		                <div class="swiper-wrapper blueimp-links">
+
+	                        <div class="swiper-slide">
+                                <a class="gallery__link" href="/images/pages/main/gallery/big/photo-1.jpg" title="">
+                					<img class="gallery__img" src="/images/pages/main/gallery/photo-1.jpg" alt="">
+                				</a>
+	                        </div>
+
+                            <div class="swiper-slide">
+                                <a class="gallery__link" href="/images/pages/main/gallery/big/photo-2.jpg" title="">
+                					<img class="gallery__img" src="/images/pages/main/gallery/photo-2.jpg" alt="">
+                				</a>
+	                        </div>
+
+                            <div class="swiper-slide">
+                                <a class="gallery__link" href="/images/pages/main/gallery/big/photo-3.jpg" title="">
+                					<img class="gallery__img" src="/images/pages/main/gallery/photo-3.jpg" alt="">
+                				</a>
+	                        </div>
+
+                            <div class="swiper-slide">
+                                <a class="gallery__link" href="/images/pages/main/gallery/big/photo-5.jpg" title="">
+                					<img class="gallery__img" src="/images/pages/main/gallery/photo-5.jpg" alt="">
+                				</a>
+	                        </div>
+
+                            <div class="swiper-slide">
+                                <a class="gallery__link" href="/images/pages/main/gallery/big/photo-6.jpg" title="">
+                					<img class="gallery__img" src="/images/pages/main/gallery/photo-6.jpg" alt="">
+                				</a>
+	                        </div>
+
+		                </div>
+		                <div class="swiper-pagination"></div>
+		                <div class="swiper-button-next"></div>
+		                <div class="swiper-button-prev"></div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
 
         <dl class="overhaul">
             <dt class="overhaul__label">Основные виды работ, выполняемые при проведении капитального ремонта:</dt>
