@@ -89,7 +89,9 @@
 
         margin-top: -2px;
 
+        // Размер шрифта и строки зафиксирован
         font-size: 11px;
+        line-height: 20px;
 
         .dtl {
             &__l {
@@ -105,7 +107,9 @@
     }
 
     &__email-link {
+        // Размер шрифта и строки зафиксирован
         font-size: 11px;
+        line-height: 20px;
     }
 
 	&__info {

@@ -1,0 +1,57 @@
+// ===========================================
+// ОПИСАНИЕ ФУНКЦИЙ БИБЛИОТЕКИ:
+// Префикс: lib
+// СОДЕРЖАНИЕ
+// 1. ФУНКЦИИ
+// 1.1. Получить значение из масива (map).
+// 1.2. Получить цвет
+// 1.3. Получить размер шрифта
+// 1.4. Получить высоту строки
+// 1.5 Получить точку переключения
+// ===========================================
+
+// ===========================================
+// 1.ФУНКЦИИ
+
+// 1.1. Получить значение из масива (map).
+@function lib-val($map, $key) {
+	@if map-has-key($map, $key) {
+		@return map-get($map, $key);
+	} @else {
+		@warn "Unknown `#{$key}` in `#{$map}`.";
+		@return null;
+	}
+}
+
+// 1.2. Получить цвет
+@function lib-color($key, $transparency: none) {
+	@if ($transparency != none) {
+
+		@if (type-of($transparency) != number) {
+			@warn "`#{$transparency}` - не является числом";
+			@return null;
+		}
+
+		$colorRGBA : transparentize((lib-val($lib-palette, $key)), (1 - $transparency));
+
+		@return $colorRGBA;
+	}
+	@else {
+		@return lib-val($lib-palette, $key);
+	}
+}
+
+// 1.3. Получить размер шрифта
+@function lib-font-size($level) {
+	@return lib-val($lib-type-scale, $level);
+}
+
+// 1.4. Получить высоту строки
+@function lib-line-height($level) {
+	@return lib-val($lib-type-line, $level);
+}
+
+// 1.5 Получить точку переключения
+@function lib-breakpoints($key) {
+	@return lib-val($lib-breakpoints, $key);
+}

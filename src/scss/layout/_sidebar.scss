@@ -2,7 +2,9 @@
 	margin-top: 75px;
 	width: 100%;
 
-	font-size: 12px;
+	font-size: lib-font-size(-4);
+	line-height: lib-line-height(-4);
+
 	text-align: left;
 
 	&__menu.page-list {
@@ -19,7 +21,10 @@
 				position: relative;
 
 				&--level1 {
-					font-size: 13px;
+
+					font-size: lib-font-size(-3);
+					line-height: lib-line-height(-3);
+
 					.page-list__link {
 
 						&::before {
@@ -64,5 +69,10 @@
 	&__info-memder.member {
 		margin-top: 40px;
 		padding-left: 23px;
+
+		.member__img {
+			width: 58%;
+			min-width: 115px;
+		}
 	}
 }

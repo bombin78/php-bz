@@ -13,7 +13,8 @@
 	box-shadow: $shadowDescription;
 	color: $darkerGray;
 	font-family: "Times New Roman", serif;
-	font-size: 16px;
+	font-size: lib-font-size(2);
+	line-height: lib-line-height(2);
 
 	&__row {
 		margin: 0 -20px;
@@ -42,8 +43,9 @@
 		}
 
 		text-align: left;
-		font-size: 20px;
+		font-size: lib-font-size(4);
 		font-weight: 700;
+		line-height: lib-line-height(4);
 	}
 
 	&__text {

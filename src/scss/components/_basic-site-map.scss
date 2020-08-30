@@ -2,7 +2,8 @@
     text-align: center;
 
     &__title {
-        font-size: 22px;
+        font-size: lib-font-size(6);
+        line-height: lib-line-height(6);
         font-weight: 700;
     }
 }
