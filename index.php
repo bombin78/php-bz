@@ -12,11 +12,12 @@ include_once($path."config/config.php");
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+	<link rel="stylesheet" href="/vendors/bootstrap-4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/vendors/gallery-master/css/blueimp-gallery.css">
 	<link rel="stylesheet" href="/vendors/swiper-bundle-6.0.4/swiper-bundle.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/css/<?php echo $cssFile; ?>">
-	<script type="text/javascript" src="/vendors/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="/vendors/jquery-3.5.1.min.js"></script>
 	<!--[if lt IE 9]>
 	<script>
 		var e = ("article,aside,footer,header,nav,section").split(',');
@@ -69,55 +70,19 @@ include_once($path."config/config.php");
 	<div class="modal-container">
 		<!-- модальное окно галереи -->
 		<?php include_once $path."tpl/modal/modal-gallery.php" ?>
-		<!-- /модальное окно галереи-->
+		<!-- /модальное окно галереи -->
+
+		<!-- модальное окно заявки на обратный звонок -->
+		<?php include_once $path."tpl/modal/modal-callback.php" ?>
+		<!-- /модальное окно заявки на обратный звонок -->
 	</div>
 
 </div>
-<input id="abs_address" type="hidden" value="<?php echo $path; ?>"><!-- for gallery-master -->
+<input id="abs_address" type="hidden" value="<?php echo $path; ?>">
+<script src="/vendors/bootstrap-4.5.2/js/bootstrap.min.js"></script>
 <script src="/vendors/gallery-master/js/jquery.blueimp-gallery.min.js"></script>
 <script src="/vendors/swiper-bundle-6.0.4/swiper-bundle.min.js"></script>
 <script src="/vendors/jquery-validation-1.19.2/jquery.validate.min.js"></script>
-<script>
-	$('.blueimp-links').on('click', function (event) {
-		event = event || window.event;
-		var target = event.target || event.srcElement,
-			link = target.src ? target.parentNode : target,
-			options = {index: link, event: event},
-			links = this.getElementsByTagName('a');
-		blueimp.Gallery(links, options);
-	});
-
-	var swiper = new Swiper('.swiper-container',{
-		slidesPerView: 4,
-		spaceBetween: 30,
-		loop: true,
-		navigation: {
-		    nextEl: '.swiper-button-next',
-		    prevEl: '.swiper-button-prev',
-		},
-	});
-
-	// $('.article-title, .article-arrow').on('click',function(e){
-	// 	e.preventDefault();
-	//
-	// 	var wrapper=$(this).closest('.article'),
-	// 		wrapperModifier = '_open',
-	// 		wrapperAttr = 'style',
-	// 		description = wrapper.find('.article-text'),
-	// 		duration = 200;
-	// 	if(wrapper.hasClass(wrapperModifier)) {
-	// 		description.slideUp(duration,function(){
-	// 			wrapper.removeClass(wrapperModifier);
-	// 			description.removeAttr(wrapperAttr);
-	// 		});
-	// 	} else {
-	// 		description.slideDown(duration,function(){
-	// 			wrapper.addClass(wrapperModifier);
-	// 			description.removeAttr(wrapperAttr);
-	// 		});
-	// 	}
-	// });
-</script>
 <script type="text/javascript" src="/js/modules-control.js"></script>
 <!-- Yandex.Metrika counter -->
 

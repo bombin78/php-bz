@@ -8,6 +8,10 @@
     font-size: 15px;
     line-height: 18px;
 
+    &__link {
+        text-decoration: underline;
+    }
+
     &__separator {
         margin: {
             right: 5px;

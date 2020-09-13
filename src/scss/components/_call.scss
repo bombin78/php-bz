@@ -1,0 +1,32 @@
+.call {
+    margin: 0 -20px;
+    padding: 70px 0 60px 0;
+    background-color: $lightGray;
+
+    &__phone {
+        color: $white;
+        font-size: lib-font-size(34);
+        line-height: lib-line-height(34);
+        font-family: Tahoma, sans-serif;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+
+    &__btn{
+        padding: 10px 24px;
+        min-width: 412px;
+        cursor: pointer;
+        border-radius: 3px;
+        border: 2px solid $white;
+        color: $white;
+        text-align: center;
+        font-size: 30px;
+        font-size: lib-font-size(14);
+        line-height: lib-line-height(14);
+        font-family: Tahoma, sans-serif;
+    }
+}
