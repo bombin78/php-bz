@@ -223,33 +223,7 @@
         "url": "index.php?page=7",
         "name": "Приобретение б/у техники",
         "alias": "buying-used-eqipment/",
-        "isMenu": true,
-        "items": [
-            {
-                "id": 71,
-                "level": 2,
-                "url": "index.php?page=71",
-                "name": "Фитинговые платформы",
-                "alias": "buying-used-eqipment/fitting-platforms/",
-                "isMenu": true
-            },
-            {
-                "id": 72,
-                "level": 2,
-                "url": "index.php?page=72",
-                "name": "Дрезины ДГКУ, АДМ, МПТ",
-                "alias": "buying-used-eqipment/drezins/",
-                "isMenu": true
-            },
-            {
-                "id": 73,
-                "level": 2,
-                "url": "index.php?page=73",
-                "name": "Котлованокопатели и вибропогружатели",
-                "alias": "buying-used-eqipment/kotlovanokopateli/",
-                "isMenu": true
-            }
-        ]
+        "isMenu": true
     },
     {
         "id": 8,
@@ -273,14 +247,6 @@
                 "url": "index.php?page=82",
                 "name": "Виды автоматрис и их назначение",
                 "alias": "material/avtomatrisa/",
-                "isMenu": true
-            },
-            {
-                "id": 83,
-                "level": 2,
-                "url": "index.php?page=83",
-                "name": "Мотовоз, ремонт мотовоза",
-                "alias": "material/motovoz/",
                 "isMenu": true
             },
             {

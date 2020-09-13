@@ -260,32 +260,8 @@
         "title": "Приобретение б/у техники",
         "keywords": "",
         "description": "",
-        "phpFile": "tpl/pages/buying-used-eqipment/buying-used-eqipment.php",
-        "cssFile": "buying-used-eqipment/buying-used-eqipment.css"
-    },
-    {
-        "id": 71,
-        "title": "Фитинговые платформы",
-        "keywords": "",
-        "description": "",
-        "phpFile": "tpl/pages/buying-used-eqipment/fitting-platforms.php",
-        "cssFile": "buying-used-eqipment/fitting-platforms.css"
-    },
-    {
-        "id": 72,
-        "title": "Дрезины ДГКУ, АДМ, МПТ",
-        "keywords": "",
-        "description": "",
-        "phpFile": "tpl/pages/buying-used-eqipment/drezins.php",
-        "cssFile": "buying-used-eqipment/drezins.css"
-    },
-    {
-        "id": 73,
-        "title": "Котлованокопатели и вибропогружатели",
-        "keywords": "",
-        "description": "",
-        "phpFile": "tpl/pages/buying-used-eqipment/kotlovanokopateli.php",
-        "cssFile": "buying-used-eqipment/kotlovanokopateli.css"
+        "phpFile": "tpl/pages/buying-used-eqipment.php",
+        "cssFile": "buying-used-eqipment.css"
     },
     {
         "id": 8,
@@ -310,14 +286,6 @@
         "description": "",
         "phpFile": "tpl/pages/material/avtomatrisa.php",
         "cssFile": "material/avtomatrisa.css"
-    },
-    {
-        "id": 83,
-        "title": "Мотовоз, ремонт мотовоза",
-        "keywords": "",
-        "description": "",
-        "phpFile": "tpl/pages/material/motovoz.php",
-        "cssFile": "material/motovoz.css"
     },
     {
         "id": 84,

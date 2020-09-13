@@ -1,0 +1,23 @@
+@import "./src/scss/utils/variables";
+@import "./src/scss/utils/functions";
+@import "./src/scss/utils/mixins";
+
+.page {
+	@include main-content();
+	padding-top: 28px;
+
+	.description {
+		@include description();
+
+		font-size: lib-font-size(4);
+		line-height: lib-line-height(4);
+	}
+
+	.list {
+		text-align: left;
+
+		&__item {
+			padding: 5px 0;
+		}
+	}
+}

@@ -1,7 +1,0 @@
-@import "./src/scss/utils/variables";
-@import "./src/scss/utils/functions";
-@import "./src/scss/utils/mixins";
-
-.page {
-	@include main-content();
-}
