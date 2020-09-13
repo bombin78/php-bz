@@ -1,6 +1,6 @@
 <div
     id="callbackModal"
-    class="modal-callback modal fade"
+    class="bz-modal-callback modal fade"
     tabindex="-1"
     role="dialog"
     data-backdrop="false"
@@ -26,16 +26,16 @@
                 <div class="container-fluid">
                     <form
                         id="callbackModalForm"
-                        class="modal-callback__form callback-form"
+                        class="bz-modal-callback__form bz-callback-form"
                         action="handler-order.php"
                         method="POST">
 
-                        <div class="row justify-content-end form-group callback-form__phone">
+                        <div class="row justify-content-end form-group bz-callback-form__phone">
 
                             <label
                                 class="col-3 col-form-label col-form-label-sm pl-0 pr-0"
                                 for="callbackPhone">
-                                Телефон <span class="starrequired">*</span>
+                                Телефон <span class="bz-starrequired">*</span>
                             </label>
 
                             <input
@@ -46,13 +46,13 @@
                                 aria-describedby="phoneHelp"
                                 placeholder="Введите Ваш телефон">
 
-                            <small id="phoneHelp" class="col-9 form-text text-muted pl-0 pr-0 callback-form__phone-text">
+                            <small id="phoneHelp" class="col-9 form-text text-muted pl-0 pr-0 bz-callback-form__phone-text">
                                 Номер должен содеражать код города/оператора
                             </small>
 
                         </div>
 
-                        <div class="form-group row callback-form__timezone">
+                        <div class="form-group row bz-callback-form__timezone">
 
                             <label
                                 class="col-3 col-form-label col-form-label-sm pl-0 pr-0"
@@ -87,13 +87,13 @@
                         </div>
 
                     </form>
-                    <p id="ajax-result" class="col-12 text-center modal-callback__message"></p>
+                    <p id="ajax-result" class="col-12 text-center bz-modal-callback__message"></p>
                 </div>
             </div>
             <div id="callbackModalFooter" class="modal-footer">
                 <div class="container-fluid">
                     <div class="row">
-                        <small class="col-12 text-muted text-center modal-callback__notice">
+                        <small class="col-12 text-muted text-center bz-modal-callback__notice">
                             Заказ обратного звонка возможен круглосуточно.<br>
                             Менеджер перезвонит Вам в рабочее время.
                         </small>

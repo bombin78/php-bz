@@ -1,43 +1,43 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
-	<div class="description">
+	<div class="bz-description">
 
-		<div class="description__row">
+		<div class="bz-description__row">
 
 			<noindex>
-				<a class="bnrc" href="http://rekuperator.ru/">
-					<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
+				<a class="bz-bnrc" href="http://rekuperator.ru/">
+					<img class="bz-bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
 				</a>
 			</noindex>
 
-          	<p class="description__text">
+          	<p class="bz-description__text">
       			Деятельность Бушевецкого завода по производству теплообменников отражена на на сайте "
       			<a href="http://rekuperator.ru/" title="Пластинчатые рекуператоры БушевецТермо - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения" target="_blank">
               		Пластинчатые теплообменники
               	</a>"
       		</p>
 
-            <p class="description__text"><strong>Дополнительные материалы по теме "Рекуператоры"</strong></p>
+            <p class="bz-description__text"><strong>Дополнительные материалы по теме "Рекуператоры"</strong></p>
 
-            <dl class="additional-material">
-                <dt class="additional-material__label">
+            <dl class="bz-additional-material">
+                <dt class="bz-additional-material__label">
                     Уважаемые посетители сайта, для того, чтобы у вас сложилось представление о разнообразных технологиях и
                     сферах применения рекуператоров, предлагаем ознакомиться с дополнительными материалами:
                 </dt>
-                <dd class="additional-material__value">
+                <dd class="bz-additional-material__value">
                     <!-- список дополнительных материалов -->
                     <?php include_once $path."tpl/blocks/additional-materials.php" ?>
                     <!-- /список дополнительных материалов -->
                 </dd>
             </dl>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 (Теплоутилизаторы) <a href="/recuperators/"><strong>пластинчатые рекуператоры</strong></a>  — 60%-я экономия
                  выбрасываемого тепла при отоплении вентиляции.</p>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 Пластинчатый <em>рекуператор</em>: в практике промышленного производства и эксплуатации промышленных и
                 общественных объектов развитых стран обязательным условием является экономное потребление энергоносителей
                 при теплоснабжении /пара, газа/. Эксплуатация производства, связанного с вытяжной вентиляцией, дымоудалением,
@@ -55,11 +55,11 @@
                 жесткость и фиксируют заданное расстояние между мембранами.
             </p>
 
-            <h2 class="description__title">
+            <h2 class="bz-description__title">
                 Перекрестноточный рекуператор — принцип теплосбережения
             </h2>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 Удаляемая воздушная смесь продвигается по четным каналам и отдает тепло, протекающему через остальные каналы
                 приточному воздуху. За счет большого поперечного сечения <em>рекуператора</em> гидравлическое сопротивление
                 может достигать 5 — 10 мм в. ст., что позволяет использовать пластинчатый рекуператор в системах выбросов без
@@ -73,31 +73,31 @@
                 смесей.
             </p>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 Пластинчатые <strong>рекуператоры</strong> изготавливаются нескольких типов — в зависимости от условий
                 эксплуатации:
             </p>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 — для утилизации высокотемпературных источников до 300°С,
             </p>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 — для утилизации низкотемпературных источников до 70°С,
             </p>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 — для утилизации паросодержащих смесей,</p>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 — для утилизации смесей, содержащих мелкодисперсную, неабразивную, необволакивающую алюминий пыль.
             </p>
 
-            <h2 class="description__title">
+            <h2 class="bz-description__title">
                 Промышленные рекуператоры
             </h2>
 
-            <p class="description__text">
+            <p class="bz-description__text">
                 Отличаются они маркой и толщиной материала, размером и формой мембран, типами герметиков. Мы выпускаем модели
                 пластинчатых рекуператоров, отличающиеся объемами воздушных сред, проходящих через них: от 500 до 1000 м3/час,
                 от 1000 до 5000 м3/час. С учетом небольших размеров: 0,6×0,6×0,6 м, рекуператор может быть легко встроен в

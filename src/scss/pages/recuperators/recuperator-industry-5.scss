@@ -2,14 +2,14 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 
-	.description {
+	.bz-description {
 		@include description();
 	}
 
-	.bnrc {
+	.bz-bnrc {
 		display: inline-block;
 		margin-bottom: 20px;
 
@@ -19,14 +19,14 @@
 		}
 	}
 
-	.bnri {
+	.bz-bnri {
 		&__img {
 			height: 709px;
 			width: 786px;
 		}
 	}
 
-	.actions {
+	.bz-actions {
 		display: flex;
 		justify-content: center;
 		margin: 45px 0 25px 0;

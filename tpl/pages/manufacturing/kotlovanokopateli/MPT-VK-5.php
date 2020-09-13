@@ -1,6 +1,6 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
 	<p><strong>Машина МПТ-ВК-5</strong> на&nbsp;базе дрезины <nobr>МПТ-6</nobr></p>
 <p>Предназначена для разработки котлованов под установку железобетонных опор контактной сети на&nbsp;железных дорогах; маневровых работ; перевозки рабочих бригад; питания&nbsp;эл. энергией потребителей в&nbsp;полевых условиях.</p>

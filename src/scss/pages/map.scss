@@ -2,24 +2,24 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
     @include main-content();
 
-    .description {
+    .bz-description {
         @include description();
     }
 
-    .map-level-0,
-    .map-level-1,
-    .map-level-2 {
+    .bz-map-level-0,
+    .bz-map-level-1,
+    .bz-map-level-2 {
         text-align: left;
         li {
             margin-top: 4px;
         }
     }
 
-    .map-level-1,
-    .map-level-2 {
+    .bz-map-level-1,
+    .bz-map-level-2 {
         padding-left: 30px;
     }
 }

@@ -1,6 +1,6 @@
-<div class="basic-site-map">
-    <h3 class="basic-site-map__title">Разделы сайта</h2>
-    <img class="basic-site-map__img" src="/images/pages/main/site-map.png" title="карта сайта" usemap="#Map" border="0" alt="site-map.png" width="953" height="650">
+<div class="bz-basic-site-map">
+    <h3 class="bz-basic-site-map__title">Разделы сайта</h2>
+    <img class="bz-basic-site-map__img" src="/images/pages/main/site-map.png" title="карта сайта" usemap="#Map" border="0" alt="site-map.png" width="953" height="650">
     <map name="Map">
         <!-- главная -->
         <area href="/<?= $routesParams[0][$linkParam]?>" coords="468,390,80" shape="CIRCLE">

@@ -1,6 +1,6 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
 	<img src="/images/pages/capital-remont/vk-3.jpg" hspace="10" height="363" width="600" vspace="10" alt="Кап. ремонт котлованокопатели ВК-3 на базе жд платф Бушевецкий завод">
 	<br>

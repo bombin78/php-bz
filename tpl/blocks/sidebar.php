@@ -1,15 +1,15 @@
-<div class="sidebar">
+<div class="bz-sidebar">
 	<?php displaySidebar($pageId, $menuItems, $linkParam); ?>
-	<div class="sidebar__info">
-		<div class="sidebar__info-recuperator recuperator">
-			<a class="recuperator__link" href="http://rekuperator.ru/" title="Пластинчатые рекуператоры БушевецТермо - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
+	<div class="bz-sidebar__info">
+		<div class="bz-sidebar__info-recuperator bz-recuperator">
+			<a class="bz-recuperator__link" href="http://rekuperator.ru/" title="Пластинчатые рекуператоры БушевецТермо - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
 				Открыт новый сайт!<br>
 				Производство рекуператоров
 			</a>
 		</div>
-		<div class="sidebar__info-memder member">
-			<a class="member__link" href="http://www.pushkin-town.net/" target="_blank">
-				<img class="member__img" src="/images/layout/memberc.jpg">
+		<div class="bz-sidebar__info-memder bz-member">
+			<a class="bz-member__link" href="http://www.pushkin-town.net/" target="_blank">
+				<img class="bz-member__img" src="/images/layout/memberc.jpg">
 			</a>
 		</div>
 	</div>
@@ -41,10 +41,10 @@ function changeVisibilityOfItemsMenu($pageId, &$menu) {
 function displayBlockLinks($menuItem, $linkParam) {
 
 	$cssClassActive = ($menuItem['isVisible']) ? " _active" : "";
-	$cssClassModifier = ' page-list__block-link--level'.$menuItem['level'];
+	$cssClassModifier = ' bz-page-list__block-link--level'.$menuItem['level'];
 
-	echo "<div class = 'page-list__block-link" . $cssClassModifier ."'>";
-	echo "<a class='page-list__link" . $cssClassActive . "' href = '/" . $menuItem[$linkParam] . "'>";
+	echo "<div class = 'bz-page-list__block-link" . $cssClassModifier ."'>";
+	echo "<a class='bz-page-list__link" . $cssClassActive . "' href = '/" . $menuItem[$linkParam] . "'>";
 	echo $menuItem['name'];
 	echo "</a>";
 	echo "</div>";
@@ -53,11 +53,11 @@ function displayBlockLinks($menuItem, $linkParam) {
 // Вспомогательная функция вывода бокового меню
 function displayMenu($menuItems, $linkParam){
 
-	echo "<ul class = 'sidebar__menu page-list'>";
+	echo "<ul class = 'bz-sidebar__menu bz-page-list'>";
 
 	foreach($menuItems as $line) {
 
-		echo "<li class = 'page-list__item'>";
+		echo "<li class = 'bz-page-list__item'>";
 		displayBlockLinks($line, $linkParam);
 		if($line['isVisible'] && count($line['items']) > 0) {
 			displayMenu($line['items'], $linkParam);

@@ -2,10 +2,10 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 
-	.description {
+	.bz-description {
 		@include description();
 
 		&__bottom {
@@ -13,7 +13,7 @@
 		}
 	}
 
-	.departments {
+	.bz-departments {
 		text-align: left;
 
 		&__item {
@@ -26,13 +26,13 @@
 		}
 	}
 
-	.department {
+	.bz-department {
 		&__label {
 			font-weight: 700;
 		}
 	}
 
-	.contacts {
+	.bz-contacts {
 
 		&__item,
 		&__email {

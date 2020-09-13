@@ -2,18 +2,15 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 	padding-top: 28px;
 
-	.description {
+	.bz-description {
 		@include description();
-
-		font-size: lib-font-size(4);
-		line-height: lib-line-height(4);
 	}
 
-	.list {
+	.bz-list {
 		text-align: left;
 
 		&__item {

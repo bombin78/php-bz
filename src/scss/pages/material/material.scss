@@ -2,6 +2,30 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
+	padding-top: 28px;
+
+	.bz-description {
+		@include description();
+	}
+
+	.bz-detail {
+
+		text-align: left;
+
+		&__label {
+			margin-bottom: 16px;
+		}
+
+		&__value {
+			padding-left: 20px;
+		}
+	}
+
+	.bz-list {
+		&__item {
+			margin-top: 7px;
+		}
+	}
 }

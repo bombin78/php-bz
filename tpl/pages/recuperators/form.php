@@ -1,46 +1,46 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
-	<div class="description">
+	<div class="bz-description">
 
-		<div class="description__checklist checklist">
+		<div class="bz-description__checklist bz-checklist">
 
-			<form class="checklist__form" method="POST" id="order-form" action="/mail.php">
+			<form class="bz-checklist__form" method="POST" id="order-form" action="/mail.php">
 
-				<h2 class="checklist__title">
+				<h2 class="bz-checklist__title">
 					Опросный лист для разработки исходных требований<br> к проектированию  теплообменника типа ОПТ
 				</h3>
 
-				<p class="checklist__download">
+				<p class="bz-checklist__download">
 					(также вы можете <b><a href="/docs/recuperators-form.doc">скачать опросный лист</a></b>,
 					заполнить его и отправить нам по факсу)
 				</p>
 
-				<ul class="checklist__params params">
+				<ul class="bz-checklist__params bz-params">
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							<b>1. Название и описание технологического процесса, в котором будет использован теплообменник</b>
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<textarea cols="30" rows="4" name="f1"></textarea>
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__subtitle">
+					<li class="bz-params__item">
+						<div class="bz-params__subtitle">
 							<b>2.Теплоноситель</b>
 						</div>
 
-						<ul class="params__sublist">
-							<li class="params__item">
-								<div class="params__label">
+						<ul class="bz-params__sublist">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Греющая среда
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<select name="f2_1">
 										<option value="газ">газ</option>
 										<option value="жидкость">жидкость</option>
@@ -49,31 +49,31 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Температура на входе теплообменника ,°C
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<input type="text" name="f2_2">
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Температура на выходе теплообменника ,°C
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<input type="text" name="f2_3">
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Расход газа (подводимого к теплообменнику), Нм³/час (или: м³/час, кг/час)
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__fields">
+								<div class="bz-params__fields">
 									<input type="text" name="f2_4">
 									<select name="f2_4_1">
 										<option value="Нм³/час">Нм³/час</option>
@@ -83,12 +83,12 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Давление на входе теплообменника, мм.вод.ст. (или Па)
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__fields">
+								<div class="bz-params__fields">
 									<input type="text" name="f2_5">
 									<select name="f2_5_1">
 										<option value="мм.вод.ст.">мм.вод.ст.</option>
@@ -97,11 +97,11 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Допустимое аэродинамическое сопротивление, мм.вод.ст. (или Па)
 								</div>
-								<div class="params__fields">
+								<div class="bz-params__fields">
 									<input type="text" name="f2_6">
 									<select name="f2_6_1">
 										<option value="мм.вод.ст.">мм.вод.ст.</option>
@@ -110,21 +110,21 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Химический состав
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<input type="text" name="f2_7">
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Количество механических примесей, г/м³
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<input type="text" name="f2_8">
 								</div>
 							</li>
@@ -132,18 +132,18 @@
 						</ul>
 					</li>
 
-					<li class="params__item">
-						<div class="params__subtitle">
+					<li class="bz-params__item">
+						<div class="bz-params__subtitle">
 							<b>3. Нагреваемая среда</b>
 						</div>
 
-						<ul class="params__sublist">
-							<li class="params__item">
-								<div class="params__label">
+						<ul class="bz-params__sublist">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Нагреваемая среда
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<select name="f3_1">
 										<option value="газ">газ</option>
 										<option value="жидкость">жидкость</option>
@@ -151,31 +151,31 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Температура на входе теплообменника ,°C
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<input type="text" name="f3_2">
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Температура на выходе теплообменника,°C
 								</div>
-								<div class="params__field">
+								<div class="bz-params__field">
 									<input type="text" name="f3_3">
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Расход воздуха (подводимого к теплообменнику), Нм³/час (или: м³/час, кг/час)
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__fields">
+								<div class="bz-params__fields">
 									<input type="text" name="f3_4">
 									<select name="f3_4_1">
 										<option value="Нм³/час">Нм³/час</option>
@@ -185,12 +185,12 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Давление на входе теплообменника, мм.вод.ст. (или Па)
-									<span class="starrequired">*</span>
+									<span class="bz-starrequired">*</span>
 								</div>
-								<div class="params__fields">
+								<div class="bz-params__fields">
 									<input type="text" name="f3_5">
 									<select name="f3_5_1">
 										<option value="мм.вод.ст.">мм.вод.ст.</option>
@@ -199,11 +199,11 @@
 								</div>
 							</li>
 
-							<li class="params__item">
-								<div class="params__label">
+							<li class="bz-params__item">
+								<div class="bz-params__label">
 									Допустимое аэродинамическое сопротивление, мм.вод.ст. (или Па)
 								</div>
-								<div class="params__fields">
+								<div class="bz-params__fields">
 									<input type="text" name="f3_6">
 									<select name="f3_6_1">
 										<option value="мм.вод.ст.">мм.вод.ст.</option>
@@ -214,41 +214,41 @@
 						</ul>
 
 					</li>
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							4. Место предполагаемой установки теплообменника (описание, эскизы с размерами, фото)
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<textarea cols="30" rows="4" name="f4"></textarea>
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							5. Присоединительные размеры и сечения подводящих и отводящих магистралей
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f5">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							6. Есть ли ограничения по геометрическим размерам (ширине, глубине, высоте)
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f6">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							7. Режим работы теплообменника
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<select name="f7">
 								<option value="односменный">односменный</option>
 								<option value="двухсменный">двухсменный</option>
@@ -257,12 +257,12 @@
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							8. Направление движения сред
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<select name="f8">
 								<option value="встречное">встречное</option>
 								<option value="перекрестное">перекрестное</option>
@@ -271,22 +271,22 @@
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							9. Использовались ли ранее в данном технологическом процессе теплообменники?<br>
 							<small>Если использовался, то их параметры (габариты, срок службы, недостатки, достоинства, технические характеристики указанные выше)</small>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<textarea name="f9" cols="30" rows="6"></textarea>
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							10. Откуда предполагается производить забор нагреваемой среды
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<select name="f10">
 								<option value="из помещения">из помещения</option>
 								<option value="с улицы">с улицы</option>
@@ -294,106 +294,106 @@
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							11. Назначение нагретой среды, куда производится ее выброс
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f11">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							12. Требуется ли разработка и изготовление теплоизоляции (или она делается «по месту»)?
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f12">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							13. Количество  теплообменников
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f13">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							14. Необходимые сроки поставки
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f14">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							15. Источник информации, из которого узнали о теплообменниках типа ОПТ (Оребренный Пластинчатый Теплообменник)
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f15">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							16. Название и реквизиты предприятия-заказчика
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<textarea cols="30" rows="6" name="f16"></textarea>
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							17. Ф.И.О. контактного лица
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f17">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							18. Телефон контактного лица
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f18">
 						</div>
 					</li>
 
-					<li class="params__item">
-						<div class="params__label">
+					<li class="bz-params__item">
+						<div class="bz-params__label">
 							19. E-mail контактного лица
-							<span class="starrequired">*</span>
+							<span class="bz-starrequired">*</span>
 						</div>
-						<div class="params__field">
+						<div class="bz-params__field">
 							<input type="text" name="f19">
 						</div>
 					</li>
 
 				</ul>
 
-				<div class="checklist__footer">
-					<div class="checklist__footer-info">
-						<span class="starrequired">*</span>
+				<div class="bz-checklist__footer">
+					<div class="bz-checklist__footer-info">
+						<span class="bz-starrequired">*</span>
 						— поля, обязательные для заполнения.
 					</div>
-					<div class="checklist__footer-btns btns">
-						<button type="submit" class="btns__submit">
+					<div class="bz-checklist__footer-btns bz-btns">
+						<button type="submit" class="bz-btns__submit">
 							Отправить заявку
 						</button>
-						<button type="reset" class="btns__reset">
+						<button type="reset" class="bz-btns__reset">
 							Очистить форму
 						</button>
 					</div>

@@ -1,6 +1,6 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
 	<p><strong>КОТЛОВАНОКОПАТЕЛЬ <nobr>ВК-4М</nobr></strong> на&nbsp;базе железнодорожной платформы</p>
 <p>Машина имеет в&nbsp;своем составе два сменных рабочих органа (шнековый и&nbsp;ков&shy;шевой) и&nbsp;их принудительную подачу.</p>

@@ -2,10 +2,10 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 
-	.description {
+	.bz-description {
 		@include description();
 	}
 }

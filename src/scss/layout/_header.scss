@@ -1,4 +1,4 @@
-.header {
+.bz-header {
     display: flex;
     position: relative;
     width: 100%;
@@ -28,7 +28,7 @@
         background: url(../images/layout/top_shest.gif) top left no-repeat;
     }
 
-    &__list.link-list {
+    &__list.bz-link-list {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -38,7 +38,7 @@
         left: 25px;
         width: 56px;
 
-        .link-list {
+        .bz-link-list {
 
             &__item {
                 width: 12px;
@@ -76,14 +76,14 @@
         width: 315px;
     }
 
-    &__brend {
+    &__brand {
         display: block;
         margin-top: 25px;
         width: 315px;
         height: 61px;
     }
 
-    &__address.dtl {
+    &__address.bz-dtl {
         display: flex;
         flex-wrap: nowrap;
 
@@ -93,7 +93,7 @@
         font-size: 11px;
         line-height: 20px;
 
-        .dtl {
+        .bz-dtl {
             &__l {
                 margin-right: 4px;
                 font-weight: 700;

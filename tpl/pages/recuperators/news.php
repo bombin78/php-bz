@@ -1,13 +1,13 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
-	<div class="description">
+	<div class="bz-description">
 
-		<div class="description__row">
+		<div class="bz-description__row">
 			<noindex>
-				<a class="bnrc" href="http://rekuperator.ru/">
-					<img class="bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
+				<a class="bz-bnrc" href="http://rekuperator.ru/">
+					<img class="bz-bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
 				</a>
 			</noindex>
 		</div>

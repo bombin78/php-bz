@@ -1,6 +1,6 @@
-<footer class="footer">
-	<div class="footer__counter">
-		<div class="footer__counter-li live-internet">
+<footer class="bz-footer">
+	<div class="bz-footer__counter">
+		<div class="bz-footer__counter-li live-internet">
 			<!--LiveInternet counter-->
 			<script type="text/javascript"><!--
 			document.write("<a href='http://www.liveinternet.ru/click' "+

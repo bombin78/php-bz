@@ -1,6 +1,6 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
 	<p><strong>КОТЛОВАНОКОПАТЕЛЬ <nobr>ВК-3</nobr></strong> (вертикальный котлованокопатель)</p>
 <p>На&nbsp;базе железнодорожной платформы, предназначен для проходки котлованов под опоры контактной сети на&nbsp;железных дорогах.</p>

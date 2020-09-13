@@ -2,14 +2,14 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 
-	.description {
+	.bz-description {
 		@include description();
 	}
 
-	.checklist {
+	.bz-checklist {
 		display: flex;
 		justify-content: center;
 
@@ -48,7 +48,7 @@
 		}
 	}
 
-	.params {
+	.bz-params {
 		width: 100%;
 
 		&__item {
@@ -155,11 +155,11 @@
 		}
 	}
 
-	.starrequired {
+	.bz-starrequired {
 		color: $red;
 	}
 
-	.btns {
+	.bz-btns {
 
 		&__submit,
 		&__reset {

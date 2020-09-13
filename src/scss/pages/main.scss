@@ -2,11 +2,11 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 	padding-top: 28px;
 
-	.description {
+	.bz-description {
 		@include description();
 
 		font-size: lib-font-size(4);
@@ -22,7 +22,7 @@
 		}
 	}
 
-	.advantages {
+	.bz-advantages {
 		margin-top: 60px;
 		text-align: left;
 
@@ -31,7 +31,7 @@
 		}
 	}
 
-	.slider {
+	.bz-slider {
 
 		margin: {
 			top: 70px;
@@ -65,7 +65,7 @@
 		}
 	}
 
-	.overhaul {
+	.bz-overhaul {
 
 		margin-top: 52px;
 		text-align: left;
@@ -84,7 +84,7 @@
 		}
 	}
 
-	.work-blocks {
+	.bz-work-blocks {
 		display: flex;
 		justify-content: flex-start;
 
@@ -101,12 +101,12 @@
 		}
 	}
 
-	.work-block {
+	.bz-work-block {
 		position: relative;
 		overflow: hidden;
 
-		font-size: lib-font-size(5);
-		line-height: lib-line-height(5);
+		font-size: lib-font-size(4);
+		line-height: lib-line-height(4);
 
 		&::after {
 			content: '';
@@ -125,7 +125,7 @@
 				background-color: rgba(0, 0, 0, 0);
 			}
 
-		  	.work-block {
+		  	.bz-work-block {
 				&__link {
 					left: 0;
 				}
@@ -193,7 +193,7 @@
 		}
 	}
 
-	.basic-site-map {
+	.bz-basic-site-map {
 		margin-top: 40px;
 	}
 }

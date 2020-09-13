@@ -1,6 +1,6 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
 	<ul id="main-menu">
 		<li class="root-item"><a href="/material/vibropogruzhatel/princip/">Принцип действия</a></li>

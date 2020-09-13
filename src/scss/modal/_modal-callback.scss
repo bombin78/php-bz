@@ -1,4 +1,4 @@
-.modal-callback {
+.bz-modal-callback {
 
     ._hide {display: none}
 
@@ -6,7 +6,7 @@
         font-size: lib-font-size(-2);
     }
 
-    .callback-form {
+    .bz-callback-form {
 
         &__phone,
         &__timezone {
@@ -53,7 +53,7 @@
             }
         }
 
-        .starrequired {
+        .bz-starrequired {
     		color: $red;
     	}
     }

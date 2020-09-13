@@ -2,10 +2,10 @@
 @import "./src/scss/utils/functions";
 @import "./src/scss/utils/mixins";
 
-.page {
+.bz-page {
 	@include main-content();
 
-	.description {
+	.bz-description {
 		@include description();
 		@include figure($prefix: '&__pie');
 		@include figure($prefix: '&__panel', $imgH: 400px, $imgW: 300px);
@@ -13,7 +13,7 @@
 		@include figure($prefix: '&__plan', $imgH: 283px, $imgW: 690px, $capMargin: 5px 0 10px 0);
 	}
 
-	.marquee {
+	.bz-marquee {
 
 		padding: 10px 20px;
 		margin: -20px -20px 40px -20px;
@@ -44,14 +44,14 @@
 		}
 	}
 
-	.video {
+	.bz-video {
 		display: flex;
 		justify-content: space-around;
 
 		margin-bottom: 20px;
 	}
 
-	.demo {
+	.bz-demo {
 		display: flex;
 		justify-content: space-around;
 
@@ -69,7 +69,7 @@
 
 	}
 
-	.additional-material {
+	.bz-additional-material {
 
 		margin: {
 			top: 15px;

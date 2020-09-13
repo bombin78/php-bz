@@ -32,24 +32,24 @@ include_once($path."config/config.php");
 	<![endif]-->
 </head>
 <body>
-<div class="wrapper">
+<div class="bz-wrapper">
 
-	<div class="header-container">
+	<div class="bz-header-container">
 		<!-- шапка сайта -->
 		<?php include_once $path."tpl/blocks/header.php" ?>
 		<!-- /шапка сайта -->
 	</div>
 
-	<div class="content-container">
-		<div class="content-container__block">
+	<div class="bz-content-container">
+		<div class="bz-content-container__block">
 
-			<aside class="sidebar-container">
+			<aside class="bz-sidebar-container">
 				<!-- боковая панель -->
 				<?php include_once $path."tpl/blocks/sidebar.php" ?>
 				<!-- /боковая панель -->
 			</aside>
 
-			<main class="main-container">
+			<main class="bz-main-container">
 				<!-- навигационная цепочка -->
 				<?php include_once $path."tpl/blocks/breadcrumbs.php" ?>
 				<!-- /навигационная цепочка -->
@@ -61,13 +61,13 @@ include_once($path."config/config.php");
 		</div>
 	</div>
 
-	<div class="footer-container">
+	<div class="bz-footer-container">
 		<!-- подвал сайта-->
 		<?php include_once $path."tpl/blocks/footer.php" ?>
 		<!-- /подвал сайта-->
 	</div>
 
-	<div class="modal-container">
+	<div class="bz-modal-container">
 		<!-- модальное окно галереи -->
 		<?php include_once $path."tpl/modal/modal-gallery.php" ?>
 		<!-- /модальное окно галереи -->

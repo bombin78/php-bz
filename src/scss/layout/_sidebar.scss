@@ -1,4 +1,4 @@
-.sidebar {
+.bz-sidebar {
 	margin-top: 75px;
 	width: 100%;
 
@@ -7,10 +7,10 @@
 
 	text-align: left;
 
-	&__menu.page-list {
+	&__menu.bz-page-list {
 		position: relative;
 
-		.page-list {
+		.bz-page-list {
 
 			&__item {
 				margin-top: 2px;
@@ -25,7 +25,7 @@
 					font-size: lib-font-size(-3);
 					line-height: lib-line-height(-3);
 
-					.page-list__link {
+					.bz-page-list__link {
 
 						&::before {
 							content: '';
@@ -64,15 +64,15 @@
 		padding: 20px;
 	}
 
-	&__info-recuperator.recuperator {
+	&__info-recuperator.bz-recuperator {
 		margin-top: 20px;
 	}
 
-	&__info-memder.member {
+	&__info-memder.bz-member {
 		margin-top: 40px;
 		padding-left: 23px;
 
-		.member__img {
+		.bz-member__img {
 			width: 58%;
 			min-width: 115px;
 		}

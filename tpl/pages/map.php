@@ -1,15 +1,15 @@
-<section class="page">
+<section class="bz-page">
 
-	<h1 class="page__content-title content-title"><?php echo $title; ?></h1>
+	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
-	<div class="description">
+	<div class="bz-description">
 
-		<div class="description__row">
+		<div class="bz-description__row">
 
-			<ul class="map-level-0">
+			<ul class="bz-map-level-0">
 				<li>
 					<a href="/recuperators/">Рекуператор тепла</a>
-					<ul class="map-level-1">
+					<ul class="bz-map-level-1">
 
 						<li><a href="/recuperators/recuperator-industry-5/">Рекуператоры нового поколения</a></li>
 
@@ -21,7 +21,7 @@
 				</li>
 
 				<li><a href="/capital-remont/">Капитальный ремонт</a>
-					<ul class="map-level-1">
+					<ul class="bz-map-level-1">
 
 						<li><a href="/capital-remont/vibro-immersers/">Вибропогружатели</a></li>
 
@@ -29,7 +29,7 @@
 
 						<!-- <li>
 							<a href="/capital-remont/cotlovanokopately-base/">Котлованокопатели на любой базе</a>
-							<ul class="map-level-2">
+							<ul class="bz-map-level-2">
 
 								<li><a href="/capital-remont/cotlovanokopately-base/VK-base-DGKU/">ВК на базе дрезины ДГКУ</a></li>
 
@@ -50,7 +50,7 @@
 
 				<li>
 					<a href="/navesnoe-oborudovanie/">Навесное оборудование для АВФ и МС</a>
-					<ul class="map-level-1">
+					<ul class="bz-map-level-1">
 
 						<li><a href="/navesnoe-oborudovanie/burovoe-oborudovanie/">ТТН-057 для бурения лидирующих скважин</a></li>
 
@@ -63,11 +63,11 @@
 
 				<li>
 					<a href="/manufacturing/">Изготовление новых машин</a>
-					<ul class="map-level-1">
+					<ul class="bz-map-level-1">
 
 						<li>
 							<a href="/manufacturing/kotlovanokopateli/">Котлованокопатели</a>
-							<ul class="map-level-2">
+							<ul class="bz-map-level-2">
 
 								<li><a href="/manufacturing/kotlovanokopateli/VK-3-rail/">ВК-3 на базе ЖД платформы</a></li>
 
@@ -88,7 +88,7 @@
 				<li>
 					<a href="/buying-used-eqipment/">Приобретение б/у техники</a>
 
-					<ul class="map-level-1">
+					<ul class="bz-map-level-1">
 
 						<li><a href="/buying-used-eqipment/fitting-platforms/">Фитинговые платформы</a></li>
 
@@ -101,7 +101,7 @@
 
 				<li>
 					<a href="/material/">Материалы</a>
-					<ul class="map-level-1">
+					<ul class="bz-map-level-1">
 
 						<li><a href="/material/drezina/">Дрезина, ремонт дрезин</a></li>
 
@@ -110,7 +110,7 @@
 						<li><a href="/material/motovoz/">Мотовоз, ремонт мотовоза</a></li>
 
 						<li><a href="/material/vibropogruzhatel/">Вибропогружатель</a>
-							<ul class="map-level-2">
+							<ul class="bz-map-level-2">
 
 								<li><a href="/material/vibropogruzhatel/princip/">Принцип действия</a></li>
 

@@ -1,4 +1,4 @@
-<div id="blueimp-gallery" class="modal-gallery blueimp-gallery blueimp-gallery-control">
+<div id="blueimp-gallery" class="bz-modal-gallery blueimp-gallery blueimp-gallery-control">
 	<div class="slides"></div>
 	<h3 class="title"></h3>
 	<a class="prev">‹</a>
