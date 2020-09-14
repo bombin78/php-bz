@@ -4,4 +4,8 @@
 
 .bz-page {
 	@include main-content();
+
+	.bz-description {
+		@include description();
+	}
 }

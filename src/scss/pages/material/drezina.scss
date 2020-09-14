@@ -4,4 +4,14 @@
 
 .bz-page {
 	@include main-content();
+
+	.bz-description {
+		@include description();
+
+		&__title {
+			&:nth-of-type(1) {
+				margin-top: 0;
+			}
+		}
+	}
 }

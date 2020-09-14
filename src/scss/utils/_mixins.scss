@@ -8,6 +8,7 @@
 
 @mixin description() {
 	padding: 20px;
+	min-height: 500px;
 
 	background-color: $bgDescription;
 	box-shadow: $shadowDescription;
@@ -46,6 +47,13 @@
 		font-size: lib-font-size(4);
 		font-weight: 700;
 		line-height: lib-line-height(4);
+	}
+
+	&__subtitle {
+		text-align: left;
+		font-size: lib-font-size(2);
+		font-weight: 700;
+		line-height: lib-line-height(2);
 	}
 
 	&__text {

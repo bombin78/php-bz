@@ -4,7 +4,6 @@
 
 .bz-page {
 	@include main-content();
-	padding-top: 28px;
 
 	.bz-description {
 		@include description();
