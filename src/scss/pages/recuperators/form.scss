@@ -74,6 +74,9 @@
 			position: relative;
 			width: 50%;
 
+			font-size: lib-font-size(0);
+			line-height: lib-line-height(0);
+
 			textarea,
 			select,
 			input[type="text"] {
@@ -86,7 +89,7 @@
 			input[type="text"] {
 				margin-bottom: 12px;
 				padding: 4px 10px;
-				height: 28px;
+				height: 32px;
 			}
 
 			textarea {
@@ -136,11 +139,11 @@
 			justify-content: space-between;
 
 			input[type="text"] {
-				width: 73%;
+				width: 71%;
 			}
 
 			select {
-				width: 26%;
+				width: 28%;
 			}
 
 		}
@@ -163,12 +166,11 @@
 
 		&__submit,
 		&__reset {
-			height: 28px;
+			height: 32px;
 			padding: 0 12px;
 
 			font-size: lib-font-size(0);
 			line-height: lib-line-height(0);
-			cursor: pointer;
 		}
 
 		&__submit {
