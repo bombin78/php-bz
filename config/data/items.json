@@ -163,59 +163,7 @@
         "url": "index.php?page=6",
         "name": "Изготовление новых машин",
         "alias": "manufacturing/",
-        "isMenu": true,
-        "items": [
-            {
-                "id": 61,
-                "level": 2,
-                "url": "index.php?page=61",
-                "name": "Котлованокопатели",
-                "alias": "manufacturing/kotlovanokopateli/",
-                "isMenu": true,
-                "items": [
-                    {
-                        "id": 611,
-                        "level": 3,
-                        "url": "index.php?page=611",
-                        "name": "ВК-3 на базе ЖД платформы",
-                        "alias": "manufacturing/kotlovanokopateli/VK-3-rail/",
-                        "isMenu": true
-                    },
-                    {
-                        "id": 612,
-                        "level": 3,
-                        "url": "index.php?page=612",
-                        "name": "МПТ-ВК-5 на базе мотовоза МПТ-6",
-                        "alias": "manufacturing/kotlovanokopateli/MPT-VK-5/",
-                        "isMenu": true
-                    },
-                    {
-                        "id": 613,
-                        "level": 3,
-                        "url": "index.php?page=613",
-                        "name": "ВК-4 на базе ЖД платформы",
-                        "alias": "manufacturing/kotlovanokopateli/VK-4-rail/",
-                        "isMenu": true
-                    },
-                    {
-                        "id": 614,
-                        "level": 3,
-                        "url": "index.php?page=614",
-                        "name": "АДМ-1.5 Б исп. 6.1 на базе дрезины АДМ-1.3",
-                        "alias": "manufacturing/kotlovanokopateli/ADM-1.5B/",
-                        "isMenu": true
-                    }
-                ]
-            },
-            {
-                "id": 62,
-                "level": 2,
-                "url": "index.php?page=62",
-                "name": "Вибропогружатели – АВФ-1",
-                "alias": "manufacturing/vibro-immersers/",
-                "isMenu": true
-            }
-        ]
+        "isMenu": true
     },
     {
         "id": 7,
