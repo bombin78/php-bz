@@ -182,6 +182,8 @@
 
 			</table>
 
+		</div>
+
 	</div>
 
 </section>
