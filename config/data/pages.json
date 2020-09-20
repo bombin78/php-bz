@@ -177,7 +177,7 @@
     },
     {
         "id": 51,
-        "title": "ТТН-057 для бурения лидирующих скважин",
+        "title": "Сменное оборудование ТТН-057.2 для бурения лидирующих скважин",
         "keywords": "",
         "description": "",
         "phpFile": "tpl/pages/navesnoe-oborudovanie/burovoe-oborudovanie.php",
@@ -185,7 +185,7 @@
     },
     {
         "id": 52,
-        "title": "ТТН-059 по разрушению фундамента",
+        "title": "Сменное оборудование ТТН-059 по разрушению фундамента",
         "keywords": "",
         "description": "",
         "phpFile": "tpl/pages/navesnoe-oborudovanie/fundamend.php",
@@ -193,7 +193,7 @@
     },
     {
         "id": 53,
-        "title": "ТТН-064 для завинчивания винтовых металлических опор",
+        "title": "Сменное оборудование ТТН-064 для завинчивания винтовых металлических опор",
         "keywords": "",
         "description": "",
         "phpFile": "tpl/pages/navesnoe-oborudovanie/vint.php",

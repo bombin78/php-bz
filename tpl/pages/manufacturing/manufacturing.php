@@ -112,7 +112,7 @@
 			            <td class="bz-params__body-cell">
 							Пределы расстояний от оси ж. д. пути до оси  погружаемого фундамента, м 
 						</td>
-			            <td class="bz-params__body-cell">3,35..5,95<sub>*</sub></td>
+			            <td class="bz-params__body-cell">3,35..5,95*</td>
 			        </tr>
 
 			        <tr class="bz-params__body-row">

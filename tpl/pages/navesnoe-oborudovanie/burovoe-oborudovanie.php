@@ -2,91 +2,170 @@
 
 	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
-	<!-- <script type="text/javascript" src="/swfobject.js"></script>
+	<div class="bz-description">
 
-	<div id="video"></div> -->
+		<div class="bz-description__row">
 
-	<h3>Назначение ТТН-057</h3>
+			<h2 class="bz-description__title">Назначение ТТН-057.2</h2>
 
-	<p>Сменное оборудование к агрегатам АВФ-1, АВФ-1М и машинам МС-1,&nbsp;МС-2 (далее по тексту – оборудование) предназначено для бурения лидирующих скважин ф 360 или ф 630 мм перед вибропогружением свайных фундаментов ТСН, ТА, ФК, ТФАЭ, ТФПЭ опор контактной сети и свай сечением 35х35 см в сложных геологических условиях (сезонная мерзлота, наличие включений и пр.) на электрифицированных линиях железных дорог Российской Федерации при температуре окружающего воздуха от -25<sup>о</sup>С до +40 <sup>о</sup>С.</p>
-	 <p>
-	</p><h3>Технические характеристики</h3>
+			<p class="bz-description__text">
+				Сменное оборудование к агрегатам АВФ-1, АВФ-1М, АВФ-1М.2 и машинам МС-1, МС-2 (далее по тексту –
+				оборудование) предназначено для бурения лидирующих скважин ф 360 или ф 630 мм перед вибропогружением
+				свайных фундаментов ТС, ТСН, ТА, ФК, ФКА, ТФПЭ и ТФПА опор контактной сети и железобетонных свай
+				сечением 35х35 см в сложных геологических условиях (сезонная мерзлота, наличие включений и пр.) на
+				электрифицированных линиях железных дорог Российской Федерации при температуре окружающего воздуха
+				от минус 25 <sup>о</sup> С до плюс 40 <sup>о</sup>С.
+			</p>
 
-	<p>Диаметр скважины (по инструменту) ………………………………… 360;&nbsp;630</p>
+		</div>
 
-	<p>Глубина скважины от УГР, м, не более ……………………………………….&nbsp;4</p>
+		<div class="bz-description__row">
 
-	<p>Расстояние от оси пути до оси скважины, м …………………………<span>&nbsp;&nbsp; </span>3,3…5,9</p>
+			<div class="bz-img-wrap">
+				<img
+					class="bz-img"
+					alt="вибропогружатель АВФ-1, схема"
+					src="/images/pages/navesnoe-oborudovanie/TTN-057.2.jpg"
+					vspace="5"
+					width="600"
+					align="absmiddle"
+					height="190"
+					hspace="5">
+			</div>
 
-	<p>Усилие подачи инструмента, кН, не более …………………………………..&nbsp;60</p>
+		</div>
 
-	<p>Частота вращения инструмента, 1/мин ………………………………… 60…100</p>
+		<div class="bz-description__row">
 
-	<p>Потребляемая мощность, кВт, не более ……………………………………..<span>&nbsp;&nbsp;&nbsp; </span>90</p>
+			<h3 class="bz-description__subtitle">Технические характеристики:</h2>
 
-	<p>Время бурения одной&nbsp;скважины глубиной 4 м от УГР в талых грунтах II группы по СНиП, СКВ/ч, не более:</p>
+			<table class="bz-params">
 
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ф 360 мм …………………………………………&nbsp;&nbsp;&nbsp;&nbsp; 3</p>
+				<tbody class="bz-params__body">
 
-	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ф 630 мм …………………………………………&nbsp;&nbsp;&nbsp;&nbsp; 4</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Диаметр скважины (по инструменту)
+						</td>
+						<td class="bz-params__body-cell">360; 630</td>
+					</tr>
 
-	<p>&nbsp;</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell" colspan="2">
+							Глубина скважины от УГР, м, не более
+						</td>
+					</tr>
 
-	<p><b><i>Общее время подключения оборудования к гидросистеме </i></b></p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- ф 360 мм
+						</td>
+						<td class="bz-params__body-cell">5</td>
+					</tr>
 
-	<p><b><i>машины и отключения от нее, мин, не более …………………………....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5</i></b></p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- ф 630 мм
+						</td>
+						<td class="bz-params__body-cell">1,75</td>
+					</tr>
 
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Расстояние от оси пути до оси скважины, м
+						</td>
+						<td class="bz-params__body-cell">3,35…5,95</td>
+					</tr>
 
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Усилие подачи инструмента, кН, не более
+						</td>
+						<td class="bz-params__body-cell">60</td>
+					</tr>
 
-	<p><b><i>Применение настоящего сменного оборудования не требует демонтажа вибратора в полевых условиях</i></b></p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Частота вращения инструмента, 1/мин
+						</td>
+						<td class="bz-params__body-cell">60…115</td>
+					</tr>
 
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Потребляемая мощность, кВт, не более
+						</td>
+						<td class="bz-params__body-cell">90</td>
+					</tr>
 
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell" colspan="2">
+							Время бурения одной скважины в талых грунтах II группы по СНиП, СКВ/ч, не более:
+						</td>
+					</tr>
 
-	<p>Масса оборудования, кг, не более ……………………………………………&nbsp;1700</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- ф 360 мм глубиной 4 м от УГР
+						</td>
+						<td class="bz-params__body-cell">5</td>
+					</tr>
 
-	<p>
-	</p><h3>Комплект поставки</h3>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- ф 630 мм глубиной 1,5 м от УГР
+						</td>
+						<td class="bz-params__body-cell">3</td>
+					</tr>
 
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Общее время подключения оборудования к гидросистеме
+							машины и отключения от нее, мин, не более
+						</td>
+						<td class="bz-params__body-cell">5</td>
+					</tr>
 
-	<p>В комплект оборудования входят:</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Масса оборудования, кг, не более
+						</td>
+						<td class="bz-params__body-cell">2000</td>
+					</tr>
 
-	<ul>
-	  <li>бур ТТН057-10000-00;</li>
+				</tbody>
 
-	  <li>комплект гидравлической арматуры для подключения (в зависимости от заказа оборудования):
-	    <br>
+				<tfoot class="bz-params__foot">
+					<tr class="bz-params__foot-row">
+						<td class="bz-params__foot-cell" colspan="2">
+							Оборудование устанавливается в зажим вибропогружателя не требует демонтажа вибропогружателя
+						</td>
+					</tr>
+				</tfoot>
 
-	    <ul>
-	      <li>к агрегатам АВФ – ТТН057-00300-00;</li>
+			</table>
 
-	      <li>или – к машинам МС – ТТН057-00400-00;</li>
+			<dl class="bz-detail">
+				<dt class="bz-detail__label">
+					В комплект оборудования входит комплект гидравлической арматуры для подключения к гидравлической системе
+					базовой машины (в зависимости от заказа оборудования):
+				</dt>
+				<dd class="bz-detail__value">
 
-	      <li>или – оба комплекта к агрегатам АВФ и к машинам МС;</li>
-	     </ul>
-	   </li>
+					<ul class="bz-list">
+						<li class="bz-list__item">
+							- к агрегатам АВФ-1 и АВФ-1М  – ТТН057-00300-00;
+						</li>
+						<li class="bz-list__item">
+							- к машинам МС-1 и МС-2 – ТТН057-00400-00.
+						</li>
+					</ul>
 
-	  <li>комплект запасных частей, инструмента и принадлежностей в соответствии с ведомостью ЗИП ТТН057-ЗИ;</li>
+				</dd>
+			</dl>
 
-	  <li>эксплуатационная документация:
-	    <br>
+		</div>
 
-	    <ul>
-	      <li>ведомость ЗИП ТТН057-ЗИ;</li>
-
-	      <li>паспорт ТТН057-ПС;</li>
-
-	      <li>эксплуатационная документация приводного гидромотора и буров БЛ.</li>
-	     </ul>
-	   </li>
-	 </ul>
-
-	<!-- <script type="text/javascript">
-		var so = new SWFObject('/player.swf','ply','500','400','9','#ffffff');
-		so.addParam('allowfullscreen','true');
-		so.addParam('allowscriptaccess','always');
-		so.addParam('wmode','opaque');
-		so.addVariable('file','/files/Byrenie.flv');
-		so.write('video');
-	</script> -->
+	</div>
 
 </section>

@@ -2,93 +2,206 @@
 
 	<h1 class="bz-page__content-title bz-content-title"><?php echo $title; ?></h1>
 
-	<!-- <script type="text/javascript" src="/swfobject.js"></script>
+	<div class="bz-description">
 
-	<div id="video"></div> -->
+		<div class="bz-description__row">
 
-	<h3><b>Назначение ТТН-064</b></h3><p> </p>
-	 Сменное оборудование к агрегатам АВФ и машинам МС-1 предназначено для установки металлических винтовых свайных фундаментов опор контактной сети железных дорог в сложных геологических условиях.
-	<p> Вид климатического исполнения оборудования У категории размещения 1 ГОСТ 15150 для работы при температурах от минус 25 градусов по Цельсию до плюс 40 градусов по Цельсию.</p>
+			<h2 class="bz-description__title">Назначение ТТН-064</h2>
 
-	<p> Геологические условия эксплуатации — талые, мерзлые и вечно-мерзлые грунты со скальными включениями.</p>
+			<p class="bz-description__text">
+				Сменное оборудование к агрегатам АВФ-1, АВФ-1М, АВФ-1М.2 и машинам МС-1 предназначено для
+				установки металлических винтовых свайных фундаментов опор контактной сети железных дорог в
+				сложных геологических условиях.
+			</p>
+			<p class="bz-description__text">
+				Вид климатического исполнения оборудования У категории размещения 1 ГОСТ 15150 для работы
+				при температурах от минус 25 <sup>0</sup>С до плюс 40 <sup>0</sup>С. Геологические условия
+				эксплуатации — талые, мерзлые и вечно-мерзлые грунты со скальными включениями.
+			</p>
 
-	<h3><b>Техническая характеристика ТТН-064</b></h3>
+		</div>
 
-	<div>
-		<p align="center"> </p>
+		<div class="bz-description__row">
 
-		<p><b>Марка винтовых свай:</b>&nbsp;</p>
+			<div class="bz-img-wrap">
+				<img
+					class="bz-img"
+					alt="вибропогружатель АВФ-1, схема"
+					src="/images/pages/navesnoe-oborudovanie/TTN-057.2.jpg"
+					vspace="5"
+					width="600"
+					align="absmiddle"
+					height="190"
+					hspace="5">
+			</div>
 
-		<p>СВ-325, СВП-325, СВ-351, СВП-351</p>
+		</div>
 
-		<p><b>Длина свай, м</b><b>:</b>&nbsp;</p>
+		<div class="bz-description__row">
 
-		<p>4,5; 6</p>
+			<h3 class="bz-description__subtitle">Технические характеристики:</h2>
 
-		<p><b>Диаметр скважины (по инструменту), мм:</b>&nbsp;</p>
+			<table class="bz-params">
 
-		<p>325; 350</p>
+				<tbody class="bz-params__body">
 
-		<p><b>Глубина скважины от УГР, м:</b>&nbsp;</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Марка винтовых свай
+						</td>
+						<td class="bz-params__body-cell">
+							СВ-325, СВП-325, СВ-351, СВП-351
+						</td>
+					</tr>
 
-		<p>не более 6</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Длина свай, м
+						</td>
+						<td class="bz-params__body-cell">4,5; 6</td>
+					</tr>
 
-		<p><b>Расстояние от оси пути до оси скважины, м:</b>&nbsp;</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Диаметр скважины (по инструменту), мм
+						</td>
+						<td class="bz-params__body-cell">325; 350</td>
+					</tr>
 
-		<p>3,35...5,95</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Глубина скважины от УГР, м, не более
+						</td>
+						<td class="bz-params__body-cell">6</td>
+					</tr>
 
-		<p><b>Глубина завинчивания от УГР, м:</b>&nbsp;</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Глубина завинчивания от УГР, м, не более
+						</td>
+						<td class="bz-params__body-cell">6</td>
+					</tr>
 
-		<p>не более 6</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Расстояние от оси пути до оси скважины, м
+						</td>
+						<td class="bz-params__body-cell">3,35...5,95</td>
+					</tr>
 
-		<p><b>Усилие подачи, кН, не более:</b></p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell" colspan="2">
+							Усилие подачи, кН, не более:
+						</td>
+					</tr>
 
-		<p> при бурении 60</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при бурении
+						</td>
+						<td class="bz-params__body-cell">60</td>
+					</tr>
 
-		<p> при завинчивании сваи 93</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при завинчивании сваи
+						</td>
+						<td class="bz-params__body-cell">93</td>
+					</tr>
 
-		<p> при извлечении сваи 80</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при извлечении сваи
+						</td>
+						<td class="bz-params__body-cell">80</td>
+					</tr>
 
-		<p><b>Частота вращения,1/мин, не более:</b></p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell" colspan="2">
+							Частота вращения,1/мин, не более:
+						</td>
+					</tr>
 
-		<p> при бурении 125</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при бурении
+						</td>
+						<td class="bz-params__body-cell">125</td>
+					</tr>
 
-		<p> при завинчивании 10</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при завинчивании сваи
+						</td>
+						<td class="bz-params__body-cell">10</td>
+					</tr>
 
-		<p><b>Крутящий момент вращателя, кНм, не более:</b></p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell" colspan="2">
+							Крутящий момент вращателя, кНм, не более:
+						</td>
+					</tr>
 
-		<p> при бурении 20</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при бурении
+						</td>
+						<td class="bz-params__body-cell">20</td>
+					</tr>
 
-		<p> при завинчивании 100</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-item">
+							- при завинчивании сваи
+						</td>
+						<td class="bz-params__body-cell">100</td>
+					</tr>
 
-		<p><b>Масса оборудования, кг:</b>&nbsp;</p>
+					<tr class="bz-params__body-row">
+						<td class="bz-params__body-cell">
+							Масса оборудования, кг, не более
+						</td>
+						<td class="bz-params__body-cell">3500</td>
+					</tr>
 
-		<p>не более 3500.</p>
+				</tbody>
+
+			</table>
+
+			<dl class="bz-detail">
+				<dt class="bz-detail__label">
+					В комплект поставки ТТН-064 входят:
+				</dt>
+				<dd class="bz-detail__value">
+
+					<ul class="bz-list">
+						<li class="bz-list__item">
+							- вращатель ТТН064-01000-00;
+						</li>
+						<li class="bz-list__item">
+							- люнет ТТН064-00100-00;
+						</li>
+						<li class="bz-list__item">
+							- шнек ф 315 ТТН064-00010-00;
+						</li>
+						<li class="bz-list__item">
+							- опора ТТН064-00030-00;
+						</li>
+						<li class="bz-list__item">
+							- запасные части, инструмент, принадлежности и монтажные части согласно ведомости ЗИП ТТН064-ЗИ;
+						</li>
+						<li class="bz-list__item">
+							- эксплуатационные документы согласно ведомости ТТН064-ВЭ;
+						</li>
+						<li class="bz-list__item">
+							- ведомость эксплуатационных документов ТТН064-ВЭ.
+						</li>
+					</ul>
+
+				</dd>
+			</dl>
+
+		</div>
+
 	</div>
-
-	<h3>Комплект поставки ТТН-064</h3>
-	В комплект поставки входят:
-	<ul>
-		<li>вращатель ТТН064-01000-00;
-		</li><li>люнет ТТН064-00100-00;
-		</li><li>шнек ф 315 ТТН064-00010-00;
-		</li><li>шнек ф 340 ТТН064-00020-00;
-		</li><li>опора ТТН064-00030-00;
-		</li><li>запасные части, инструмент, принадлежности и монтажные части согласно ведомости ЗИП ТТН064-ЗИ;
-		</li><li>эксплуатационные документы согласно ведомости ТТН064-ВЭ;
-		</li><li>ведомость эксплуатационных документов ТТН064-ВЭ.
-		</li>
-	</ul>
-
-	<!-- <p> 
-		<script type="text/javascript">
-			var so = new SWFObject('/player.swf','ply','500','400','9','#ffffff');
-			so.addParam('allowfullscreen','true');
-			so.addParam('allowscriptaccess','always');
-			so.addParam('wmode','opaque');
-			so.addVariable('file','/files/zavinchivanie.flv');
-			so.write('video');
-		</script>
-	</p> -->
 
 </section>
