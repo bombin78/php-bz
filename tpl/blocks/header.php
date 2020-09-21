@@ -18,7 +18,7 @@
 		</a>
 		<dl class="bz-header__address bz-dtl">
 			<dt class="bz-dtl__l">Бушевецкий завод, г. Бологое:</dt>
-			<dd class="bz-dtl__v">+7(920) 194-84-13</dd>
+			<dd class="bz-dtl__v">8-920-194-84-11</dd>
 		</dl>
 		<div class="bz-header__email">
 			<a class="bz-header__email-link" href="mailto:bushevec2009@yandex.ru">

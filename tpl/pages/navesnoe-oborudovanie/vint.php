@@ -28,11 +28,8 @@
 					class="bz-img"
 					alt="вибропогружатель АВФ-1, схема"
 					src="/images/pages/navesnoe-oborudovanie/TTN-057.2.jpg"
-					vspace="5"
-					width="600"
-					align="absmiddle"
-					height="190"
-					hspace="5">
+					width="780"
+					height="205">
 			</div>
 
 		</div>

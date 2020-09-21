@@ -5,12 +5,12 @@
 
 	if($phone != ''){
 
-		$to = "bushevec5@yandex.ru";
+		$to = "bushevec2009@yandex.ru";
 		$title = "Вам заявка с сайта";
 		$post = "<p align='left'>Здравствуйте!<br>Мне нужна консультация<br> Тел: ".$phone ."<br> Часовой пояс: ".$timeZone."</p>";
 
 		$header="Content-Type:text/html;charset=UTF-8";
-		//mail($to,$title,$post,$header);
+		mail($to,$title,$post,$header);
 
 		$to = "bombin78@mail.ru";
 		mail($to,$title,$post,$header);

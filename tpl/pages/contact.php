@@ -73,7 +73,7 @@
 
 									<li class="bz-contacts__item">
 										<div class="bz-contacts__post">Начальник ремонтного участка</div>
-										<div class="bz-contacts__name">Андреев Александр Анатольеви</div>
+										<div class="bz-contacts__name">Андреев Александр Анатольевич</div>
 										<div class="bz-contacts__phone">8-920-194-84-11</div>
 									</li>
 

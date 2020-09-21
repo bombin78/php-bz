@@ -15,7 +15,7 @@
 					<ul class="bz-list">
 						<li class="bz-list__item">
 							<a class="bz-list__link" href="/<?= $routesParams[4]['items'][0][$linkParam]?>">
-								ТТН-057 для бурения лидирующих скважин
+								ТТН-057.2 и ТТН-073.2 для бурения скважин
 							</a>
 						</li>
 						<li class="bz-list__item">

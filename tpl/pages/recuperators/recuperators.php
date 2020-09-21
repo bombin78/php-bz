@@ -16,7 +16,7 @@
 			</div>
 
 			<div class="bz-video">
-				<iframe width="420" height="315" src="//www.youtube.com/embed/oimUug8tUWg" frameborder="0" allowfullscreen=""></iframe>
+				<!-- <iframe width="420" height="315" src="//www.youtube.com/embed/oimUug8tUWg" frameborder="0" allowfullscreen=""></iframe> -->
 				<iframe width="420" height="315"  src="//www.youtube.com/embed/qISe2-dwcQg" frameborder="0" allowfullscreen=""></iframe>
 			</div>
 
