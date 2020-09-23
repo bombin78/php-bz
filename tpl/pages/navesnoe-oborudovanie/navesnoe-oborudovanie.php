@@ -24,7 +24,7 @@
 							</a>
 						</li>
 						<li class="bz-list__item">
-							<a class="bz-list__link" href="/<?= $routesParams[4]['items'][1][$linkParam]?>">
+							<a class="bz-list__link" href="/<?= $routesParams[4]['items'][2][$linkParam]?>">
 								ТТН-064 для завинчивания винтовых металлических опор
 							</a>
 						</li>
