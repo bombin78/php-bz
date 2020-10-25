@@ -87,7 +87,7 @@
                         </div>
 
                     </form>
-                    <p id="ajax-result" class="col-12 text-center bz-modal-callback__message"></p>
+                    <p id="ajaxResult" class="col-12 text-center bz-modal-callback__message"></p>
                 </div>
             </div>
             <div id="callbackModalFooter" class="modal-footer">

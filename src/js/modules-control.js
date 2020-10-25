@@ -36,7 +36,7 @@ $(document).ready(function(){
 
     // Приводим форму обратного звонка в исходное состояние и открываем модальное окно
     $('#openCallbackModal').click(function () {
-        $('#ajax-result').empty();
+        $('#ajaxResult').empty();
         $("#callbackModalForm, #callbackModalFooter").removeClass('_hide');
         $('#callbackModal').modal('show');
     })
@@ -64,7 +64,7 @@ $(document).ready(function(){
 
     				if ($('#callbackModal').hasClass('show')) {
                         $("#callbackModalForm, #callbackModalFooter").addClass('_hide');
-                        $('#ajax-result').append(resp);
+                        $('#ajaxResult').append(resp);
     				}
     			}
     		});
@@ -98,25 +98,4 @@ var swiper = new Swiper('.swiper-container',{
     },
 });
 //------------------------------------------------------------
-
-// $('.article-title, .article-arrow').on('click',function(e){
-// 	e.preventDefault();
-//
-// 	var wrapper=$(this).closest('.article'),
-// 		wrapperModifier = '_open',
-// 		wrapperAttr = 'style',
-// 		description = wrapper.find('.article-text'),
-// 		duration = 200;
-// 	if(wrapper.hasClass(wrapperModifier)) {
-// 		description.slideUp(duration,function(){
-// 			wrapper.removeClass(wrapperModifier);
-// 			description.removeAttr(wrapperAttr);
-// 		});
-// 	} else {
-// 		description.slideDown(duration,function(){
-// 			wrapper.addClass(wrapperModifier);
-// 			description.removeAttr(wrapperAttr);
-// 		});
-// 	}
-// });
 })(jQuery);
