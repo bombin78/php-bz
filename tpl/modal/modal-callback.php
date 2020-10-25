@@ -3,7 +3,7 @@
     class="bz-modal-callback modal fade"
     tabindex="-1"
     role="dialog"
-    data-backdrop="false"
+    data-backdrop="true"
     aria-labelledby="callbackModal"
     aria-hidden="true">
 
