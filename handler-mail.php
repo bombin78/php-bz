@@ -113,4 +113,3 @@ $msgClient = 'Добрый день! Ваша заявка принята.
 Ваша команда Бушевецкого завода';
 mail("bombin78@mail.ru", $subject, $msgClient, $header);
 mail($_POST['f19'], $subject, $msgClient, $header);
-echo true;
