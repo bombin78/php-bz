@@ -1,0 +1,10 @@
+.bz-modal-confirmation {
+
+    .modal-dialog {
+        width: 350px;
+    }
+
+    &__message {
+        font-size: lib-font-size(-2);
+    }
+}

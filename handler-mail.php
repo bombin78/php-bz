@@ -103,7 +103,7 @@ $msg = '1. Название и описание технологического
 .$_POST['f19'];
 
 mail("bombin78@mail.ru", $subject, $msg, $header);
-mail("bushevec2009@yandex.ru", $subject, $msg, $header);
+//mail("bushevec2009@yandex.ru", $subject, $msg, $header);
 
 
 // оповещение заказчика
@@ -113,13 +113,4 @@ $msgClient = 'Добрый день! Ваша заявка принята.
 Ваша команда Бушевецкого завода';
 mail("bombin78@mail.ru", $subject, $msgClient, $header);
 mail($_POST['f19'], $subject, $msgClient, $header);
-
-?>
-<html>
-    <head>
-        <meta http-equiv="refresh" content="3; url=<?php echo $_SERVER['HTTP_REFERER'] ?>">
-    </head>
-    <body>
-        <p>Ваше сообщение отправлено. Спасибо.</p>
-    </body>
-</html>
+echo true;

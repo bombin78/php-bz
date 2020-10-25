@@ -6,7 +6,11 @@
 
 		<div class="bz-description__checklist bz-checklist">
 
-			<form class="bz-checklist__form" method="POST" id="order-form" action="/mail.php">
+			<form
+				id="orderForm"
+				class="bz-checklist__form"
+				action="/handler-mail.php"
+				method="POST">
 
 				<h2 class="bz-checklist__title">
 					Опросный лист для разработки исходных требований<br> к проектированию  теплообменника типа ОПТ
@@ -405,7 +409,9 @@
 
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$("#order-form").validate({
+
+				// Запускаем валидацию формы опросного листа
+				var orderFormValidator = $("#orderForm").validate({
 					rules: {
 						f1: {
 							required: true,
@@ -540,6 +546,37 @@
 							required: 'поле не заполнено',
 						},
 					},
+				});
+
+				// Отправка данных формы опросного листа
+				$('#orderForm').submit(function (e) {
+
+					//отменяем стандартное действие при отправке формы
+					e.preventDefault();
+					//берем из формы метод передачи данных
+					var formMethod = $(this).attr('method');
+					//получаем адрес скрипта на сервере, куда нужно отправить форму
+					var formAction = $(this).attr('action');
+					//получаем данные, введенные пользователем в формате input1=value1&input2=value2...,
+					//то есть в стандартном формате передачи данных формы + добавляем параметры из адресной строки
+					var formData = $(this).serialize();
+
+					if(orderFormValidator.errorList.length === 0) {
+
+						$.ajax({
+							type: formMethod,
+							url: formAction,
+							dataType: 'text',
+							data: formData,
+							success: function (resp) {
+								$('#confirmationModal').modal('show');
+							}
+						});
+					} else {
+						$('#errorMessage').empty();
+						$('#errorMessage').append('Необходимо заполнить все обязательные поля опросного листа.');
+						$('#errorModal').modal('show');
+					}
 				});
 			});
 		</script>

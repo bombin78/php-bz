@@ -1,0 +1,11 @@
+.bz-modal-error {
+
+    .modal-dialog {
+        width: 350px;
+    }
+
+    &__message {
+        color: $red;
+        font-size: lib-font-size(-2);
+    }
+}

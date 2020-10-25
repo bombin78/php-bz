@@ -18,18 +18,7 @@ include_once($path."config/config.php");
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/css/<?php echo $cssFile; ?>">
 	<script type="text/javascript" src="/vendors/jquery-3.5.1.min.js"></script>
-	<!--[if lt IE 9]>
-	<script>
-		var e = ("article,aside,footer,header,nav,section").split(',');
-		for (var i = 0; i < e.length; i++) {
-			document.createElement(e[i]);
-		}
-	</script>
-	<link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/src/IE8.css">
-	<![endif]-->
-	<!--[if lt IE 8]>
-	<script type="text/javascript" src="<?php echo $path; ?>js/ie6-7blocker.js"></script>
-	<![endif]-->
+	<script type="text/javascript" src="/js/ie8-10blocker.js"></script>
 </head>
 <body>
 <div class="bz-wrapper">
@@ -75,6 +64,14 @@ include_once($path."config/config.php");
 		<!-- модальное окно заявки на обратный звонок -->
 		<?php include_once $path."tpl/modal/modal-callback.php" ?>
 		<!-- /модальное окно заявки на обратный звонок -->
+
+		<!-- модальное окно подтверждения отправки заявки -->
+		<?php include_once $path."tpl/modal/modal-confirmation.php" ?>
+		<!-- /модальное окно подтверждения отправки заявки -->
+
+		<!-- модальное окно ошибки -->
+		<?php include_once $path."tpl/modal/modal-error.php" ?>
+		<!-- /модальное окно ошибки -->
 	</div>
 
 </div>
