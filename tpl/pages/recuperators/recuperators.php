@@ -146,8 +146,8 @@
 		<div class="bz-description__bottom">
 
 			<p class="bz-description__text">
-				Деятельность Бушевецкого завода отражена в основном разделе
-				<a href="/recuperators/"><b>Рекуператоры</b></a>
+				Деятельность Бушевецкого завода по производству рекуператоров отражена на сайте
+				<a href="http://rekuperator.ru/" target="_blank" rel="nofollow"><b>Рекуператоры тепла</b></a>
 			</p>
 
 		</div>

@@ -19,7 +19,7 @@
 			</a>
 
 			<div class="bz-actions">
-				<a class="bz-actions__fill" href="http://rekuperator.ru/form.php" target="_blank" rel="nofollow">
+				<a class="bz-actions__fill" href="/<?= $routesParams[1]['items'][2][$linkParam]?>">
 					Заполните опросный лист on-line
 				</a>
 				<a class="bz-actions__download" href="/docs/recuperators-form.doc">
@@ -75,17 +75,6 @@
 				предварительные заказы на <a title="рекуператор тепла" href="/recuperators/">пластинчатые рекуператоры</a>,
 				изготовленные на новой производственной линии. Ознакомится с ходом строительства новой линии вы можете на
 				нашем сайте.
-			</p>
-
-		</div>
-
-		<div class="bz-description__bottom">
-
-			<p class="bz-description__text">
-				Деятельность Бушевецкого завода отражена на основном сайте
-				"<a href="http://rekuperator.ru/info12.php" title="Пластинчатые рекуператоры Бушевецкого завода - Производство пластинчатых теплообменников газов. Рекуператоры нового поколения">
-					Пластинчатые рекуператоры
-				</a>"
 			</p>
 
 		</div>
