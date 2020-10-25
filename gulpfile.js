@@ -16,7 +16,7 @@ const paths = {
         './src/scss/pages/**/*.scss',
     ],
     jsFiles: [
-        './src/js/ie6-7blocker.js',
+        './src/js/ie8-10blocker.js',
         './src/js/modules-control.js'
     ]
 };
