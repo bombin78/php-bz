@@ -1,11 +1,29 @@
 .bz-sidebar {
 	margin-top: 75px;
+	padding: {
+		left: 25px;
+		right: 25px;
+	};
 	width: 100%;
 
 	font-size: lib-font-size(-4);
 	line-height: lib-line-height(-4);
 
 	text-align: left;
+
+	@media (max-width:1420px) {
+		padding: {
+			left: 15px;
+			right: 15px;
+		};
+	}
+
+	@media (max-width:1350px) {
+		padding: {
+			left: 0;
+			right: 5px;
+		};
+	}
 
 	&__menu.bz-page-list {
 		position: relative;
@@ -14,7 +32,7 @@
 
 			&__item {
 				margin-top: 2px;
-				padding: 0 10px;
+				padding-left: 10px;
 			}
 
 			&__block-link {
