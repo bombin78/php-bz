@@ -103,7 +103,7 @@ $msg = '1. Название и описание технологического
 .$_POST['f19'];
 
 mail("bombin78@mail.ru", $subject, $msg, $header);
-mail("bushevec2009@yandex.ru", $subject, $msg, $header);
+mail("bushevec5@yandex.ru", $subject, $msg, $header);
 
 
 // оповещение заказчика
