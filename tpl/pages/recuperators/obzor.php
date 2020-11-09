@@ -7,7 +7,7 @@
 		<div class="bz-description__row">
 
 			<noindex>
-				<a class="bz-bnrc" href="http://rekuperator.ru/">
+				<a class="bz-bnrc" href="/recuperators/form/">
 					<img class="bz-bnrc__img" src="/images/pages/recuperators/rekuperator.ru.jpg">
 				</a>
 			</noindex>
