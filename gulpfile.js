@@ -43,12 +43,43 @@ function styles() {
         .pipe(browserSync.stream());
 }
 
+function css() {
+    return gulp.src(paths.scss)
+        .pipe(sourcemaps.init())
+        //
+        .pipe(sass({
+            outputStyle: 'compressed'
+        }).on('error', sass.logError))
+        //
+        .pipe(cssimport())
+        // Добавить префиксы (версии браузеров смотри в файле "package.json")
+        .pipe(autoprefixer())
+        // Минификация CSS
+        .pipe(cleanCSS({
+            level: 2
+        }))
+        // Выходная папка стилей
+        .pipe(gulp.dest('./css'))
+        // Обновление страницы
+        .pipe(browserSync.stream());
+}
+
 function scripts() {
     return gulp.src(paths.jsFiles)
         .pipe(sourcemaps.init())
         // Минификация JS
         .pipe(uglify())
         .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('./js'))
+        // Обновление страницы
+        .pipe(browserSync.stream());
+}
+
+function js() {
+    return gulp.src(paths.jsFiles)
+        .pipe(sourcemaps.init())
+        // Минификация JS
+        .pipe(uglify())
         .pipe(gulp.dest('./js'))
         // Обновление страницы
         .pipe(browserSync.stream());
@@ -76,7 +107,9 @@ function watcher() {
 
 // Task для отслеживания изменений
 gulp.task('watcher', watcher);
-// Task для удлания файлов в папках "css" и "js" и запуска "styles" и "scripts"
+// Task для удаления файлов в папках "css" и "js" и запуска "styles" и "scripts"
 gulp.task('build', gulp.series(clean, gulp.parallel(styles, scripts)));
 // Task для удаления старой сборки, запуска новой сборки и "watcher"a
 gulp.task('dev', gulp.parallel('build', 'watcher'));
+// Task для персборки "css" и "js" под продакшен
+gulp.task('prod', gulp.series(clean, gulp.parallel(css, js)));
