@@ -16,7 +16,8 @@
     "homepage": "https://github.com/bombin78/vbm1#readme",
     "scripts": {
         "start": "gulp dev",
-        "build": "gulp build"
+        "build": "gulp build",
+        "prod": "gulp prod"
     },
     "devDependencies": {
         "browser-sync": "^2.26.7",
