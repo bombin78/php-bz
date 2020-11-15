@@ -16,6 +16,14 @@
 		"cssFile": "recuperators/recuperators.css"
     },
     {
+        "id": 20,
+        "title": "Отзывы",
+        "keywords": "Отзывы",
+        "description": "",
+        "phpFile": "tpl/pages/recuperators/reviews.php",
+        "cssFile": "recuperators/reviews.css"
+    },
+    {
         "id": 21,
         "title": "Рекуператоры нового поколения",
         "keywords": "Рекуператоры, купить рекуператор, рекуператоры, производство рекуператоров",

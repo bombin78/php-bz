@@ -1,0 +1,47 @@
+@import "./src/scss/utils/variables";
+@import "./src/scss/utils/functions";
+@import "./src/scss/utils/mixins";
+
+.bz-page {
+	@include main-content();
+
+	.bz-description {
+		@include description();
+	}
+
+	.bz-slider {
+		display: flex;
+		flex-wrap: wrap;
+
+		margin: {
+			top: -20px;
+			right: -20px;
+		}
+		padding: 20px 0;
+
+
+		&__item {
+			padding: {
+				top: 20px;
+				right: 20px;
+			}
+
+			width: 20%;
+		}
+
+		&__link,
+		&__img {
+			display: block;
+			width: 100%;
+		}
+
+		&__link {
+			border: 2px solid $lightestGray;
+
+			&:focus,
+			&:hover {
+				border-color: $lighterGray;
+		   }
+		}
+	}
+}

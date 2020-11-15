@@ -86,6 +86,14 @@
                 "name": "Материалы по теме \"Рекуператоры\"",
                 "alias": "recuperators/articles/",
                 "isMenu": false
+            },
+            {
+                "id": 20,
+                "level": 2,
+                "url": "index.php?page=20",
+                "name": "Отзывы",
+                "alias": "recuperators/reviews/",
+                "isMenu": true
             }
         ]
     },
