@@ -6,6 +6,7 @@ RewriteRule ^glavnaya$ index.php [L]
 RewriteRule ^glavnaya$ index.php?page=1 [L]
 
 RewriteRule ^recuperators/$ index.php?page=2 [L]
+RewriteRule ^recuperators/reviews/$ index.php?page=20 [L]
 RewriteRule ^recuperators/recuperator-industry-5/$ index.php?page=21 [L]
 RewriteRule ^recuperators/news/$ index.php?page=22 [L]
 RewriteRule ^recuperators/form/$ index.php?page=23 [L]
