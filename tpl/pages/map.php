@@ -17,6 +17,8 @@
 
 						<li><a href="/recuperators/form/">Опросный лист на теплообменники</a></li>
 
+						<li><a href="/recuperators/reviews/">Отзывы</a></li>
+
 					</ul>
 				</li>
 
@@ -52,18 +54,19 @@
 					<a href="/navesnoe-oborudovanie/">Навесное оборудование для АВФ и МС</a>
 					<ul class="bz-map-level-1">
 
-						<li><a href="/navesnoe-oborudovanie/burovoe-oborudovanie/">ТТН-057 для бурения лидирующих скважин</a></li>
+						<li><a href="/navesnoe-oborudovanie/burovoe-oborudovanie/">ТТН-057.2 и ТТН-073.2 для бурения скважин</a></li>
 
 						<li><a href="/navesnoe-oborudovanie/fundamend/">ТТН-059 по разрушению фундамента</a></li>
 
-						<li><a href="/navesnoe-oborudovanie/vint/">ТТН-064 для завинчивания опор</a></li>
+						<li><a href="/navesnoe-oborudovanie/vint/">ТТН-064 для завинчивания винтовых металлических опор</a></li>
 
 					</ul>
 				</li>
 
 				<li>
 					<a href="/manufacturing/">Изготовление новых машин</a>
-					<ul class="bz-map-level-1">
+
+					<!-- <ul class="bz-map-level-1">
 
 						<li>
 							<a href="/manufacturing/kotlovanokopateli/">Котлованокопатели</a>
@@ -80,15 +83,13 @@
 							</ul>
 						</li>
 
-					</ul>
+					</ul> -->
 				</li>
-
-				<li><a href="/manufacturing/vibro-immersers/">Вибропогружатели – АВФ-1</a></li>
 
 				<li>
 					<a href="/buying-used-eqipment/">Приобретение б/у техники</a>
 
-					<ul class="bz-map-level-1">
+					<!-- <ul class="bz-map-level-1">
 
 						<li><a href="/buying-used-eqipment/fitting-platforms/">Фитинговые платформы</a></li>
 
@@ -96,7 +97,8 @@
 
 						<li><a href="/buying-used-eqipment/kotlovanokopateli/">Котлованокопатели и вибропогружатели</a></li>
 
-					</ul>
+					</ul> -->
+					
 				</li>
 
 				<li>
