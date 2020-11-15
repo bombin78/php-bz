@@ -172,8 +172,26 @@
 		<section class="bz-description__section">
 
 			<div class="bz-description__row">
-
 				<h2 class="bz-description__title">2. Пневмоударный рабочий орган ТТН-073.2</h2>
+			</div>
+
+			<div class="bz-description__row">
+
+				<ul class="bz-slider">
+
+					<li class="bz-slider__item">
+						<img class="bz-slider__img" src="/images/pages/navesnoe-oborudovanie/burovoe/photo1.jpg" alt="">
+					</li>
+
+					<li class="bz-slider__item">
+						<img class="bz-slider__img" src="/images/pages/navesnoe-oborudovanie/burovoe/photo2.jpg" alt="">
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="bz-description__row">
 
 				<h3 class="bz-description__subtitle">Назначение:</h3>
 
