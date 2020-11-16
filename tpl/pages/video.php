@@ -36,6 +36,15 @@
 					</video>
 				</li>
 
+				<li class="bz-video__item">
+					<h3 class="bz-video__title">5. Работа пневмоударника</h3>
+					<video class="bz-video__data" controls width="400" height="225">
+						<source src="/files/hammer.mp4" type="video/mp4">
+					</video>
+				</li>
+
+				<li class="bz-video__item"></li>
+
 			</ul>
 		</div>
 
