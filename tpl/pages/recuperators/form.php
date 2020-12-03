@@ -428,7 +428,7 @@
 						f2_5: {
 							required: true,
 						},
-						f2_6: {
+						f2_7: {
 							required: true,
 						},
 						f3_1: {
@@ -569,10 +569,17 @@
 							dataType: 'text',
 							data: formData,
 							success: function (resp) {
-								$('#confirmationModal').modal('show');
+								if (resp) {
+									$('#errorMessage').empty();
+									$('#errorMessage').append('Необходимо заполнить все обязательные поля опросного листа.');
+									$('#errorModal').modal('show');
+			    				} else {
+									$('#confirmationModal').modal('show');
+								}
 							}
 						});
 					} else {
+
 						$('#errorMessage').empty();
 						$('#errorMessage').append('Необходимо заполнить все обязательные поля опросного листа.');
 						$('#errorModal').modal('show');
