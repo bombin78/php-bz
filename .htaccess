@@ -1,9 +1,8 @@
 AddDefaultCharset UTF-8
 
 RewriteEngine on
-RewriteRule ^glavnaya$ index.php [L]
 
-RewriteRule ^glavnaya$ index.php?page=1 [L]
+RewriteRule ^glavnaya$ index.php [L]
 
 RewriteRule ^recuperators/$ index.php?page=2 [L]
 RewriteRule ^recuperators/reviews/$ index.php?page=20 [L]

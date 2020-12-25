@@ -12,9 +12,6 @@
 		$header="Content-Type:text/html;charset=UTF-8";
 		mail($to,$title,$post,$header);
 
-		$to = "bombin78@mail.ru";
-		mail($to,$title,$post,$header);
-
 		$msg_box = 'Спасибо за обращение!<br>Наш специалист свяжется с Вами.';
 	}
 
